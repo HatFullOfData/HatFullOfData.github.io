@@ -1,6 +1,6 @@
 ---
-title: Example Category
-description: A description of this category
+title: Dumbo Category
+description: Random category description
 image:
 
 # Badge style
