@@ -4,6 +4,7 @@ description: Math typesetting using KaTeX
 slug: math-typesetting
 date: 2019-01-01 00:00:00+0000
 math: true
+list: never
 ---
 
 Stack has built-in support for math typesetting using [KaTeX](https://katex.org/).

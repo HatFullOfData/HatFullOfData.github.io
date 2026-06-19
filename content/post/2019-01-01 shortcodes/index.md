@@ -4,6 +4,7 @@ description: Useful shortcodes that can be used in Markdown
 slug: shortcodes
 date: 2019-01-01 00:00:00+0000
 image: cover.jpg
+list: never
 ---
 
 For more details, check out the [documentation](https://stack.jimmycai.com/writing/shortcodes).
