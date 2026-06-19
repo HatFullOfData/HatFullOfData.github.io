@@ -11,6 +11,4 @@ categories:
     - SVG
 ---
 
-## Series
-
-This is the first post in a series of using SVG in Power BI. The series supports my session at Power BI Days in Mechelen, Belgium in April 2019.
+{{< svg-series current="2" >}}

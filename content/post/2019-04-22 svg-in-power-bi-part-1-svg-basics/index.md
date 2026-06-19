@@ -12,18 +12,7 @@ categories:
 image: svg_101.png
 ---
 
-## Series
-
-This is the first post in a series of using SVG in Power BI. The series supports my session at Power BI Days in Mechelen, Belgium in April 2019.
-
-1. [Introduction to SVG Basics](https://hatfullofdata.blog/svg-in-power-bi-part-1/)
-2. [KPI Shapes in Power BI](https://hatfullofdata.blog/svg-in-power-bi-part-2/)
-3. [Filling up with colour using SVG in Power BI](https://hatfullofdata.blog/svg-in-power-bi-part-3/)
-4. [Using Text in SVG](https://hatfullofdata.blog/svg-in-power-bi-part-4/)
-5. [Using SVG Rotate to create a dial in Power BI](https://hatfullofdata.blog/svg-in-power-bi-part-5/)
-6. [SVG Icons in Conditional Formatting](https://hatfullofdata.blog/svg-in-power-bi-part-6-new-icon-conditional-formatting/)
-7. [Using a Theme to add SVG Icons](https://hatfullofdata.blog/svg-in-power-bi-part-7-using-theme-svg-icons/)
-8. [Feb 2023 Update - 5 SVG Stars](https://hatfullofdata.blog/power-bi-5-stars-svg/)
+{{< svg-series current="1" >}}
 
 This post introduces the very basics of SVG. If you already know SVG, move along to my second post in this series.
 
