@@ -4,6 +4,7 @@ description: Welcome to Hugo Theme Stack
 slug: hello-world
 date: 2019-01-01 00:00:00+0000
 image: cover.jpg
+list: never
 categories:
     - Example Category
 tags:
