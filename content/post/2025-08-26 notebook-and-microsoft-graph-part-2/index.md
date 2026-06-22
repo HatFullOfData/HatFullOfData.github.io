@@ -1,5 +1,5 @@
 ---
-title: Lewis and Laura vs. Notebook and Microsoft Graph: Part 2
+title: "Lewis and Laura vs. Notebook and Microsoft Graph: Part 2"
 description: A recent project made me reach out to Lewis Baybutt to scream “Help!, I need help getting with authentication for an Excel file in SharePoint in a Microsoft Fabric Notebook”. Yes all the delights of Excel and SharePoint in one project. So started the battle with understanding authentication, permissions and apparently a Notebook and Microsoft Graph is the way. The...
 slug: notebook-and-microsoft-graph-part-2
 date: 2025-08-26 13:07:20+0000
