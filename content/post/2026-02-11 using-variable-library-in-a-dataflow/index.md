@@ -43,13 +43,13 @@ I create the dataflow and then using Keep Rows, I select Keep top rows. In the n
 
 ## Getting the Value
 
-The next step is to get the value from the variable library into the dataflow. We are going to use a new Power Query function for this called Variable.ValueOrDefault. For the first parameter of this function, you need the Variable Library name and a Variable name. Then you combine together in a string.
+The next step is to get the value from the variable library into the dataflow. We are going to use a new Power Query function for this called **Variable.ValueOrDefault**. For the first parameter of this function, you need the Variable Library name and a Variable name. Then you combine together in a string.
 
 ```xml
-"$(/**//)"
+"$(/**/<Library Name>/<Variable Name>)"
 ```
 
-So for my example the string will be “$(/**/Finance Variables/Limit)”.
+So for my example the string will be **“$(/\*\*/Finance Variables/Limit)”**.
 
 ![snapshots of getting the variable value from variable library in a dataflow](image-1.png)
 
