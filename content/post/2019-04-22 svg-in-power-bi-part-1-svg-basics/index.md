@@ -9,7 +9,7 @@ categories:
     - How to
     - Intermediate
     - SVG
-image: svg_101.png
+image: svg_102.png
 ---
 
 {{< svg-series current="1" >}}
