@@ -22,3 +22,30 @@
 [data-scheme="light"] .chroma {
     background-color: #f2f2f2;
 }
+
+/* Keep front-page card image boxes fixed while avoiding image cropping. */
+.article-list article .article-image {
+    background-color: #fff;
+}
+
+.article-list article .article-image img {
+    width: 100%;
+    height: var(--article-image-height);
+    object-fit: contain;
+    object-position: center;
+    background-color: #fff;
+    display: block;
+}
+
+.article-list--tile article .article-image {
+    background-color: #fff;
+}
+
+.article-list--tile article .article-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+    background-color: #fff;
+    display: block;
+}
