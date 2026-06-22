@@ -33,11 +33,11 @@ This is the second post in a series of Using SVG within Power BI, where we will 
 
 In this post we will introduce using icons and filling the icon with colour to show a percentage value.
 
-### YouTube Video
+## YouTube Video
 
 If you would prefer a video of this topic:
 
-### Getting Icon Code
+## Getting Icon Code
 
 You can download icons from lots of web sites. Search for SVG icons or ask your marketing teams for company graphics as SVG. If you are using Office 2016 or above the icons in PowerPoint can be saved as SVG files. Icons can be found on the Insert ribbon and once inserted on a slide, right click and save as a picture.
 
@@ -47,7 +47,7 @@ Once you have the SVG icon take a look at the SVG code. There will be an open  t
 
 ![svg of icon](SVG_302a.png)
 
-### Draw 2 Elephants
+## Draw 2 Elephants
 
 We are going to draw 2 elephants, one grey and one coloured one on top. The coloured one we will clip to size to show it being filled up.
 
@@ -91,7 +91,7 @@ return
     svg_start & grey_ele & red_ele & svg_end
 ```
 
-### Clip the Red Elephant
+## Clip the Red Elephant
 
 We now want to only show a percentage of the red elephant based off a percentage measure, e.g. work complete. For this we need to create a clip-path.  A clip-path defines which part of the shape will be visible. So in this case it will be a rectangle starting at 0,0 and will be height = 100 and width = percentage measure * 100.
 
@@ -122,7 +122,7 @@ Now we have 2 measures, one that calculates a percentage and one that shows that
 
 ![showing percentage](SVG_306.png)
 
-### Filling from the bottom up
+## Filling from the bottom up
 
 The above example fills from the left. It is the easiest to calculate but if someone was asked to draw this idea they would probably fill in the colour from the bottom up.
 
@@ -154,7 +154,7 @@ return
 
 ![filling from the bottom up](SVG_308.png)
 
-### Conclusion
+## Conclusion
 
 This gives us a quick visual measure to show a percentage using an SVG icon.
 
