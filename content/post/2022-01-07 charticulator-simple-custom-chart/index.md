@@ -1,6 +1,6 @@
 ---
 title: Power BI Charticulator Simple Custom Chart
-description: In late 2021, the Charticulator visual was added to Power BI desktop. This post walks through creating a Charticulator Simple Custom Chart. The chart will show the drink preference split of 20 office colleagues. The steps assume you already have connected to the data. The data is available for download or direct connection here: https://hatfullofdata.blog/wp-content/uploads/2021/12/Drinks.xlsx YouTube Video It’s coming! Adding...
+description: "In late 2021, the Charticulator visual was added to Power BI desktop. This post walks through creating a Charticulator Simple Custom Chart. The chart will show the drink preference split of 20 office colleagues. The steps assume you already have connected to the data. The data is available for download or direct connection here: https://hatfullofdata.blog/wp-content/uploads/2021/12/Drinks.xlsx YouTube Video It's coming! Adding..."
 slug: charticulator-simple-custom-chart
 date: 2022-01-07 10:24:29+0000
 lastmod: 2025-02-14 11:45:11+0000
