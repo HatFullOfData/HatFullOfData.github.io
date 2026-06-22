@@ -6,8 +6,6 @@ date: 2019-04-22 17:23:04+0000
 lastmod: 2025-02-14 13:11:37+0000
 categories:
     - Power BI
-    - How to
-    - Intermediate
     - SVG
 image: svg_102.png
 ---

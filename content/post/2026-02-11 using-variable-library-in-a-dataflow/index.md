@@ -9,6 +9,8 @@ categories:
     - Dataflows
     - Microsoft Fabric
     - Variable Libraries
+tags:
+    - "2025-2026"
 ---
 
 One of the popular low-code tools within Microsoft Fabric is the Gen2 Dataflow. Power BI report builders already know some Power Query. So armed with this knowledge is a popular starting point to load data into Microsoft Fabric. Adding values from the Variable Library in a Dataflow is an obvious plan to make it more future proof and to work better with Deployment pipelines.
