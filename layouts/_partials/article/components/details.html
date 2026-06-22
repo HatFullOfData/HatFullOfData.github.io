@@ -21,10 +21,12 @@
             </a>
         </h2>
     
-        {{ with $Page.Params.description }}
-        <h3 class="article-subtitle">
-            {{ . }}
-        </h3>
+        {{ if ne $Page.Section "post" }}
+            {{ with $Page.Params.description }}
+            <h3 class="article-subtitle">
+                {{ . }}
+            </h3>
+            {{ end }}
         {{ end }}
     </div>
 
