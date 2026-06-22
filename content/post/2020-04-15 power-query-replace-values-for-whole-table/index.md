@@ -1,4 +1,4 @@
----
+﻿---
 title: Power Query – Replace Values for Whole Table
 description: Today’s challenge was to replace the values on all the columns in the query when I know the columns will change so I don’t want to name them.
 slug: power-query-replace-values-for-whole-table
@@ -17,14 +17,12 @@ Today’s challenge was to replace the values on all the columns in the query wh
 
 For those who don’t want the long explanation. Do replace values on at least one column to get the replace step. In the example below the previous step is #’Changed Type’ and the columns are Jan 20 and Feb 20.
 
-Copy CodeCopiedUse a different Browser
 ```xml
 = Table.ReplaceValue(#"Changed Type",null,0,Replacer.ReplaceValue,{"Jan 20", "Feb 20"})
 ```
 
 Remove the {…} section and replace it with Table.ColumnNames(Previous Step)
 
-Copy CodeCopiedUse a different Browser
 ```xml
 = Table.ReplaceValue(#"Changed Type",null,0,Replacer.ReplaceValue,Table.ColumnNames(#"Changed Type"))
 ```

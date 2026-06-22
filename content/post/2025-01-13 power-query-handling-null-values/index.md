@@ -1,4 +1,4 @@
----
+﻿---
 title: Power Query – Handling Null Values Properly
 description: This post is about handling null values in Power Query calculations. If you do a calculation in Power Query that involves a null value the answer returned is null.
 slug: power-query-handling-null-values
@@ -12,7 +12,6 @@ This post is about handling null values in Power Query calculations. If you do a
 
 ![Table of data with Date, Description, Credit and Debit columns with an extra calculated column Total and the code is below and for the first three rows shows nulls.](2024-12-31_12-22-52.png)
 
-Copy CodeCopiedUse a different Browser
 ```xml
 = Table.AddColumn(#"Changed Type", "Total", each [Credit] - [Debit] )
 ```
@@ -35,7 +34,6 @@ So we can change our calculation to put ?? 0 after the column values and make it
 
 ![Table of data with Date, Description, Credit and Debit columns with an extra calculated column Total using the new calculation shown below and there are no nulle nulls.](2024-12-31_12-45-11.png)
 
-Copy CodeCopiedUse a different Browser
 ```xml
 = Table.AddColumn(#"Changed Type", "Total", each [Credit] ?? 0 - [Debit] ?? 0 )
 ```

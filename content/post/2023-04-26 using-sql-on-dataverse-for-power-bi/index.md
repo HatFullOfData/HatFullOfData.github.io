@@ -1,4 +1,4 @@
----
+﻿---
 title: Using SQL on Dataverse for Power BI
 description: SQL (Structured Query Language) has been used to get data in and out of databases for decades. Dataverse is a database. So lets use SQL on Dataverse to fetch data into a report. This can simplify our queries and make a direct query report easier to write. YouTube Version Microsoft SQL Server Management Studio There are multiple tools available to...
 slug: using-sql-on-dataverse-for-power-bi
@@ -42,7 +42,6 @@ This post is not to teach you SQL. There are plenty of sites to do that. Here ar
 
 #### SQL Code
 
-Copy CodeCopiedUse a different Browser
 ```xml
 Select
 	accountid as AccountID,
@@ -58,7 +57,6 @@ from
 
 The previous example includes an account that is not active. Contoso Pharmaceuticals has a statecode of 1 and statecodename of Inactive. For this example we are going to filter to only show the active records. The active records have 0 in the statecode column. The WHERE clause applies the filter.  The statecode and statecodename columns can be removed.
 
-Copy CodeCopiedUse a different Browser
 ```xml
 Select
 	accountid as AccountID,
@@ -78,7 +76,6 @@ Now we have an SQL statement we can use it in Power BI. Start POwer BI and then 
 
 Now you have the parameter we can create the query. Start by creating a blank query by clicking New Source and then Blank Query. Then on the Home ribbon click Advanced Editor and paste in this code. I have adapted a pattern created by Scott Sewell.
 
-Copy CodeCopiedUse a different Browser
 ```xml
 let
     Dataverse = CommonDataService.Database(Environment, 

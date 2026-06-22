@@ -1,4 +1,4 @@
----
+﻿---
 title: Power Automate Update Fields in Azure DevOps
 description: This post shows you how to find the names for fields and how to update fields in Azure DevOps using Power Automate
 slug: power-automate-update-fields-in-azure-devops
@@ -66,7 +66,6 @@ The Update a work item action has exactly the same Other fields option so you ca
 
 Azure DevOps can be accessed via a Rest API[2](#6ef2c091-087e-46c5-8e21-2bba1d5c5562) and this includes the list of fields available in a project. There is quite good documentation for this which can be found at [https://learn.microsoft.com/en-us/rest/api/azure/devops/wit/fields/list](https://learn.microsoft.com/en-us/rest/api/azure/devops/wit/fields/list) . From the first code block on that post remove the GET and populate your org and project names. Then in a browser navigate to that url and it will return lots of JSON showing the definition of all the fields.
 
-Copy CodeCopiedUse a different Browser
 ```xml
 https://dev.azure.com/{organization}/{project}/_apis/wit/fields
 ```

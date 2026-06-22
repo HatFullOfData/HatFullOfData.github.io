@@ -1,4 +1,4 @@
----
+﻿---
 title: Inherited Value in a Parent Child Pattern
 description: There are times it is useful to calculate an inherited value from parent item to child. The target date of a feature to be passed down to the child user story and then onto the child tasks.
 slug: inherited-value-in-a-parent-child-pattern
@@ -34,7 +34,6 @@ Lets work through an example.
 
 WorkItem 46 has an ItemPath of 38|39|45|46, which means it has a Path length of 4. So we start by using GENERATESERIES to create a column 1-4
 
-Copy CodeCopiedUse a different Browser
 ```xml
 GENERATESERIES(  1 , PATHLENGTH( WorkItems[ItemPath] ), 1 )
 ```
@@ -43,7 +42,6 @@ Value1234
 
 We put that inside a GENERATE function and use PATHITEMREVERSE to get the work item ids from the path and then LOOKUP to use that WorkItemID to get the TargetDate of each item. GENERATE function and nested VARs is one of my favourite combinations.
 
-Copy CodeCopiedUse a different Browser
 ```xml
 VAR tabWorkItems = 
     GENERATE(
@@ -62,7 +60,6 @@ ValueWorkItemIDTargetDate1462453392024-09-094382024-11-1
 
 Then we filter the table to rows with a TargetDate and take the first row ordered by Value. This gives us one row of data.
 
-Copy CodeCopiedUse a different Browser
 ```xml
 VAR tabFiltered =
     TOPN( 
@@ -76,7 +73,6 @@ ValueWorkItemIDTargetDate3392024-09-09
 
 Finally we use MINX to extract the TargetDate of that single row. The final calculated column DAX looks like this.
 
-Copy CodeCopiedUse a different Browser
 ```xml
 Inherited Target Date = 
 // Create a table of Value, WorkitemID and TargetDate

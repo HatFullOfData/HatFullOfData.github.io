@@ -1,4 +1,4 @@
----
+﻿---
 title: Get DevOps Data into Power BI
 description: Azure DevOps is full of data that management want to to report on. Adding a Power BI report is an obvious way to do this. This post is my take on how I would build the reports.
 slug: devops-data-into-power-bi
@@ -44,7 +44,6 @@ The simplest form though is just the URL, that will bring through all the column
 
 ## Simplest Query for Work Items
 
-Copy CodeCopiedUse a different Browser
 ```xml
 https://analytics.dev.azure.com/{Organisation}/{Project}/_odata/v3.0-preview/WorkItems?
 ```
@@ -55,7 +54,6 @@ The path includes the organisation and the project names. So we start in Power Q
 
 We could now use Get Data and select OData and build the string… But that is hard work and not easy to read! So I’ve written a template to walk you through. Click on New Source and select blank query. Click on Advanced Editor and paste in the code below.
 
-Copy CodeCopiedUse a different Browser
 ```xml
 let
     // Path using 2 parameters
@@ -80,7 +78,6 @@ When you click OK and set up the connection if required you should get a table o
 
 The above query gives us more columns than we want. Rather than removing the columns in Power Query we can add a select line to the query which will make the OData query faster. So we need to pick the columns we want while we can see them all. I selected and put them into a comma separated string to make up a $select string to add to the Power Query
 
-Copy CodeCopiedUse a different Browser
 ```xml
 let
     // Path using 2 parameters and select columns
@@ -108,7 +105,6 @@ DevOps has other tables including a user list and a calendar. These can be pulle
 
 ### Users
 
-Copy CodeCopiedUse a different Browser
 ```xml
 let
     // Path using 2 parameters and select columns
@@ -128,7 +124,6 @@ in
 
 This includes a filter for the Year to be greater than or equal to, ge, 2023.
 
-Copy CodeCopiedUse a different Browser
 ```xml
 let
     // Path using 2 parameters and select columns
@@ -161,7 +156,6 @@ TableColumnRelationshipTableColumnUsersUserSK1 to ManyWorkItemsAssignedToUserSKC
 
 I only created two measures. The first was for the total hours in the original estimate column. If we had included completed and remaining hours I would have created measures for them as well. The second one was for the count of items
 
-Copy CodeCopiedUse a different Browser
 ```xml
 Total Hours = SUM(WorkItems[OriginalEstimate])
 

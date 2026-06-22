@@ -1,4 +1,4 @@
----
+﻿---
 title: Power BI – 5 Stars SVG
 description: In the Feb 2023 Power BI Update they introduced image width in a table formatting. This means SVG images now don’t have to be square, so we can now do rectangle images. So I ported Stars SVG code I had in my Power Apps series and added this post to my Power BI SVG series For this post we are...
 slug: power-bi-5-stars-svg
@@ -42,7 +42,6 @@ Resources for this post and video can be found at [https://github.com/Laura-GB/D
 
 The first step is a measure to draw a single star. That starts with the SVG essentials similar to previous examples and the basic star shape. We need to remember to change Data Category the measure is an Image URL under data category and then add it to the table
 
-Copy CodeCopiedUse a different Browser
 ```xml
 Stars = 
 // svg essentials
@@ -67,7 +66,6 @@ In order to draw 5 stars in a row the view box needs to be expanded to fit them 
 
 Then we need to draw 5 stars in a row. We can use GENERATESERIES to create a table with numbers 0,100..400 so we can draw a star at 0,0 and 100,0 etc. That can be used inside a CONCATENATEX to create 5 groups. Each group will use a transform, translate to position each star.
 
-Copy CodeCopiedUse a different Browser
 ```xml
 Stars = 
 // svg essentials
@@ -89,7 +87,6 @@ svg_start & Star5 & svg_end
 
 The first layer of stars is outline stars so we need to put the 5 stars in a group with a white fill and 1 point black outline.
 
-Copy CodeCopiedUse a different Browser
 ```xml
 Stars = 
 // svg essentials
@@ -115,7 +112,6 @@ svg_start & GreyStars & svg_end
 
 The gold stars need clipping to match the rating score. 5 stars is 500 wide so a rating of 2 needs the gold stars clipped at 200, and 3.5 at 350 etc. We use variable ClipWidth to store this. To clip an image we use the  and  tags. The clipPath includes an id so it can be used later. The clipped area is a rectangle from with a height of 100 and a width of ClipWidth.
 
-Copy CodeCopiedUse a different Browser
 ```xml
 Stars = 
 // svg essentials
@@ -143,7 +139,6 @@ svg_start & GreyStars & svg_end
 
 The last step is to draw the 5 gold stars using the clip path. So we use another group, apply a fill of gold and the clip path. The clip path name
 
-Copy CodeCopiedUse a different Browser
 ```xml
 Stars = 
 // svg essentials

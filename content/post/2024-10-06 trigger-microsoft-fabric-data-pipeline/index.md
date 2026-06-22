@@ -1,4 +1,4 @@
----
+﻿---
 title: Trigger Microsoft Fabric Data Pipeline using Power Automate
 description: Microsoft Fabric Data Pipelines can be scheduled to happen at regular times. What happens when you want trigger a Microsoft Fabric data pipeline to run as a reaction to an event? For example someone pressing a button in an app. For this we can use Power Automate to start a pipeline using a http request.
 slug: trigger-microsoft-fabric-data-pipeline
@@ -36,7 +36,6 @@ Now we have the required GUIDS we can start writing the flow. For this example w
 
 Next I recommend you use a compose step to calculate the URL for the HTTP call. Interestingly the api uses workspaces rather than groups. Make sure you have the corrects /s and no spaces between. If you have called your variables WorkspaceID and PipelineID you can just copy the code below into a Compose action.
 
-Copy CodeCopiedUse a different Browser
 ```xml
 https://api.fabric.microsoft.com/v1/workspaces/@{variables('WorkspaceID')}/items/@{variables('PipelineID')}/jobs/instances?jobType=Pipeline
 ```
@@ -55,14 +54,12 @@ If this is the first time you’ve used this action you will need to setup the c
 
 #### Base Resource URL
 
-Copy CodeCopiedUse a different Browser
 ```xml
 https://api.fabric.microsoft.com/
 ```
 
 #### Microsoft Entra ID Resource URI
 
-Copy CodeCopiedUse a different Browser
 ```xml
 https://analysis.windows.net/powerbi/api
 ```

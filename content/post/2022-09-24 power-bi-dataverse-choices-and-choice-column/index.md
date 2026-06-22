@@ -1,4 +1,4 @@
----
+﻿---
 title: Power BI & Dataverse – Choice Columns
 description: When a choice column is created in Dataverse, you can create a custom list of values which you want in Power BI as a table.
 slug: power-bi-dataverse-choices-and-choice-column
@@ -52,7 +52,6 @@ Before I add the list I create a parameter called Environment to store the path 
 
 Then this code gives you the list of all the choice lists in your environment. I save this as one query which is not loaded and then I add referenced queries for each choice list that I want to include in my report.
 
-Copy CodeCopiedUse a different Browser
 ```xml
 let
     Source = Json.Document(Web.Contents("https://" & Environment & "/api/data/v9.0/GlobalOptionSetDefinitions")),

@@ -1,4 +1,4 @@
----
+﻿---
 title: Get Secret from Azure Key Vault in a Microsoft Fabric Notebook
 description: I’ve recently been working with Notebooks in Microsoft Fabric and have needed to get a credentials information that should be kept secure. The obvious place to store such credentials is Azure Key Vault so now we need to get our secret from there. This is a really short post to help me out when I need a fast explanation on...
 slug: get-secret-from-azure-key-vault
@@ -32,7 +32,6 @@ Notebookutils is a built in package for Microsoft Fabric notebooks. It was previ
 
 The method notebookutils.credentials.getSecret requires 2 parameters, vault URI and secret name. This code block looks like this.
 
-Copy CodeCopiedUse a different Browser
 ```xml
 azure_key_vault_name = "lgb-secrets"
 azure_key_vault_secret_name = "SPConnectorSecret"

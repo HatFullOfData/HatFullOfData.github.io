@@ -1,4 +1,4 @@
----
+﻿---
 title: Microsoft Fabric – Notebook and Data Wrangler
 description: Using a combination of Notebook and Data Wrangler means we can transform data and write to table writing very little code by hand.
 slug: microsoft-fabric-notebook-and-data-wrangler
@@ -108,7 +108,6 @@ After the transformation code has run, the data frame is ready to be saved into 
 
 ![Final code block with the save to table code](2023-11-12_16-58-02.png)
 
-Copy CodeCopiedUse a different Browser
 ```xml
 # Save df_clean to a table called Products
 df_clean.write.format("delta").mode("overwrite").saveAsTable("Products")

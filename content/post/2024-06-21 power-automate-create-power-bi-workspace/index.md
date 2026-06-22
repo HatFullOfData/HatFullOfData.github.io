@@ -1,4 +1,4 @@
----
+﻿---
 title: Power Automate – Create Power BI Workspace
 description: This post will finally create the flow to automatically create the Power BI workspace making use of all the preparation in previous posts.
 slug: power-automate-create-power-bi-workspace
@@ -32,14 +32,12 @@ FInally we can do the action to create Power BI workspace, for this we add a HTT
 
 From [https://learn.microsoft.com/en-us/rest/api/power-bi/groups/create-group#examples](https://learn.microsoft.com/en-us/rest/api/power-bi/groups/create-group#examples) we can see the HTTP starts with POST so we pick that as the method. It also gives us the URI. To save you going to fetch it here it is
 
-Copy CodeCopiedUse a different Browser
 ```xml
 https://api.powerbi.com/v1.0/myorg/groups?workspaceV2=True
 ```
 
 The next part is the body. This is a very simple piece of JSON with only one field name. Get the value of name to come from the trigger input Workspace name.
 
-Copy CodeCopiedUse a different Browser
 ```xml
 {
   "name": ""
@@ -48,7 +46,6 @@ Copy CodeCopiedUse a different Browser
 
 The final part is the authentication. Show the Advanced Options to see the boxes to fill in. Firstly Authentication is Active Directory OAuth. Then the Authority can be left blank. Next the Tenant, Client ID and Secret are dynamic values from running the child flow action. Finally the Audience should be the following
 
-Copy CodeCopiedUse a different Browser
 ```xml
 https://analysis.windows.net/powerbi/api
 ```
@@ -85,14 +82,12 @@ Add a new HTTP action, and I recommend renaming it. (Yes that should happen to t
 
 #### URI
 
-Copy CodeCopiedUse a different Browser
 ```xml
 https://api.powerbi.com/v1.0/myorg/groups//users
 ```
 
 #### Body
 
-Copy CodeCopiedUse a different Browser
 ```xml
 {
   "emailAddress": "",

@@ -1,4 +1,4 @@
----
+﻿---
 title: First refresh it broke! #LauraBrokeIt
 description: I set up my dataflow and it was working great. Then it broke on the refresh. Here is how I fixed it. Previously In the previous post we ingested a SharePoint folder into a table in a Lakehouse. That is a well known process and nothing new except for one thing. I split the process into two stages, firstly the...
 slug: first-refresh-it-broke-laurabrokeit
@@ -33,7 +33,6 @@ It all appears to work fine. Then I try a refresh and it fails. On going back to
 
 ![Query steps from the FullFileList Query showing the steps the made it broke](image-15.png)
 
-Copy CodeCopiedUse a different Browser
 ```xml
 let
   Source = SharePoint.Files("https://lgb123.sharepoint.com/sites/FabricDemo/", [ApiVersion = 15]),

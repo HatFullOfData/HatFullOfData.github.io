@@ -1,4 +1,4 @@
----
+﻿---
 title: Power Query – Custom Handwritten Function
 description: In this post I will write a simple custom handwritten function to perform a calculation, which can then be used in your queries.
 slug: power-query-handwritten-function
@@ -52,7 +52,6 @@ The Hello World function just returned one value, which has a very limited use. 
 
 Parameter definitions go between the brackets in the definition. I’ve updated the function to be this code and on pressing return will now have details of the parameter required.
 
-Copy CodeCopiedUse a different Browser
 ```xml
 = (GuestName) => "Hello " & GuestName
 ```

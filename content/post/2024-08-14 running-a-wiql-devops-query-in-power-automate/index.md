@@ -1,4 +1,4 @@
----
+﻿---
 title: Running a Wiql DevOps query in Power Automate
 description: Wiql is the language used to define the queries in Azure DevOps. Power Automate can use a REST API to execute the wiql.
 slug: running-a-wiql-devops-query-in-power-automate
@@ -62,7 +62,6 @@ Now we have the Wiql code we can write the flow. The flow will have the paramete
 
 The next step is to run the query. The documentation for the REST API call can be found here [https://learn.microsoft.com/en-us/rest/api/azure/devops/wit/wiql/query-by-wiql](https://learn.microsoft.com/en-us/rest/api/azure/devops/wit/wiql/query-by-wiql?wt.mc_id=DX-MVP-5003563) The method is Post and the URI will be the same for all Wiql
 
-Copy CodeCopiedUse a different Browser
 ```xml
 _apis/wit/wiql?api-version=7.1-preview.2
 ```
@@ -91,7 +90,6 @@ The output schema is now known to the flow. So we can use the output to loop thr
 
 We can loop through the workItemRelations using an Apply to each action. The piece of information I want from each item is the target – id. So I add a compose and add the following expression
 
-Copy CodeCopiedUse a different Browser
 ```xml
 item()?['target']?['id']
 ```

@@ -1,4 +1,4 @@
----
+﻿---
 title: Power Automate – Save a File to OneLake Lakehouse
 description: Currently there is no Microsoft Fabric connector in Power Automate. When we want Power Automate to save a file to OneLake Lakehouse, we need to use a workaround. This post walks through the demo I did for the Microsoft Fabric European Conference 2024.
 slug: power-automate-save-a-file-to-onelake-lakehouse
@@ -44,12 +44,10 @@ We are going to use the HTTP with Microsoft Entra ID (preauthorised) action to i
 
 If this is the first time you’ve used this action you will need to set-up the connection. Also if this is the first time you’ve connected to the Lakehouse in this way you need to setup a new connection. It asks for two URLS. Once connected you are ready to save a File to OneLake Lakehouse
 
-Copy CodeCopiedUse a different Browser
 ```xml
 https://onelake.dfs.fabric.microsoft.com/
 ```
 
-Copy CodeCopiedUse a different Browser
 ```xml
 https://storage.azure.com/
 ```
@@ -66,7 +64,6 @@ Finally the last action is to append the file content from SharePoint onto the f
 
 ![](image-7.png)
 
-Copy CodeCopiedUse a different Browser
 ```xml
 ?action=append&position=0&flush=true
 ```

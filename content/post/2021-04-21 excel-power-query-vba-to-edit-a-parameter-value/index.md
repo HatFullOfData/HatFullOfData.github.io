@@ -1,4 +1,4 @@
----
+﻿---
 title: Power Query – VBA to Edit a Parameter Value
 description: This post is to document how to use Excel VBA to edit a parameter value without using the a cell reference in Power Query.
 slug: excel-power-query-vba-to-edit-a-parameter-value
@@ -19,7 +19,6 @@ So I want a button to take the value from a cell and update the value in a param
 
 ### VBA Code to Edit a Parameter Value
 
-Copy CodeCopiedUse a different Browser
 ```xml
 Sub ChangeParameterValue(ParameterName As String, ParameterValue As String)
 

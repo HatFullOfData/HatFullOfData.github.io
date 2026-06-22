@@ -1,4 +1,4 @@
----
+﻿---
 title: Power BI Charticulator Simple Custom Chart
 description: "In late 2021, the Charticulator visual was added to Power BI desktop. This post walks through creating a Charticulator Simple Custom Chart. The chart will show the drink preference split of 20 office colleagues. The steps assume you already have connected to the data. The data is available for download or direct connection here: https://hatfullofdata.blog/wp-content/uploads/2021/12/Drinks.xlsx YouTube Video It's coming! Adding..."
 slug: charticulator-simple-custom-chart
@@ -95,7 +95,6 @@ Add another text object. Make very similar changes except link the Text to the P
 
 When you link a numeric column to a text object the calculation includes the formatting for the number. In the example below the second pair of {} includes the formatting. f = fixed point notation and the .1 means show 1 decimal place, so {.2f} would show 2 decimal places etc.
 
-Copy CodeCopiedUse a different Browser
 ```xml
 ${avg(`People Count`)}{.1f}
 ```

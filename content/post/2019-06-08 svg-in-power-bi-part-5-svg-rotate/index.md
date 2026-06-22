@@ -1,4 +1,4 @@
----
+﻿---
 title: SVG in Power BI – Part 5 – Using SVG Rotate
 description: In this post I will introduce the possibilities that SVG rotate gives. This post will walk through creating a dial.
 slug: svg-in-power-bi-part-5-svg-rotate
@@ -38,7 +38,6 @@ We will start with a simple dial, made up of an arch with a line to indicate a p
 
 The arch is made using a path which combines 2 arcs to make an arch. The arch is then nested in a group  element that applies a fill.
 
-Copy CodeCopiedUse a different Browser
 ```xml
 Simple Dial = 
 // svg essentials
@@ -60,7 +59,6 @@ The rotation will be 0 to 180 degrees and the measure Score is a percentage so t
 
 The line is drawn from 0,50 to 20,50 and then a transform is applied of a rotate which has 3 parameters, angle to rotate, x and y for the centre of the rotation. So the bottom part of my measure becomes
 
-Copy CodeCopiedUse a different Browser
 ```xml
 // light blue arch
     var svg_blue_arch = "" & svg_arch & ""
@@ -79,7 +77,6 @@ To make it very obvious what value is shown I’m going to add the value of the 
 
 The bottom part of the measure now becomes
 
-Copy CodeCopiedUse a different Browser
 ```xml
 var svg_line = ""
 // Show Score value
@@ -98,7 +95,6 @@ So I the trick I used was to draw the arch upside down out of sight and rotate t
 
 To draw the arch up the other way I just changed 2 values in svg_arch variable.  When drawing an arc in SVG the 5th number after the A specifies which way round the to reach the final point. So the svg_arch variable becomes.
 
-Copy CodeCopiedUse a different Browser
 ```xml
 // arch shape
     var svg_arch = " "
@@ -106,7 +102,6 @@ Copy CodeCopiedUse a different Browser
 
 Then we add a coloured arch rotated for each part of the gauge.  In my example I am going to show Green upto 100%, Amber starts at 75% and Red at 50%.  So the complete measure code now is
 
-Copy CodeCopiedUse a different Browser
 ```xml
 Coloured Dial = 
 // svg essentials

@@ -1,4 +1,4 @@
----
+﻿---
 title: Power BI – Data Refresh Date
 description: In this quick post I will walk through adding a data refresh date on a report page in Power BI.
 slug: power-bi-data-refresh-date
@@ -15,7 +15,6 @@ We need a date that will only get updated on a refresh so it needs to be defined
 
 Into the formula bar enter the following and press return.
 
-Copy CodeCopiedUse a different Browser
 ```xml
 =DateTimeZone.UtcNow()
 ```

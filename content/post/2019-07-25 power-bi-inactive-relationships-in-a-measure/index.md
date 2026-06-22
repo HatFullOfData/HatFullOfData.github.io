@@ -1,4 +1,4 @@
----
+﻿---
 title: Power BI – Using Inactive Relationships in a Measure
 description: In this post I will show a simple example of how to use a different relationship between two tables in a measure. The example I will use is a list of tasks with start and finish dates. The request is for how many tasks start per week and how many finish per week to be plotted on a column chart.
 slug: power-bi-inactive-relationships-in-a-measure
@@ -43,7 +43,6 @@ For the second measure to count the number of tasks finishing we need to use the
 
 ![Finishing tasks calculation](Tasks_04-1.png)
 
-Copy CodeCopiedUse a different Browser
 ```xml
 Tasks Finishing = 
     CALCULATE(

@@ -1,4 +1,4 @@
----
+﻿---
 title: Power Apps – 12 Days of Components
 description: This post is to provide the code and resources to support my 12 Days of Components videos which use SVG to create a range of graphics.
 slug: power-apps-12-days-of-components
@@ -21,7 +21,6 @@ Video walks through turning on components, adding an SVG image and then adding t
 
 SVG Code
 
-Copy CodeCopiedUse a different Browser
 ```xml
 "data:image/svg+xml;utf8, " & EncodeUrl(
     "
@@ -37,7 +36,6 @@ This video adds an input, called BaubleColour which is a HEX string, to the Chri
 
 SVG Code
 
-Copy CodeCopiedUse a different Browser
 ```xml
 "data:image/svg+xml;utf8, " & EncodeUrl(
     "
@@ -54,7 +52,6 @@ This video uses a table of HEX strings called BaubleColours to provide a list of
 
 SVG Code
 
-Copy CodeCopiedUse a different Browser
 ```xml
 "data:image/svg+xml;utf8, " & EncodeUrl(
     "
@@ -70,7 +67,6 @@ This video does a simple transform in SVG to make the star on the top of the tre
 
 SVG Code
 
-Copy CodeCopiedUse a different Browser
 ```xml
 "data:image/svg+xml;utf8, " & EncodeUrl(
     "
@@ -87,7 +83,6 @@ Using percentage values within the SVG make the image flexible when the componen
 
 SVG Code
 
-Copy CodeCopiedUse a different Browser
 ```xml
 "data:image/svg+xml;utf8, " & EncodeUrl(
     "
@@ -106,7 +101,6 @@ Copy CodeCopiedUse a different Browser
 
 Using SVG patterns and a list of patterns we can add patterns to the present wrappings.
 
-Copy CodeCopiedUse a different Browser
 ```xml
 "data:image/svg+xml;utf8, " & EncodeUrl(
     "
@@ -131,7 +125,6 @@ Copy CodeCopiedUse a different Browser
 
 Using SVG Text and rotate we can create another component to draw a tag that uses an input of the name to label each present.
 
-Copy CodeCopiedUse a different Browser
 ```xml
 "data:image/svg+xml;utf8, " & EncodeUrl(
     "
@@ -146,7 +139,6 @@ Copy CodeCopiedUse a different Browser
 
 Rate your New Year Resolution progress with a star rating drawn with a little SVG and a gallery.
 
-Copy CodeCopiedUse a different Browser
 ```xml
 With(
     {StarColour:If(
@@ -164,7 +156,6 @@ Fill up a heart in colour to visualise a percentage value using a component cont
 
 SVG Code
 
-Copy CodeCopiedUse a different Browser
 ```xml
 With(
     {
@@ -186,7 +177,6 @@ With(
 
 SVG Code to fill from the bottom up
 
-Copy CodeCopiedUse a different Browser
 ```xml
 With(
     {
@@ -215,7 +205,6 @@ Combining the star rating from Day 9 with the clip path from Day 10 we can impro
 
 SVG Code
 
-Copy CodeCopiedUse a different Browser
 ```xml
 With(
     {
@@ -242,7 +231,6 @@ With(
 
 SVG Code
 
-Copy CodeCopiedUse a different Browser
 ```xml
 With(
     {
@@ -265,7 +253,6 @@ With(
 
 SVG Code
 
-Copy CodeCopiedUse a different Browser
 ```xml
 With(
     {

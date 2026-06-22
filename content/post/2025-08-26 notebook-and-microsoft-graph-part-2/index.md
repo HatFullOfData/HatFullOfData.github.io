@@ -1,4 +1,4 @@
----
+﻿---
 title: "Lewis and Laura vs. Notebook and Microsoft Graph: Part 2"
 description: A recent project made me reach out to Lewis Baybutt to scream “Help!, I need help getting with authentication for an Excel file in SharePoint in a Microsoft Fabric Notebook”. Yes all the delights of Excel and SharePoint in one project. So started the battle with understanding authentication, permissions and apparently a Notebook and Microsoft Graph is the way. The...
 slug: notebook-and-microsoft-graph-part-2
@@ -22,7 +22,6 @@ On a SharePoint site there is an Excel file that contains some data I want to lo
 
 We save the details of file name etc into variables to use later.
 
-Copy CodeCopiedUse a different Browser
 ```xml
 sharepoint_domain = "YOURDOMAIN.sharepoint.com"
 site_name = "FabricDemo"
@@ -43,7 +42,6 @@ The credentials created in the post should be stored in Azure Key Vault. I wrote
 
 I created a code block to create three variables, tenant_id, client_id and client_secret. Swap in your TENANT ID etc to make it work for you. The notebookutils library is always loaded in a Microsoft Fabric Notebook.
 
-Copy CodeCopiedUse a different Browser
 ```xml
 # Authentication details
 tenant_id = "TENANT ID"
@@ -61,14 +59,12 @@ This whole post is lots of HTTP get requests made way easier using the Requests 
 
 We use two patterns very similar, obviously there is a import requests statement in a previous code block.
 
-Copy CodeCopiedUse a different Browser
 ```xml
 reponse = requests.post(url , data=token_data)
 # Raise error if request fails
 response.raise_for_status()
 ```
 
-Copy CodeCopiedUse a different Browser
 ```xml
 reponse = requests.get(url , headers=headers)
 # Raise error if request fails
@@ -79,7 +75,6 @@ response.raise_for_status()
 
 Before we can use Notebook and Microsoft Graph together we need an access token. For all the requests.get we need headers which includes an access token. So the next task is to get that access token which uses the first pattern from above. If you’ve used the tenant_id, client_id and client_secret variables you can just copy and paste this code into a block
 
-Copy CodeCopiedUse a different Browser
 ```xml
 token_url = f"https://login.microsoftonline.com/{tenant_id}/oauth2/v2.0/token"
 token_data = {
@@ -112,7 +107,6 @@ So we need the site_id and the drive_id. Btw drives are document libraries… ye
 
 Using https://graph.microsoft.com/v1.0/sites/{sharepoint_domain}:/sites/{site_name} with the headers we built earlier in a requests.get we get a json response that includes an id value
 
-Copy CodeCopiedUse a different Browser
 ```xml
 site_id_url = f"https://graph.microsoft.com/v1.0/sites/{sharepoint_domain}:/sites/{site_name}"
 print("Site ID URL:",site_id_url)
@@ -127,7 +121,6 @@ Produces
 
 So we then use the following code to get the site_id and print it for debugging.
 
-Copy CodeCopiedUse a different Browser
 ```xml
 site_id=response.json()['id']
 print("Site ID:",site_id[:50], "...")
@@ -137,7 +130,6 @@ print("Site ID:",site_id[:50], "...")
 
 Using https://graph.microsoft.com/v1.0/sites/{site_id}/drives?$select=name,id will give us a list of the document libraries on the site. A site can have more than one library so we need to handle multiple rows being returned. My choice was to save it into dataframe and then filter that to get the result.
 
-Copy CodeCopiedUse a different Browser
 ```xml
 drive_id_url = f"https://graph.microsoft.com/v1.0/sites/{site_id}/drives?$select=name,id"
 response = requests.get(drive_id_url, headers=headers)
@@ -162,7 +154,6 @@ So now we have the site id and the drive id so now we can get the file content u
 
 This uses the same pattern as the previous 2 requests, the difference is the path includes /content on the end to indicate we want the content. There is very little we can print out to debug the response as the file contant is binary
 
-Copy CodeCopiedUse a different Browser
 ```xml
 # Retrieve the File Content from SharePoint using Graph API
 file_url = f"https://graph.microsoft.com/v1.0/sites/{site_id}/drives/{drive_id}/root:/{file_name}:/content"
@@ -175,7 +166,6 @@ response.raise_for_status()  # Raise error if request fails
 
 Pandas read_excel method wants a file type to work with. Using BytesIO from io library we can create that.  Documentation for BytesIO can be found here [https://docs.python.org/3/library/io.html](https://docs.python.org/3/library/io.html). We can then use read_excel from Pandas library to fetch the data from the sheet. I’ve kept it simple, the tricks on handling more complex data in Excel is for another post.
 
-Copy CodeCopiedUse a different Browser
 ```xml
 # Import methods
 from io import BytesIO

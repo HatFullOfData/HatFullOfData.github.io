@@ -1,4 +1,4 @@
----
+﻿---
 title: Power Apps – Animating SVG Fill Colour and Size
 description: In this post I will introduce animating SVG by altering the colour and size of the SVG graphic using variables and a timer control.
 slug: power-apps-animating-svg-fill-colour-and-size
@@ -70,7 +70,6 @@ First step is to add a button to setup the variables. Then we change the SVG cod
 
 ![](SVG_206-1.png)
 
-Copy CodeCopiedUse a different Browser
 ```xml
 "data:image/svg+xml;utf8, " & EncodeUrl(
     "
@@ -85,7 +84,6 @@ The next step is to add a timer. In order to make the shape resize smooth I chan
 
 The next step is calculate what will happen every 10 milliseconds. The size of the shape should increase by one until it reaches a maximum value and then reduce by one until it reaches a minimum. We will need to change the code behind the setup button to set the vvChange to 1.
 
-Copy CodeCopiedUse a different Browser
 ```xml
 If(
     // Reaches maximum so start decreasing
@@ -102,7 +100,6 @@ So the we add code to the setup button to create variables vvBlueValue set to 0 
 
 Then we add very similar code to the size changing. The final step in the code builds the colour string ready for the SVG.
 
-Copy CodeCopiedUse a different Browser
 ```xml
 If(
     // Reaches maximum so start decreasing

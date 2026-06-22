@@ -1,4 +1,4 @@
----
+﻿---
 title: SVG in Power BI Part 7 – Using a Theme File to add SVG Icons
 description: As part of the July 2019 update there were changes to conditional formatting. In this post I am going to cover adding to or swapping the built in icons using a theme file and some SVG.
 slug: svg-in-power-bi-7-using-theme-file-svg-icons
@@ -43,7 +43,6 @@ Icons is a new section for the theme file. It is at the same level as the name. 
 
 The url can be SVG code in a similar format to the measures from previous posts. So in this example my first icon is a red quarter of a circle. Below is the SVG code for the shape.
 
-Copy CodeCopiedUse a different Browser
 ```xml
 data:image/svg+xml;utf8, 
 
@@ -51,7 +50,6 @@ data:image/svg+xml;utf8,
 
 A simple theme file to create one extra icon would look like
 
-Copy CodeCopiedUse a different Browser
 ```xml
 {
     "name": "New Icons",
@@ -70,7 +68,6 @@ This adds a single icon to the icons available in conditional formatting. It wil
 
 I then expanded the list of icons to cope with 25%, 50%, 75% and 100% going from red through amber to green.After applying the the theme to my report I created conditional formatting rules to a table to use my new icons.
 
-Copy CodeCopiedUse a different Browser
 ```xml
 {
      "name": "Percent Icons",

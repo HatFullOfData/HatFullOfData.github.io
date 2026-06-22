@@ -1,4 +1,4 @@
----
+﻿---
 title: Power BI – Calculation Groups aren’t scary
 description: Let’s start by being honest, calculation groups scared me. I had read the brilliant articles, seen the demos and walked away going “hell no!”. Then in a training session a client asks for a visual that really really should be done with a calculation group, so I had to sit down and get my head around them. This post is...
 slug: power-bi-calculation-groups-arent-scary
@@ -24,7 +24,6 @@ The visual requested was similar to this wating to show multiple measures with t
 
 The model includes a calendar that includes a decade offset column. So if we were going to calculate the Avg Rainfall for this decade and last decade the DAX would be
 
-Copy CodeCopiedUse a different Browser
 ```xml
 This Decade Avg Rainfall = CALCULATE( [Avg Rainfall] , 'Calendar'[Decade Offset] = 0 )
 
@@ -49,7 +48,6 @@ Calculation items are the different calculations you want to include in the grou
 
 I renamed the original calculation item to All Time by double clicking on it.
 
-Copy CodeCopiedUse a different Browser
 ```xml
 This Decade = 
 CALCULATE( 

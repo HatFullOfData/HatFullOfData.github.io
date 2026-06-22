@@ -1,4 +1,4 @@
----
+﻿---
 title: Power BI – Counting Active records easily
 description: Recently in a few Power BI projects and training courses we’ve needed to create a measure for counting active records based on start and end dates for a time period. This has varied from active projects, active employees to active contracts. All of them have had the common feature of start and end dates. Scenario Task Start End A 01-May...
 slug: power-bi-counting-active-records-easily
@@ -24,7 +24,6 @@ Understanding the logic of the filters needed is important when writing a measur
 
 In DAX we are going to use CALCULATE function to apply the above filters. _MinDate and _MaxDate give us the start and end of the period.
 
-Copy CodeCopiedUse a different Browser
 ```xml
 Active Tasks = 
 VAR MinDate = MIN('Calendar'[Date])

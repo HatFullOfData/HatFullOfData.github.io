@@ -1,4 +1,4 @@
----
+﻿---
 title: Power BI – Conditional Formatting Update
 description: The June 2019 update for Power BI included a few updates for conditional formatting, for visual backgrounds, titles, cards and gauges. This post is my take on the updates and on how I prefer to do the logic behind choosing a colour. Full details of the June 2019 update can be found at https://powerbi.microsoft.com/en-us/blog/power-bi-desktop-june-2019-feature-summary/ Applying Conditional Colour Formatting This update...
 slug: power-bi-conditional-formatting-update
@@ -51,7 +51,6 @@ One of my issues with Color scale or Rules is you cannot use multiple column val
 
 I have a very simple example of a list of Stores which have a Target and Sales value. So I create a measure that calculates a colour string based on Sales and Target using an IF function.
 
-Copy CodeCopiedUse a different Browser
 ```xml
 SalesColour = IF(
     SUM(Sales[Sales]) >= SUM(Sales[Target]), 

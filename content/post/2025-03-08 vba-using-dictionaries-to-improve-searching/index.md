@@ -1,4 +1,4 @@
----
+﻿---
 title: VBA – Using Dictionaries to improve searching
 description: In VBA programming, dictionaries are invaluable tools that allow you to store key-value pairs efficiently. Checking a list of values to see if it contains a value is a regular requirement in many projects. The obvious solution in VBA is the values in an array and loop through till you find or don’t find the value. On a recent project,...
 slug: vba-using-dictionaries-to-improve-searching
@@ -18,7 +18,6 @@ Dictionaries are part of the Microsoft Scripting Runtime library which is not lo
 
 Once the library is loaded you can now declare a variable as a dictionary.
 
-Copy CodeCopiedUse a different Browser
 ```xml
 Dim dictNames as Scripting.Dictionary
 ```
@@ -27,7 +26,6 @@ Dim dictNames as Scripting.Dictionary
 
 Dictionaries need initialising before you can use them. This can be done in the declaration of the variable or as a separate statement. I personally prefer the separate statement, means I get to chose when the variable is created.
 
-Copy CodeCopiedUse a different Browser
 ```xml
 ' === Part of the declaration
 Dim dictNames As New Scripting.Dictionary
@@ -41,7 +39,6 @@ Set dictNames = New Scripting.Dictionary
 
 Dictionary entries have 2 parts, key and item. The key is used when checking to see if a dictionary entry exists and the item value is returned by using the key. So if all you are using the dictionary for is to have a searchable list the item value could be the same as the key or a constant.
 
-Copy CodeCopiedUse a different Browser
 ```xml
 ' === Add a dictionary entry
 dictNames.Add Key:="Adam", Item:="0"
@@ -51,7 +48,6 @@ dictNames.Add Key:="Adam", Item:="0"
 
 Once you have values in the dictionary you can check if a key value exists in the dictionary. The Exists method returns a Boolean based on if it can find the key value.
 
-Copy CodeCopiedUse a different Browser
 ```xml
 ' === Check for a key in the dictionary
 If dictNames.Exists(Key:="Adam") Then
@@ -67,7 +63,6 @@ The data analyst in me wanted to check how each method compared. I expected the 
 
 The winner for me was the dictionary code was simpler, which reduces the technical debt of VBA code often written and maintained by business developers. The code below is to check if the value in strName is in an array or in a dictionary.
 
-Copy CodeCopiedUse a different Browser
 ```xml
 ' === Array Method
 For i = LBound(arrNames) To UBound(arrNames)

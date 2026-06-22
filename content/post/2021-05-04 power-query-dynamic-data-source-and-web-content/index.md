@@ -1,4 +1,4 @@
----
+﻿---
 title: Power Query – Dynamic Data Source and Web.Contents()
 description: This is the first post in a series to create a Star Wars report. This post handles the issue of using a parameter as the url in a web Power Query. This type of data source is referred to as a Dynamic Data Source. It will not refresh in the Power BI service unless you do some tricks. Fetching Data...
 slug: power-query-dynamic-data-source-and-web-content
@@ -65,7 +65,6 @@ The people part and the page=1 can be added in as part of the options. So the ne
 
 Web.Contents options allow for two things to be set, a relative path, eg People and query parameters eg Page=1. APIs are fussy so make sure you get the case right in the query part. This is my final code for the Source step. (This is the reason I blog, so in 6 months time I know I have a working example piece of code.)
 
-Copy CodeCopiedUse a different Browser
 ```xml
 Source = Json.Document(Web.Contents("https://swapi.dev/api/",
         [

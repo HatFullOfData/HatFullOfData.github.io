@@ -1,4 +1,4 @@
----
+﻿---
 title: Power BI – Use ISINSCOPE to improve a Matrix
 description: I recently had a request for totals in a Matrix to be shown for some columns and not for other columns. My solution was to use ISINSCOPE in a Matrix to work out which level of the matrix to choose what to return. Scenario At an event you sell tickets. So for the Cheese and Wine evening we can see...
 slug: power-bi-use-isinscope
@@ -30,7 +30,6 @@ For demo purposes I created a measure that returns a true or false using the fun
 
 ![](image-2.png)
 
-Copy CodeCopiedUse a different Browser
 ```xml
 Scope =
 SWITCH (
@@ -47,7 +46,6 @@ As you can see, using the above measure we can tell which level of the matrix a 
 
 We can use a simple if statement based on the ISINSCOPE for Ticket Type. That works really well and the customer were partly happy.
 
-Copy CodeCopiedUse a different Browser
 ```xml
 Tickets Sold =
 IF (
@@ -62,7 +60,6 @@ IF (
 
 Once we showed that could be done they wanted to combine the 2 columns of numbers. The request was to not have a separate Total Sales column but to show the Total Sales value as in the total row for each event and the grand total at the bottom. For this we wrote a new measure called Event Sales.
 
-Copy CodeCopiedUse a different Browser
 ```xml
 Event Sales =
 IF (

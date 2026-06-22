@@ -1,4 +1,4 @@
----
+﻿---
 title: Power Platform Solution and Power BI – Part 3
 description: In Part 1 we added Power BI to the Power Platform solution and then in Part 2 we added a dashboard. This is post we will embed the report into a form and filter the report to match the context of the form. For this we will use the Accounts form and filter the expenses report to only show the...
 slug: power-platform-solution-and-power-bi-part-3
@@ -48,7 +48,6 @@ You must get the case and of course the spelling right. We then insert these int
 
 ![image showing Account and AccountID comes from Power BI and accountid comes from Dataverse](2023-05-16_08-44-27.png)
 
-Copy CodeCopiedUse a different Browser
 ```xml
 {"Filter": "[{\"$schema\":\"basic\",\"target\": {\"table\":\"Account\",\"column\":\"AccountID\"}, \"operator\":\"In\",\"values\":[$a],\"filterType\":1}]", "Alias": {"$a": "accountid"}}
 ```

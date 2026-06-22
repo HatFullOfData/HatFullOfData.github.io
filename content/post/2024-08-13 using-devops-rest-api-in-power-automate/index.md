@@ -1,4 +1,4 @@
----
+﻿---
 title: Using DevOps REST API in Power Automate
 description: DevOps REST API is a well documented API that we can easily use in Power Automate to perform a huge range of actions.
 slug: using-devops-rest-api-in-power-automate
@@ -48,7 +48,6 @@ If we look in the documentation and then search for Get Work Item, you will find
 
 We start with an instant flow. Then we add the a parameter to the trigger of the work item id. Then we add the action Send an HTTP request to Azure DevOps. The Organisation we can use our environment variable (or from the drop down). The method is GET. The Relative URI is everything after the organisation in the url we got from the documentation.
 
-Copy CodeCopiedUse a different Browser
 ```xml
 {project}/_apis/wit/workitems/{id}?api-version=7.2-preview.3
 ```
@@ -69,7 +68,6 @@ Then we add a Send an HTTP request to Azure DevOps action. The Organisation is t
 
 In the Body we need to add a JSON object that includes the fields we want to update. For this we need to know the field names, see the previous post in the series for ways to find them. It is just text so we can insert dynamic content, e.g. the email address. The above example picture and code below shows changing the State to Active and assigning it to the Email address
 
-Copy CodeCopiedUse a different Browser
 ```xml
 [
   {

@@ -1,4 +1,4 @@
----
+﻿---
 title: Power Query – Creating New Parameters
 description: Good practice is to use parameters for these values so your query is reusable etc. And its always our intention to go and create the new parameter later.
 slug: power-query-creating-new-parameters
@@ -17,7 +17,6 @@ When fetching data into Power Query you need to use values to point you to the w
 
 So lets take the simplest option of connecting to a csv file on the web. I have my path so I click get data and select Web. For those that want to play along here is the path to the file I’m using.
 
-Copy CodeCopiedUse a different Browser
 ```xml
 https://raw.githubusercontent.com/HatFullOfData/Demo/refs/heads/main/Products.csv
 ```

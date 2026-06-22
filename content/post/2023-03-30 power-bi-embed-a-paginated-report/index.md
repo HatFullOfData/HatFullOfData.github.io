@@ -1,4 +1,4 @@
----
+﻿---
 title: Power BI – Embed a Paginated Report
 description: Within a Power BI report you can embed a paginated report. Values can be passed to the paginated report to populate parameters. The paginated report can be exported by a report consumer. YouTube Version Paginated Report For this post we are going to use a paginated report connected to restaurant sales data. The report shows daily total dishes sold and...
 slug: power-bi-embed-a-paginated-report
@@ -26,7 +26,6 @@ For this post we are going to use a paginated report connected to restaurant sal
 
 The Power BI report in this example uses the same data source of restaurant data. It doesn’t have to. The report requires 2 parameters. The easiest way to fill these vales would be to create measures. We create 2 measures to define the date range.
 
-Copy CodeCopiedUse a different Browser
 ```xml
 StartDate = MIN('Date'[Date])
 

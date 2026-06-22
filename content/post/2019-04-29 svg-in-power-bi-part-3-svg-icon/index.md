@@ -1,4 +1,4 @@
----
+﻿---
 title: SVG in Power BI – Part 3 – Fill SVG Icon with Colour
 description: In this post we will introduce using SVG icons and filling the icon with colour to show a percentage value.
 slug: svg-in-power-bi-part-3-svg-icon
@@ -53,7 +53,6 @@ We are going to draw 2 elephants, one grey and one coloured one on top. The colo
 
 Next task is to create a measure in our report. Inside the measure we create 2 variables, one to store the svg start and one for the svg end. As a quick test we return the concatenation of the variables and the previous created measure to draw our icon.
 
-Copy CodeCopiedUse a different Browser
 ```xml
 Elephant Measure = 
 // svg essentials
@@ -76,7 +75,6 @@ In order to draw a grey and red elephant we will nest the elephant in a  group t
 
 I add 2 more variables one for the grey elephant and one for the red one. and tweak the return to use the new elephant variables. It will draw both elephants but they are exactly over each other so you only see the red one.
 
-Copy CodeCopiedUse a different Browser
 ```xml
 Elephant Measure = 
     // svg essentials
@@ -97,7 +95,6 @@ We now want to only show a percentage of the red elephant based off a percentage
 
 So we create a variable to calculate the width and then a variable to store the defs tag that contains the clip-path. The red_ele variable is then tweaked to include a reference to the clip-path and the return is changed to include the defs variable.
 
-Copy CodeCopiedUse a different Browser
 ```xml
 Elephant Measure = 
     // svg essentials
@@ -130,7 +127,6 @@ Our icon is in a square which goes from 0,0 and is 100 wide and 100 tall. If we 
 
 So to fill from the bottom I need to change the defs
 
-Copy CodeCopiedUse a different Browser
 ```xml
 Elephant Measure = 
     // svg essentials

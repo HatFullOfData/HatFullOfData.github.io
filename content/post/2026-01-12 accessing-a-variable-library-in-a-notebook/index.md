@@ -1,4 +1,4 @@
----
+﻿---
 title: Accessing a Variable Library in a Notebook
 description: This post walks through how to access a variable library in a notebook in Microsoft Fabric. I recommend a Microsoft Fabric project starts by creating a variable library to store the common values different artifacts need and could be changed if a deployment pipeline gets involved. So when we create a notebook we need to be able to use these...
 slug: accessing-a-variable-library-in-a-notebook
@@ -33,7 +33,6 @@ Variable libraries should be part of every project. This post is part of my seri
 
 The first task is to create a variable for the variable library. The notebookutils package includes the functions we need to do this easily. In the code below the variable vl will refer to the variable library that is called “Finance Variables”. This code assumes the notebook is in the same workspace as the library.
 
-Copy CodeCopiedUse a different Browser
 ```xml
 # Get the Variable library
 vl = notebookutils.variableLibrary.getLibrary("Finance Variables")
@@ -43,7 +42,6 @@ vl = notebookutils.variableLibrary.getLibrary("Finance Variables")
 
 Once we have the variable library loaded, we can access the variable values in one of two syntaxes.
 
-Copy CodeCopiedUse a different Browser
 ```xml
 # 2 syntaxes to get variable value
 SP_URL = vl.getVariable("SharePoint_URL")
@@ -52,7 +50,6 @@ Limit = vl.Limit
 
 Combining both of the two and adding some print statements we can demo the above using this code.
 
-Copy CodeCopiedUse a different Browser
 ```xml
 # Get the Variable library
 vl = notebookutils.variableLibrary.getLibrary("Finance Variables")
@@ -74,14 +71,12 @@ And here is the run
 
 There is a third way to get a variable value. The get method from notebookutils variable library uses a reference string that follows the following syntax:
 
-Copy CodeCopiedUse a different Browser
 ```xml
 "$(/**//)"
 ```
 
 Before you get excited that the ** implies you could refer to another workspace, sorry that is not supported. This string is used in the variableLibrary.get action in notebookutils. For example to get the two values from before could be done like this
 
-Copy CodeCopiedUse a different Browser
 ```xml
 # Get the variable values directly
 SP_URL = notebookutils.variableLibrary.get("$(/**/Finance Variables/SharePoint_URL)")

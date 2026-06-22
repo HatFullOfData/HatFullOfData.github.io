@@ -1,4 +1,4 @@
----
+﻿---
 title: PowerApps – Function Component
 description: In this post I write a simple function component that takes one value and returns a calculated value. This creates a resusable function like feature.
 slug: powerapps-function-component
@@ -27,7 +27,6 @@ In my app I had already turned on components and added a new component. [Shane Y
 
 I then clicked on the HEX Value to enter in a the formula as the following code.
 
-Copy CodeCopiedUse a different Browser
 ```xml
 With(
     {
@@ -63,7 +62,6 @@ Components as function opens many possibilities and as 2 of my favourite PowerAp
 
 Thanks to [Brian Dang](https://twitter.com/8bitclassroom) for giving me a tidier version of the calculation using nested WITH functions. So the calculation inside the component is now:
 
-Copy CodeCopiedUse a different Browser
 ```xml
 With(
     {

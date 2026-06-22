@@ -1,4 +1,4 @@
----
+﻿---
 title: Power BI – Create a calendar using TMDL
 description: TMDL is short for Tabular Model Definition Language in Power BI desktop. It allows us to script definitions and changes to a Power BI model. In this post I use TMDL to quickly create a calendar for a report that includes column options such as sort by, formatting and hidden columns. Calendar Table Nearly every report I create includes a...
 slug: tmdl-create-a-calendar
@@ -38,7 +38,6 @@ Another use is to use code to create a calendar table. I created the original co
 
 ![](image-14.png)
 
-Copy CodeCopiedUse a different Browser
 ```xml
 createOrReplace
 

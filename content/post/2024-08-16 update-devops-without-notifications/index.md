@@ -1,4 +1,4 @@
----
+﻿---
 title: Update DevOps without Notifications with Power Automate
 description: When a work item is assigned to you, you are sent a notification. In this post we show how Power Automate can update without notifications
 slug: update-devops-without-notifications
@@ -48,7 +48,6 @@ Now we have the permission we can test it out in an update. This can only be don
 
 URI parameters get added after the ? and are separated by &. So the code to update item 36 without notifications would be
 
-Copy CodeCopiedUse a different Browser
 ```xml
 {project}/_apis/wit/workitems/36?suppressNotifications=true&api-version=7.0
 ```

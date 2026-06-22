@@ -1,4 +1,4 @@
----
+﻿---
 title: Power Query – Fixing Missing Columns Dynamically
 description: One of the challenges of making sure your query works in Power Query is data sources that have a changing schema. Some APIs miss out fields if the data is null and sometimes we need one report able to handle data files that are almost the same but not quite. In this post we will look at fixing 2 scenarios, a single missing column and multiple columns missing.
 slug: power-query-fixing-missing-columns-dynamically
@@ -32,14 +32,12 @@ But the query will fail when the file does include the Debit column. So we need 
 
 The line of M created by the inserting a custom column is
 
-Copy CodeCopiedUse a different Browser
 ```xml
 = Table.AddColumn(#"Promoted Headers", "Debit", each null)
 ```
 
 This needs to become
 
-Copy CodeCopiedUse a different Browser
 ```xml
 = if Table.HasColumns(#"Promoted Headers","Debit") 
     then #"Promoted Headers" 
@@ -60,7 +58,6 @@ The error will only complain about the first column it finds missing but if we f
 
 Create a new blank query and enter in the formula to create a list of all the column names you want to make sure exist. Use {} brackets containing the column name strings separated by commas. This will display the list of values. Rename the query to something meaningful, for example Months.
 
-Copy CodeCopiedUse a different Browser
 ```xml
 = {"Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"}
 ```
@@ -69,7 +66,6 @@ Copy CodeCopiedUse a different Browser
 
 Now we need to add a step that converts this into a table. Right click on the Source step and select Insert Step After. Next we use #table function that takes 2 parameters, list of columns and values. We want an empty table so will use {} for the values. Change the formula to the following
 
-Copy CodeCopiedUse a different Browser
 ```xml
 = #table( Source , {} )
 ```
@@ -88,7 +84,6 @@ When appending 2 tables the first table columns will come first and in the order
 
 The list of column names and creating the blank table could be put as steps within the original query. That requires being comfortable with the Advanced editor and writing M. For those interested here is an example query.
 
-Copy CodeCopiedUse a different Browser
 ```xml
 let
     Source = Excel.Workbook(Web.Contents(ExcelPath), null, true),

@@ -1,4 +1,4 @@
----
+﻿---
 title: DevOps Parent Child Hierarchy in Power BI
 description: Azure DevOps is built around the pattern than items have child items and so a backlog view will show the items in a hierarchy. When the work items some into Power BI that is not shown. So this gives me the chance to use one of my favourite resources, DAX Patterns and their Parent-Child pattern.
 slug: devops-parent-child-hierarchy-in-power-bi
@@ -38,7 +38,6 @@ DAX patterns comes in multiple formats, a book, a website and videos. They are w
 
 The pattern uses a function called path. This function takes an row id and the parent row id and walks up the path until it reaches a row with no parent. Work Items in DevOps have WorkItemID and ParentWorkItemID. So following the instructions we add a column to the WorkItems table.
 
-Copy CodeCopiedUse a different Browser
 ```xml
 ItemPath = PATH(WorkItems[WorkItemId],WorkItems[ParentWorkItemId])
 ```
@@ -51,7 +50,6 @@ The ItemPath gives us the list of IDs in the hierarchy above the current row. It
 
 From the above post these are the Level 1 to Level 4 columns, we just need to swap out the right column names. We also know the the names of our levels from DevOps so we can use slightly more meaningful names, Level 1 = Epic, Level 2 = Feature etc. Add the 4 columns using the pattern below, copied straight from the SQLBI post.
 
-Copy CodeCopiedUse a different Browser
 ```xml
 Epic = 
 VAR LevelNumber = 1
@@ -78,14 +76,12 @@ In order for this to work we need to compare the maximum path length with the le
 
 ### Column Added to WorkItems table
 
-Copy CodeCopiedUse a different Browser
 ```xml
 Depth = PATHLENGTH( WorkItems[ItemPath] )
 ```
 
 ### 2 Measures Added to WorkItems table
 
-Copy CodeCopiedUse a different Browser
 ```xml
 MaxRowDepth = MAX( WorkItems[Depth] )
 
@@ -98,7 +94,6 @@ ItemBrowseDepth =
 
 Now we can add measures that use these values to decide if to display the row or not. The logic being we only show rows where the browse depth is less than or equal to the max row depth. So I fix the # Work Items using the example from the SQLBI Pattern.
 
-Copy CodeCopiedUse a different Browser
 ```xml
 # Work Items =
 VAR Val = COUNTROWS ( WorkItems )

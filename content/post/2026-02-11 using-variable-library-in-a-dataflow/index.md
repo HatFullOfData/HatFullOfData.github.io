@@ -1,4 +1,4 @@
----
+﻿---
 title: Using Variable Library in a Dataflow
 description: One of the popular low-code tools within Microsoft Fabric is the Gen2 Dataflow. Power BI report builders already know some Power Query. So armed with this knowledge is a popular starting point to load data into Microsoft Fabric. Adding values from the Variable Library in a Dataflow is an obvious plan to make it more future proof and to work...
 slug: using-variable-library-in-a-dataflow
@@ -43,7 +43,6 @@ I create the dataflow and then using Keep Rows, I select Keep top rows. In the n
 
 The next step is to get the value from the variable library into the dataflow. We are going to use a new Power Query function for this called Variable.ValueOrDefault. For the first parameter of this function, you need the Variable Library name and a Variable name. Then you combine together in a string.
 
-Copy CodeCopiedUse a different Browser
 ```xml
 "$(/**//)"
 ```
@@ -54,7 +53,6 @@ So for my example the string will be “$(/**/Finance Variables/Limit)”.
 
 On the Home ribbon, expand Get data and select Blank query. I renamed the query to DataRows. Then in the formula bar enter in the code below. This will return the current value of the variable in the library. The documentation as of publishing this post states it won’t work hence we use the OrDefault function and in this example the default is 2. It does work though, and we can see the answer 8 comes through.
 
-Copy CodeCopiedUse a different Browser
 ```xml
 Variable.ValueOrDefault("$(/**/Finance Variables/Limit)",2)
 ```
@@ -67,7 +65,6 @@ We’ve got the variable value from the variable library in a dataflow, now we n
 
 This works as long as we always want to limit the rows, the chances are in production we don’t want to limit atall, so I add the extra of only limit if DataRows is greater than 0. Here is my new statement, the previous step is call Sorted Rows hence the #”Sorted rows”
 
-Copy CodeCopiedUse a different Browser
 ```xml
 if DataRows > 0 then Table.FirstN(#"Sorted rows", DataRows) else #"Sorted rows"
 ```

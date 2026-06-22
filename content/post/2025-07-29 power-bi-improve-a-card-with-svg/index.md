@@ -1,4 +1,4 @@
----
+﻿---
 title: Power BI – Improve a card with SVG
 description: The not so new card in Power BI, introduced in 2023, includes some lovely features. The first is the simplest of adding multiple values and having cards laid out evenly in a row in a single visual. The second awesome feature adding an image to a card with SVG. Starting Point This report is visualising web site views per year....
 slug: power-bi-improve-a-card-with-svg
@@ -24,7 +24,6 @@ This report is visualising web site views per year. In the report there are thre
 
 Before we can create a card with SVG we need to write the measure that contains the SVG. So here is where we cheat and refer to post I wrote years ago, called [SVG in Power BI Part 2 – KPI Shapes](https://hatfullofdata.blog/svg-in-power-bi-part-2-kpi-shapes/). This uses a measure called Growth and draws either a Green arrow pointing up or a red arrow pointing down. The final code from this blog is
 
-Copy CodeCopiedUse a different Browser
 ```xml
 Arrow = 
 // Variables to store arrow paths
@@ -45,14 +44,12 @@ RETURN svg
 
 That would create the arrow using the Growth measure, I also want to add text below the arrow. So we increase the viewBox to be 130 tall so line 11 becomes
 
-Copy CodeCopiedUse a different Browser
 ```xml
 ""
 ```
 
 To add in the text I make use of another previously written post [SVG in Power BI – Part 4 – Adding SVG Text](https://hatfullofdata.blog/svg-in-power-bi-adding-svg-text/). I create a text tag that is middle anchored to 50,130 and shows the Growth measure formatted as a percentage.
 
-Copy CodeCopiedUse a different Browser
 ```xml
 var growthtext = "" 
                  & FORMAT([Growth],"0.00%") & ""
@@ -60,7 +57,6 @@ var growthtext = ""
 
 So the final measure looks like this
 
-Copy CodeCopiedUse a different Browser
 ```xml
 Arrow = 
 // Variables to store arrow paths
@@ -99,7 +95,6 @@ The image is there, even though you can’t see it due to it being too small. Ch
 
 I know accessibility in published Power BI reports is not great, but it is made even worse by not making use of the Alt text options. So I created a measure Arrow Alt Text that will describe the image. I then click the fx button under Accessibility and use the measure.
 
-Copy CodeCopiedUse a different Browser
 ```xml
 Arrow Alt Text = 
 var ArrowText = IF( [Growth] >= 0 , "Green arrow shape pointing up ", "Red arrow shape pointing down " )

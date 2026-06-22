@@ -1,4 +1,4 @@
----
+﻿---
 title: Power Query – Multi-step Function
 description: This post describes how to build a multiple step function in M using a parameter and using create function to build the function code.
 slug: power-query-multi-step-function
@@ -55,7 +55,6 @@ We use an If statement based on the previous step. There is no quick way to add 
 
 Using the logic described in the second paragraph of the introduction the complete formula is
 
-Copy CodeCopiedUse a different Browser
 ```xml
 = if WeekDay=4 then 3 else 
     if WeekDay=5 then 2 

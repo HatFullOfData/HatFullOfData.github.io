@@ -1,4 +1,4 @@
----
+﻿---
 title: Microsoft Fabric – Using Copy Job with Dataverse
 description: Dataverse is the data store behind parts of Dynamics and lots of Power Platform projects. So Dataverse can contain vital business data that will be needed for reporting. In this post we are going to look at one method which is using copy job with Dataverse to copy across data in Microsoft Fabric. Scenario For this post we will look...
 slug: microsoft-fabric-using-copy-job-with-dataverse
@@ -107,7 +107,6 @@ Although the dataverse connector works, the selection of columns is very manual.
 
 From that post and with the addition of the modifiedon field here is the SQL for the accounts table. We will use this later.
 
-Copy CodeCopiedUse a different Browser
 ```xml
 Select
 	accountid as AccountID,

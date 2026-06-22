@@ -1,4 +1,4 @@
----
+﻿---
 title: SVG in Power BI Part 6 – New Icon Conditional Formatting
 description: In July 2019 Power BI Desktop update they included new conditional formatting on table and matrix to include icons. These icons can be defined using SVG which is pretty cool. So this is a new post in my Power BI SVG series looking how we can use SVG icons in conditional formatting.
 slug: svg-in-power-bi-6-icon-conditional-formatting
@@ -40,7 +40,6 @@ Clicking on Advanced controls link opens options behind the selection of icons. 
 
 In this post though I’m looking at using SVG to define and select the icon. So I will not be using rules but will be using a measure. The example is going to be based on a measure written in a previous post, [KPI Shapes in Power BI](https://hatfullofdata.blog/svg-in-power-bi-part-2/) The measure decides on an up or down arrow based on another measure called Growth.
 
-Copy CodeCopiedUse a different Browser
 ```xml
 Arrow = 
 // Variables to store arrow paths

@@ -1,4 +1,4 @@
----
+﻿---
 title: SVG in Power BI – Part 4 – Adding SVG Text
 description: This is the fourth post in my series on using SVG in Power BI  introducing SVG text and actually solves one of the niggles I had with doing KPI figures in Power BI. I didn’t get to do this part as part of my session which started this series. Here is the list of posts.
 slug: svg-in-power-bi-adding-svg-text
@@ -38,7 +38,6 @@ My niggle was the KPI visual. It is a fast way to have a red or green measure di
 
 SVG Text elements need an x and y attributes to position the text and a style attribute that uses CSS notation to choose font properties. The example below has the word Hello where the bottom lower left corner is at 20,60.
 
-Copy CodeCopiedUse a different Browser
 ```xml
 Text Measure = 
 // svg essentials
@@ -58,7 +57,6 @@ If I am going to replace the KPI visual I need to place a number centred in the 
 
 Below is an example of the string ABC being aligned start, middle and end.
 
-Copy CodeCopiedUse a different Browser
 ```xml
 Text Measure = 
 // svg essentials
@@ -78,7 +76,6 @@ return
 
 To replace the KPI shown at the start of this post I want a number in the middle of the square showing the measure, bottom left the goal and bottom right how close to the goal we were.
 
-Copy CodeCopiedUse a different Browser
 ```xml
 My KPI = 
 // svg essentials
@@ -102,7 +99,6 @@ Format function is used to format the number into comma, #,##0 and percent, 0% f
 
 The last part is to colour the number based on the Indicator reaching the target. This was covered in Part 2 of this series so I’ll just give the final code.
 
-Copy CodeCopiedUse a different Browser
 ```xml
 My KPI = 
 // svg essentials

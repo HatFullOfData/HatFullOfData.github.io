@@ -1,4 +1,4 @@
----
+﻿---
 title: Power Apps – Build a Responsive App – Adding Dynamic Containers
 description: In this post we will use dynamic containers to arrange out content so it moves to the planned location at the different screen sizes. We will need to calculate the screen size and then use it to position and size the containers. This post assumes you’ve done everything in the first 2 posts. Calculate Screen Size In order to make...
 slug: power-apps-responsive-app-dynamic-containers
@@ -41,7 +41,6 @@ We then add a label, renamed to AppScreenSize and change the text property to th
 
 ```
 
-Copy CodeCopiedUse a different Browser
 ```xml
 If(
     App.Width
