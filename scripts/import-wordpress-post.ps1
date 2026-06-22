@@ -171,11 +171,12 @@ function Get-CategoryNames {
         [object[]]$CategoryIds
     )
 
-    if (-not $CategoryIds -or $CategoryIds.Count -eq 0) {
+    $categoryList = @($CategoryIds | Where-Object { $null -ne $_ })
+    if ($categoryList.Count -eq 0) {
         return @()
     }
 
-    $ids = ($CategoryIds | ForEach-Object { [string]$_ }) -join ","
+    $ids = ($categoryList | ForEach-Object { [string]$_ }) -join ","
     $url = "$ApiBase/categories?include=$ids&per_page=100"
     $categories = Invoke-RestMethod -Uri $url
     if (-not $categories) {
@@ -208,8 +209,8 @@ $uri = [Uri]$PostUrl
 $apiBase = "{0}://{1}/wp-json/wp/v2" -f $uri.Scheme, $uri.Host
 
 $postLookupUrl = "$apiBase/posts?slug=$slug"
-$posts = Invoke-RestMethod -Uri $postLookupUrl
-if (-not $posts -or $posts.Count -eq 0) {
+$posts = @(Invoke-RestMethod -Uri $postLookupUrl)
+if ($posts.Count -eq 0) {
     throw "No WordPress post found for slug '$slug' at $postLookupUrl"
 }
 
@@ -326,7 +327,7 @@ if (-not [string]::IsNullOrWhiteSpace($featuredImageUrl)) {
 
 $title = [System.Net.WebUtility]::HtmlDecode($post.title.rendered)
 $description = Strip-Html $post.excerpt.rendered
-$categories = Get-CategoryNames -ApiBase $apiBase -CategoryIds $post.categories
+$categories = @(Get-CategoryNames -ApiBase $apiBase -CategoryIds $post.categories)
 
 $markdownBody = Convert-WordPressHtmlToMarkdown -Html $rawHtml -ImageMap $imageMap
 
