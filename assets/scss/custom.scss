@@ -13,3 +13,12 @@
     padding-inline-start: 0;
     border-inline-start: 0;
 }
+
+/* Slightly darken light-mode code blocks for better contrast. */
+[data-scheme="light"] {
+    --pre-background-color: #f2f2f2;
+}
+
+[data-scheme="light"] .chroma {
+    background-color: #f2f2f2;
+}
