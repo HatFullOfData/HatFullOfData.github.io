@@ -4,9 +4,9 @@ description: Post describing the update to ColorValue to include transparency an
 slug: powerapps-transparency-update
 date: 2019-06-07 17:53:58+0000
 lastmod: 2025-02-14 13:50:12+0000
+image: Trans_02.png
 categories:
-    - PowerApps
-    - Updates
+    - Power Apps
 ---
 
 A small update was sneaked in this week to help handling transparency with colours in PowerApps.
@@ -32,22 +32,3 @@ In the list of available preset colours such as AliceBlue, Aqua etc now includes
 ### Conclusion
 
 Small update but one thats very welcome! Now I just want to be able to use ColorFade or similar function to take an existing fill and give a more or less transparent version.
-
-## More Power Apps Posts
-
-- [Transparency Update](https://hatfullofdata.blog/powerapps-transparency-update/)
-
-- [Using JSON Feature to Save Pictures](https://hatfullofdata.blog/powerapps-using-json-function-to-save-pictures/)
-
-- [AI Builder Object Detect Model](https://hatfullofdata.blog/ai-builder-object-detect-model/)
-
-- [Function Component](https://hatfullofdata.blog/powerapps-function-component/)
-
-- [SVG in Power Apps series](https://hatfullofdata.blog/powerapps-svg-introduction/)
-
-- [12 Days of Components](https://hatfullofdata.blog/power-apps-12-days-of-components/)
-
-- [Build a Responsive App series](https://hatfullofdata.blog/power-apps-build-a-responsive-app-planning/)
-
-- [Embed a Power BI Chart](https://hatfullofdata.blog/power-apps-embed-a-power-bi-chart/)
-
