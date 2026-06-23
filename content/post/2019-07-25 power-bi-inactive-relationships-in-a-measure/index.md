@@ -13,8 +13,9 @@ categories:
 In this post I will show a simple example of how to use an inactive relationship between two tables in a measure. The example I will use is a list of tasks with start and finish dates. The request is for how many tasks start per week and how many finish per week to be plotted on a column chart.
 
 ## YouTube Version
-
-[![thumbnail from YouTube video](Power-BI-Using-Inactive-Relationships-in-a-Measure-Time-0_00_0000.png)](https://www.youtube.com/watch?v=HHfzwaD4NtA)
+<a href='https://www.youtube.com/watch?v=HHfzwaD4NtA'>
+<img alt='thumbnail from YouTube video' src='Power-BI-Using-Inactive-Relationships-in-a-Measure-Time-0_00_0000.png'>
+</a>
 
 ## Data Setup
 
