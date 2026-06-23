@@ -21,7 +21,7 @@
             </a>
         </h2>
     
-        {{ if ne $Page.Section "post" }}
+        {{ if $IsList }}
             {{ with $Page.Params.description }}
             <h3 class="article-subtitle">
                 {{ . }}
