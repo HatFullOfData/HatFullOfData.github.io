@@ -37,7 +37,7 @@ The above example defines an area where the top-left is 0,0 and the bottom-right
 
 If an SVG statement contains more than one element, they are layered with the first item at the back and the last item at the front.
 
-### SVG Paths
+## SVG Paths
 
 The previous example drew a circle, and you can draw rectangles with `<rect ... />` as well. The next step from SVG basics is drawing more complex shapes. For this, you need to define points, curves, and arcs. One method is the path element.
 
@@ -50,23 +50,23 @@ In a path element you can move the pen, draw lines, arcs, and curves. Below is a
 </svg>
 ```
 
-### SVG Icons
+## SVG Icons
 
 Lots of icons available on the web are written in SVG and many can be downloaded. Be aware of copyright and always give credit where credit is due.
 
 If you have PowerPoint O365 you can insert icons onto a slide and save as a picture, which gives you SVG code.
 
-### SVG Resources
+## SVG Resources
 
 This has been a very short introduction to SVG. There are plenty of resources to assist in composing SVG creations.
 
-#### [W3Schools](https://www.w3schools.com/graphics/svg_intro.asp)
+### [W3Schools](https://www.w3schools.com/graphics/svg_intro.asp)
 
 W3Schools is a great resource to get started in SVG. The reason I return again and again is the Try It Yourself button, which gives a simple place to test your SVG.
 
 ![W3Schools Try It Yourself screenshot](svg_102.png)
 
-#### [Jenkov's SVG Tutorial](http://tutorials.jenkov.com/svg/index.html)
+### [Jenkov's SVG Tutorial](http://tutorials.jenkov.com/svg/index.html)
 
 This is a great site for learning different parts of SVG and how it works, including videos.
 
@@ -76,4 +76,3 @@ This is a great site for learning different parts of SVG and how it works, inclu
 
 This was a brief introduction to SVG. It is a language worth understanding the basics of, and hopefully through this series you will find a new way to visualize your data.
 
-[SVG in Power BI - Simple KPI shapes - Part 2](https://hatfullofdata.blog/svg-in-power-bi-part-2/)

@@ -9,6 +9,9 @@
         "~/.vscode/extensions/synapsevscode.synapse-1.25.0/copilot/skills": true
     },
     "cSpell.words": [
-        "Mechelen"
+        "disqus",
+        "lastmod",
+        "Mechelen",
+        "opengraph"
     ]
 }

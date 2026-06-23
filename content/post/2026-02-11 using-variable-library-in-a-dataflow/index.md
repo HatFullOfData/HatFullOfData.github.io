@@ -19,7 +19,7 @@ I will confess the first time I tried these I could not get them to work till I 
 
 ## Using Variable Libraries
 
-Variable libraries should be part of every project. This post is part of my series to help get you started creating the library and then using the variables and finally seeing your hardwork pay back when it comes to deployment pipelines.
+Variable libraries should be part of every project. This post is part of my series to help get you started creating the library and then using the variables and finally seeing your hard work pay back when it comes to deployment pipelines.
 
 - [Getting Started with Variable Libraries](https://hatfullofdata.blog/variable-library/)
 
@@ -39,7 +39,7 @@ For this post we are going to use the scenario of a dataflow query that lists pr
 
 ![Screen grab of the steps described in the next paragraph.](image.png)
 
-I create the dataflow and then using Keep Rows, I select Keep top rows. In the next dialog I enter 5 and cllick OK. This results in a table with only 5 rows of data. The number of rows though needs to come from the variable library.
+I create the dataflow and then using Keep Rows, I select Keep top rows. In the next dialog I enter 5 and click OK. This results in a table with only 5 rows of data. The number of rows though needs to come from the variable library.
 
 ## Getting the Value
 
@@ -65,7 +65,7 @@ We’ve got the variable value from the variable library in a dataflow, now we n
 
 ![](image-2.png)
 
-This works as long as we always want to limit the rows, the chances are in production we don’t want to limit atall, so I add the extra of only limit if DataRows is greater than 0. Here is my new statement, the previous step is call Sorted Rows hence the #”Sorted rows”
+This works as long as we always want to limit the rows, the chances are in production we don’t want to limit, so I add the extra of only limit if DataRows is greater than 0. Here is my new statement, the previous step is call Sorted Rows hence the #”Sorted rows”
 
 ```xml
 if DataRows > 0 then Table.FirstN(#"Sorted rows", DataRows) else #"Sorted rows"
@@ -79,5 +79,5 @@ if DataRows > 0 then Table.FirstN(#"Sorted rows", DataRows) else #"Sorted rows"
 
 ## Conclusion on using variable library in a dataflow
 
-Its great we can bring in the values easily. Its a shame that we can’t use them to control the destination, but that is on the road map for 2026 Q1. I’ll blog about it as soon as it arrives! I highly recommend using my pattern of fetching the value as a query and then refering to that. It will help in debugging etc.
+Its great we can bring in the values easily. Its a shame that we can’t use them to control the destination, but that is on the road map for 2026 Q1. I’ll blog about it as soon as it arrives! I highly recommend using my pattern of fetching the value as a query and then referring to that. It will help in debugging etc.
 
