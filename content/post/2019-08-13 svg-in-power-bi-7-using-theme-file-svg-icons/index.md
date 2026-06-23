@@ -32,7 +32,7 @@ The url can be SVG code in a similar format to the measures from previous posts.
 ```xml
 data:image/svg+xml;utf8, 
 
-    ```
+```
 
 A simple theme file to create one extra icon would look like
 

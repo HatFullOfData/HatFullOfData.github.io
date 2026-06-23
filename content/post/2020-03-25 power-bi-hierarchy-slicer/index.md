@@ -11,23 +11,7 @@ categories:
 
 Does your data include a hierarchy? We often can end up with multiple slicers to walk the hierarchy taking up valuable screen. This post does a quick walk through using the new hierarchy slicer.
 
-## Slicer Series
-
-This series will cover different topics regarding slicers.
-
-- [Slicers Introduction](https://hatfullofdata.blog/power-bi-slicer-introduction/)
-
-- [Resetting Slicers with a Bookmark Button](https://hatfullofdata.blog/power-bi-resetting-slicers-with-a-bookmark-button/)
-
-- [Cascading Slicers](https://hatfullofdata.blog/power-bi-cascading-slicers/)
-
-- [Hierarchy Slicer](https://hatfullofdata.blog/power-bi-hierarchy-slicer/)
-
-- [Sync Slicers](https://hatfullofdata.blog/power-bi-introducing-sync-slicers/)
-
-- [Clear all Slicers Button](https://hatfullofdata.blog/power-bi-clear-all-slicers-button/)
-
-- Relative Date Slicer
+{{< slicer-series current="4" >}}
 
 ## YouTube Version
 

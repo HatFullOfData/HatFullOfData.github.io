@@ -8,23 +8,7 @@ categories:
     - Power BI
 ---
 
-## Slicer Series
-
-This series will cover different topics regarding slicers.
-
-- [Slicers Introduction](https://hatfullofdata.blog/power-bi-slicer-introduction/)
-
-- [Resetting Slicers with a Bookmark Button](https://hatfullofdata.blog/power-bi-resetting-slicers-with-a-bookmark-button/)
-
-- [Cascading Slicers](https://hatfullofdata.blog/power-bi-cascading-slicers/)
-
-- [Hierarchy Slicer](https://hatfullofdata.blog/power-bi-hierarchy-slicer/)
-
-- [Sync Slicers](https://hatfullofdata.blog/power-bi-introducing-sync-slicers/)
-
-- [Clear all Slicers Button](https://hatfullofdata.blog/power-bi-clear-all-slicers-button/)
-
-- Relative Date Slicer
+{{< slicer-series current="1" >}}
 
 Power BI reports can be made more flexible using simple slicers to allow your report consumers to slice and dice the data down to what they are interested in. This post will look at the various options for formatting slicers in different ways.
 

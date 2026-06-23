@@ -4,15 +4,15 @@ description: In this post I will be explaining how to use the JSON Function to s
 slug: powerapps-using-json-function-to-save-pictures
 date: 2019-07-08 10:21:38+0000
 lastmod: 2025-02-14 13:49:11+0000
+image: JSONPicture_10.png
 categories:
-    - How to
     - Power Automate
-    - PowerApps
+    - Power Apps
 ---
 
 In this post I will be explaining how to use the JSON Function to simplify the saving of multiple pictures from a PowerApp to a SharePoint library using Flow. There have been many wonderful workarounds to do this, finally we now have a slightly less Heath-Robinson method.
 
-### Set up the PowerApp
+## Set up the PowerApp
 
 I start with a blank app, canvas or phone layout. Because my main client uses Windows 10 tablet / laptops to take the pictures I add a camera control. Then I change the OnSelect property to store the picture into a collection. I include an index column so Flow can calculate a unique filename later.
 
@@ -30,7 +30,7 @@ In order for the pictures to be passed to Flow to be saved to SharePoint I need 
 
 ![save pictures button on select](JSONPicture_04.png)
 
-### Building the Flow
+## Building the Flow
 
 In the previous section, I created the app to make the JSON string to be processed by a Flow. So I now I will create a new flow with a PowerApp trigger.
 
@@ -54,7 +54,7 @@ The File Content uses an Expression. So click on Expression and find the functio
 
 ![creating the image file](JSONPicture_08.png)
 
-### Connecting PowerApp to the Flow
+## Connecting PowerApp to the Flow
 
 We now have a Flow ready to receive JSON data and save pictures. So we now just need to connect them. In my experience adding a flow to a button that already has code does not end well, I usually loose the existing code. So I add a second button and from the Action ribbon click Flows and connect up my Flow and pass in as the parameter the variable containing the JSON, e.g. vvJSON. Then I copy and paste this code into the button that creates the JSON string.
 
@@ -64,27 +64,11 @@ The app is now ready to test.
 
 ![images in library](JSONPicture_10.png)
 
-### Conclusion
+## Conclusion
 
 The above solution is a very simple example of how the JSON function could be used. Before this went into production I would do better file naming. I have tested the above app to take 30 photos and save them to SharePoint and it worked fine. I assume there is a limit to the size of the JSON.
 
 The JSON function does allow a whole collection to be passed to Flow easily. I will be looking for other possible uses.
 
-## More Power Apps Posts
 
-- [Transparency Update](https://hatfullofdata.blog/powerapps-transparency-update/)
-
-- [Using JSON Feature to Save Pictures](https://hatfullofdata.blog/powerapps-using-json-function-to-save-pictures/)
-
-- [AI Builder Object Detect Model](https://hatfullofdata.blog/ai-builder-object-detect-model/)
-
-- [Function Component](https://hatfullofdata.blog/powerapps-function-component/)
-
-- [SVG in Power Apps series](https://hatfullofdata.blog/powerapps-svg-introduction/)
-
-- [12 Days of Components](https://hatfullofdata.blog/power-apps-12-days-of-components/)
-
-- [Build a Responsive App series](https://hatfullofdata.blog/power-apps-build-a-responsive-app-planning/)
-
-- [Embed a Power BI Chart](https://hatfullofdata.blog/power-apps-embed-a-power-bi-chart/)
 

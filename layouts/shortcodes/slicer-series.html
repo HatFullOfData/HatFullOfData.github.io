@@ -1,0 +1,26 @@
+{{- $current := printf "%v" (.Get "current" | default "") -}}
+{{- $items := slice
+    (dict "part" "1" "title" "Slicers Introduction" "url" "/power-bi-slicer-introduction/")
+    (dict "part" "2" "title" "Resetting Slicers with a Bookmark Button" "url" "/power-bi-resetting-slicers-with-a-bookmark-button/")
+    (dict "part" "3" "title" "Cascading Slicers" "url" "/power-bi-cascading-slicers/")
+    (dict "part" "4" "title" "Hierarchy Slicer" "url" "/power-bi-hierarchy-slicer/")
+    (dict "part" "5" "title" "Sync Slicers" "url" "/power-bi-introducing-sync-slicers/")
+    (dict "part" "6" "title" "Clear all Slicers Button" "url" "/power-bi-clear-all-slicers-button/")
+    (dict "part" "7" "title" "Relative Date Slicer")
+-}}
+
+<h2>Slicer Series</h2>
+<p>This series will cover different topics regarding slicers.</p>
+<ul>
+    {{- range $items }}
+    <li>
+        {{- if eq $current .part -}}
+            <strong>{{ .title }}</strong>
+        {{- else if isset . "url" -}}
+            <a href="{{ .url }}">{{ .title }}</a>
+        {{- else -}}
+            {{ .title }}
+        {{- end -}}
+    </li>
+    {{- end }}
+</ul>

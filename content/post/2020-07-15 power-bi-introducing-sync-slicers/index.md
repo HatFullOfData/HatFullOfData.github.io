@@ -13,23 +13,7 @@ categories:
 
 How many reports have duplicate slicers across the pages and the report reader has to re-apply the slicer values on each page? This post covers what the sync slicers feature in Power BI is.
 
-## Slicer Series
-
-This series will cover different topics regarding slicers.
-
-- [Slicers Introduction](https://hatfullofdata.blog/power-bi-slicer-introduction/)
-
-- [Resetting Slicers with a Bookmark Button](https://hatfullofdata.blog/power-bi-resetting-slicers-with-a-bookmark-button/)
-
-- [Cascading Slicers](https://hatfullofdata.blog/power-bi-cascading-slicers/)
-
-- [Hierarchy Slicer](https://hatfullofdata.blog/power-bi-hierarchy-slicer/)
-
-- [Sync Slicers](https://hatfullofdata.blog/power-bi-introducing-sync-slicers/)
-
-- [Clear all Slicers Button](https://hatfullofdata.blog/power-bi-clear-all-slicers-button/)
-
-- Relative Date Slicer
+{{< slicer-series current="5" >}}
 
 ### YouTube Version
 

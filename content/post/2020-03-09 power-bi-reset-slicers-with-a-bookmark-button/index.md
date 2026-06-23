@@ -11,23 +11,7 @@ categories:
 
 When your report has a bunch of slicers and charts that can also add filters to the page resetting back to no filters can be painful. So we need a quick way to reset slicers. This post walks through the steps of creating a bookmark and the using that bookmark to reset the page by clicking a button.
 
-## Slicer Series
-
-This series will cover different topics regarding slicers.
-
-- [Slicers Introduction](https://hatfullofdata.blog/power-bi-slicer-introduction/)
-
-- [Resetting Slicers with a Bookmark Button](https://hatfullofdata.blog/power-bi-resetting-slicers-with-a-bookmark-button/)
-
-- [Cascading Slicers](https://hatfullofdata.blog/power-bi-cascading-slicers/)
-
-- [Hierarchy Slicer](https://hatfullofdata.blog/power-bi-hierarchy-slicer/)
-
-- [Sync Slicers](https://hatfullofdata.blog/power-bi-introducing-sync-slicers/)
-
-- [Clear all Slicers Button](https://hatfullofdata.blog/power-bi-clear-all-slicers-button/)
-
-- Relative Date Slicer
+{{< slicer-series current="2" >}}
 
 ### Introduction
 
