@@ -14,5 +14,15 @@ hasCJKLanguage = false
 # Change it to your Disqus shortname before using
 disqusShortname = "hugo-theme-stack"
 
+[services]
+    [services.googleAnalytics]
+        id = "G-C9JBCB1TNG"
+
 [pagination]
     pagerSize = 10
+
+[params]
+    [[params.social]]
+        url   = "https://linkedin.com/"
+        icon  = "linkedin-in" # icon name without the 'fa-'
+        icon_pack = "fab"
