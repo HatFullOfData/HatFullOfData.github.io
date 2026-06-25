@@ -1,10 +1,10 @@
 ---
 title: Dumbo Category
-description: Random category description
+description: 
 image:
 
 # Badge style
 style:
-    background: "#2a9d8f"
-    color: "#fff"
+    background: "#76a1c3"
+    color: "#111"
 ---
