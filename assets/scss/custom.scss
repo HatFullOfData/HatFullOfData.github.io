@@ -53,20 +53,21 @@
 /* Category cards: Remove overlay and fix text/image layout. */
 .subsection-list .article-list--tile article.has-image .article-details {
     background-color: transparent;
+    justify-content: flex-start;
+    flex-direction: column;
 }
 
 .subsection-list .article-list--tile article.has-image .article-title {
     color: #000;
 }
 
-.subsection-list .article-list--tile article .article-image {
+.subsection-list .article-list--tile article.has-image .article-image {
     position: relative;
-    height: 70%;
+    height: 120px;
     width: 100%;
 }
 
-.subsection-list .article-list--tile article .article-details {
-    position: relative;
-    height: auto;
-    padding: var(--spacing-sm);
+.subsection-list .article-list--tile article.has-image .article-image img {
+    height: 120px;
+    object-fit: contain;
 }
