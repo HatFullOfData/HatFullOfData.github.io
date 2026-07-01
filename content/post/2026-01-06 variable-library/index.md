@@ -12,21 +12,7 @@ categories:
 
 This post to help you get started creating a variable library. When multiple dataflows, notebooks and pipelines are using the same details to perform tasks it helps if those values are stored in one place. When you move to use deployment pipelines and those values change from your development workspace to your test workspace to your prod, it helps if that is easy. The solution in Microsoft Fabric is a Variable Library to store those common values.
 
-## Using Variable Libraries
-
-Variable libraries should be part of every project. This post is part of my series to help get you started creating the library and then using the variables and finally seeing your hardwork pay back when it comes to deployment pipelines.
-
-- [Getting Started with Variable Libraries](https://hatfullofdata.blog/variable-library/)
-
-- [Variable Values in a Fabric Notebook](https://hatfullofdata.blog/accessing-a-variable-library-in-a-notebook/)
-
-- [Variable Values in a Data Pipeline](https://hatfullofdata.blog/using-a-variable-library-in-a-data-pipeline/)
-
-- [Variable Values in Lakehouse Shortcuts](https://hatfullofdata.blog/using-a-variable-library-in-lakehouse-shortcuts/)
-
-- [Variable Values in Dataflows](https://hatfullofdata.blog/using-variable-library-in-a-dataflow/)
-
-- Variable Libraries in Deployment Pipelines
+{{< variablelibrary-series current="1" >}}
 
 ## Create a Variable Library
 
