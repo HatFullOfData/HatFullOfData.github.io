@@ -8,7 +8,6 @@ image: cover.png
 categories:
     - Power BI
     - SVG
-    - Updates
 ---
 
 {{< svg-series current="6" >}}

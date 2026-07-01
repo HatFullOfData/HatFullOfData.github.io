@@ -6,9 +6,8 @@ date: 2019-09-09 09:38:06+0000
 lastmod: 2025-02-14 13:46:15+0000
 categories:
     - AI Builder
-    - Flow
-    - How to
-    - PowerApps
+    - Power Automate
+    - Power Apps
 ---
 
 This series of posts is to introduce using an AI Builder Object detect model with Power Automate to get and save predictions and then display these predictions over the images in a Power App.

@@ -6,7 +6,6 @@ date: 2023-07-11 16:05:12+0000
 lastmod: 2025-02-14 11:15:48+0000
 image: cover.png
 categories:
-    - Flow
     - Power Automate
     - Power BI
 ---

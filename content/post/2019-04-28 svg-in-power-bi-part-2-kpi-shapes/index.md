@@ -5,8 +5,6 @@ slug: svg-in-power-bi-part-2-kpi-shapes
 date: 2019-04-28 21:59:41+0000
 lastmod: 2025-02-14 13:12:45+0000
 categories:
-    - How to
-    - Intermediate
     - Power BI
     - SVG
 ---

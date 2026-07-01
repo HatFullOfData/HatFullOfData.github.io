@@ -6,7 +6,6 @@ date: 2019-04-29 22:30:35+0000
 lastmod: 2025-02-14 13:11:05+0000
 image: cover.png
 categories:
-    - Intermediate
     - Power BI
     - SVG
 ---

@@ -6,7 +6,6 @@ date: 2019-07-25 09:54:02+0000
 lastmod: 2025-02-14 12:53:36+0000
 image: Tasks_00-1.png
 categories:
-    - Intermediate
     - Power BI
 ---
 

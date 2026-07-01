@@ -6,7 +6,6 @@ date: 2022-07-14 12:34:07+0000
 lastmod: 2025-02-14 10:31:00+0000
 image: cover.jpg
 categories:
-    - Flow
     - Power Automate
 ---
 

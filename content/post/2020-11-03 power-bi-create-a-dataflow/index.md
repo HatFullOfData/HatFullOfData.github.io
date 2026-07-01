@@ -6,7 +6,6 @@ date: 2020-11-03 14:18:01+0000
 lastmod: 2025-02-14 12:12:16+0000
 image: cover.png
 categories:
-    - How to
     - Power BI
 ---
 

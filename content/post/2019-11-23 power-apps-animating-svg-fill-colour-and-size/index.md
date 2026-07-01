@@ -5,7 +5,7 @@ slug: power-apps-animating-svg-fill-colour-and-size
 date: 2019-11-23 23:54:27+0000
 lastmod: 2025-02-14 13:41:06+0000
 categories:
-    - PowerApps
+    - Power Apps
     - SVG
 ---
 

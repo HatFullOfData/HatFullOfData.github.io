@@ -8,7 +8,7 @@ image: cover.png
 categories:
     - Dataverse
     - Power BI
-    - PowerApps
+    - Power Apps
 ---
 
 ## Intro – Add a Dashboard

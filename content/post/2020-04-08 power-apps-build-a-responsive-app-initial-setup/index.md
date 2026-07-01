@@ -5,7 +5,7 @@ slug: power-apps-build-a-responsive-app-initial-setup
 date: 2020-04-08 16:09:24+0000
 lastmod: 2025-02-14 13:24:17+0000
 categories:
-    - PowerApps
+    - Power Apps
 ---
 
 A responsive app resizes the app based on the browser window and moves parts of the app to make the app work in different screen sizes. The most common sizes to handle are monitor, tablet and mobile phone.

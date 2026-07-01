@@ -7,8 +7,6 @@ lastmod: 2025-02-14 12:29:55+0000
 image: cover.png
 categories:
     - Power BI
-    - Updates
-    - YouTube
 ---
 
 In the May 2020 Power BI Desktop update they introduced the idea of allowing a reader of a report to personalize visuals and bookmarking these changes. This post walks through how to enable it for a report and how to enable and disable for each visual.

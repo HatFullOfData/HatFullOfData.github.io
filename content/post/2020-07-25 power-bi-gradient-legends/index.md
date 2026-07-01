@@ -6,10 +6,7 @@ date: 2020-07-25 21:11:21+0000
 lastmod: 2025-02-14 12:26:26+0000
 image: cover.png
 categories:
-    - How to
     - Power BI
-    - Updates
-    - YouTube
 ---
 
 ### Introduction

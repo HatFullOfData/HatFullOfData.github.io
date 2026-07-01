@@ -6,6 +6,7 @@ date: 2022-11-22 09:24:52+0000
 lastmod: 2025-02-14 11:40:54+0000
 categories:
     - Power BI
+    - Google Analytics
 ---
 
 When I started my WordPress blog I added a Google Analytics plugin. This allows me to track visitors to my blog. So now I have a few years worth of data to load into a Power BI report. Power BI has a Google Analytics connector. This blog post is to walk through building a simple report on my blog visitors.

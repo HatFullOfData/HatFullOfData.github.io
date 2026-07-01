@@ -5,7 +5,7 @@ slug: top-10-in-2020
 date: 2020-12-31 16:45:51+0000
 lastmod: 2025-02-12 11:13:23+0000
 categories:
-    - YouTube
+    - Community
 ---
 
 Throughout 2020 I have posted blog posts and videos covering mostly Power BI topics with some Power Apps and Power Automate posts. For me its made me learn topics properly and given me a buzz watching numbers rise.

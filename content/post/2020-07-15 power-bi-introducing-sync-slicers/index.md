@@ -6,9 +6,7 @@ date: 2020-07-15 08:50:19+0000
 lastmod: 2025-02-14 12:28:16+0000
 image: cover.png
 categories:
-    - How to
     - Power BI
-    - YouTube
 ---
 
 How many reports have duplicate slicers across the pages and the report reader has to re-apply the slicer values on each page? This post covers what the sync slicers feature in Power BI is.

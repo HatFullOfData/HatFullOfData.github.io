@@ -7,7 +7,6 @@ lastmod: 2025-02-14 12:10:10+0000
 image: cover.png
 categories:
     - Dataflow
-    - How to
     - Power BI
 ---
 

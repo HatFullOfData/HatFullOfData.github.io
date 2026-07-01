@@ -6,10 +6,8 @@ date: 2020-05-31 12:57:14+0000
 lastmod: 2025-02-14 13:21:44+0000
 image: cover.png
 categories:
-    - How to
     - Power BI
-    - PowerApps
-    - YouTube
+    - Power Apps
 ---
 
 This post covers how to embed a Power BI chart from a published report into a Power App, handling a tile that doesn’t appear and then filtering the embedded chart.

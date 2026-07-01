@@ -6,9 +6,7 @@ date: 2020-08-01 13:47:21+0000
 lastmod: 2025-02-14 12:24:09+0000
 image: cover.png
 categories:
-    - How to
     - Power BI
-    - YouTube
 ---
 
 Connecting to an existing dataset is highly recommended if the data is the same. In order to encourage report builders to select the right datasets you can endorse a dataset as promoted or certified.

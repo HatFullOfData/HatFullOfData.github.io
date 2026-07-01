@@ -5,7 +5,6 @@ slug: power-bi-hierarchy-slicer
 date: 2020-03-25 19:45:03+0000
 lastmod: 2025-02-14 12:35:47+0000
 categories:
-    - How to
     - Power BI
 ---
 

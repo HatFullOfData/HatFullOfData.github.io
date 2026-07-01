@@ -5,7 +5,7 @@ slug: power-apps-responsive-app-dynamic-containers
 date: 2020-04-09 16:00:16+0000
 lastmod: 2025-02-14 13:23:40+0000
 categories:
-    - PowerApps
+    - Power Apps
 ---
 
 In this post we will use dynamic containers to arrange out content so it moves to the planned location at the different screen sizes. We will need to calculate the screen size and then use it to position and size the containers.

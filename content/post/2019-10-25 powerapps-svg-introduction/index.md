@@ -5,7 +5,7 @@ slug: powerapps-svg-introduction
 date: 2019-10-25 08:23:17+0000
 lastmod: 2025-02-14 13:44:06+0000
 categories:
-    - PowerApps
+    - Power Apps
     - SVG
 ---
 

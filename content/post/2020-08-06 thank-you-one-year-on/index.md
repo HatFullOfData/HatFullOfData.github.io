@@ -5,7 +5,7 @@ slug: thank-you-one-year-on
 date: 2020-08-06 10:39:15+0000
 lastmod: 2025-02-12 11:33:22+0000
 categories:
-    - YouTube
+    - Community
 ---
 
 At the end of July 2019 I decided to posting more regularly to my own blog and on the 5th August 2019 I posted my first video on YouTube. This post is to say thank you to anyone reading this and any other post or watching a video.

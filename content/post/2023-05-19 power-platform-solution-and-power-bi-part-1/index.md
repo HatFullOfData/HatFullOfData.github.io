@@ -8,7 +8,7 @@ image: cover.png
 categories:
     - Dataverse
     - Power BI
-    - PowerApps
+    - Power Apps
 ---
 
 Power BI reports can be an important part of a Power Platform solution. Microsoft has added a new feature to Power Platform Solutions to add a Power BI dataset and report. Then you can add the Power BI report in as a dashboard or as an embedded report in a form and add context filtering. Part 1 will cover adding the Power BI dataset and report to the solution.

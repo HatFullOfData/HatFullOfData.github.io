@@ -6,6 +6,7 @@ date: 2025-06-11 15:18:18+0000
 lastmod: 2025-06-11 15:18:21+0000
 categories:
     - Power BI
+	- TMDL
 ---
 
 TMDL is short for Tabular Model Definition Language in Power BI desktop. It allows us to script definitions and changes to a Power BI model. In this post I use TMDL to quickly create a calendar for a report that includes column options such as sort by, formatting and hidden columns.

@@ -5,7 +5,6 @@ slug: power-query-handwritten-function
 date: 2019-09-27 17:50:43+0000
 lastmod: 2025-02-13 12:31:52+0000
 categories:
-    - Intermediate
     - M
     - Power BI
     - Power Query

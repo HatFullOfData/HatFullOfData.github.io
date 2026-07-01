@@ -5,9 +5,7 @@ slug: powerapps-function-component
 date: 2019-10-26 18:24:41+0000
 lastmod: 2025-02-14 13:42:58+0000
 categories:
-    - Components
-    - How to
-    - PowerApps
+    - Power Apps
     - SVG
 ---
 

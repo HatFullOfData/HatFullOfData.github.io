@@ -7,7 +7,6 @@ lastmod: 2025-02-14 11:28:41+0000
 image: cover.png
 categories:
     - Power BI
-    - YouTube
 ---
 
 So you’ve found Power BI, you’ve created amazing reports that answer every question your business has. Yet when you look at the stats your reports are not being looked at. People are still returning to the old spreadsheets and creating their own pie charts. What has gone wrong with your Power BI adoption?

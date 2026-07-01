@@ -5,8 +5,7 @@ slug: microsoft-flow-creating-adaptive-cards
 date: 2019-08-07 07:09:31+0000
 lastmod: 2025-02-14 10:42:57+0000
 categories:
-    - Flow
-    - How to
+    - Power Automate
 ---
 
 This post is to support a video posted on YouTube regarding creating adaptive cards for Microsoft Teams using Power Automate.

@@ -7,7 +7,6 @@ lastmod: 2025-02-14 12:19:28+0000
 image: cover.png
 categories:
     - Power BI
-    - Updates
 ---
 
 Q&A is a great tool for report readers to ask questions regarding the data behind the report. The natural language interpretation is improving all the time and can be improved by using Q&A synonyms. The July 2020 Power BI update added a new way to add synonyms to a report.

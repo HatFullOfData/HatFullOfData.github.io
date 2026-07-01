@@ -6,7 +6,6 @@ date: 2019-06-13 19:26:40+0000
 lastmod: 2025-02-14 13:03:20+0000
 categories:
     - Power BI
-    - Updates
 ---
 
 The June 2019 update for Power BI included a few updates for conditional formatting, for visual backgrounds, titles, cards and gauges. This post is my take on the updates and on how I prefer to do the logic behind choosing a colour.

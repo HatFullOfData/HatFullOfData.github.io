@@ -6,9 +6,7 @@ date: 2020-10-12 14:50:28+0000
 lastmod: 2025-02-14 12:13:56+0000
 image: cover.png
 categories:
-    - How to
     - Power BI
-    - YouTube
 ---
 
 This is a post to support my session at the Reactor on 12th October 2020. The session was aimed at newcomers to Power BI and the AI visuals. Below is a link to the video on Reactor’s YouTube channel

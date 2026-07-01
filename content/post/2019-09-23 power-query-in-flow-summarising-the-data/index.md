@@ -5,7 +5,7 @@ slug: power-query-in-flow-summarising-the-data
 date: 2019-09-23 08:33:01+0000
 lastmod: 2025-02-13 12:33:08+0000
 categories:
-    - Flow
+    - Power Automate
     - Power Query
 ---
 

@@ -6,7 +6,7 @@ date: 2026-02-11 17:21:24+0000
 lastmod: 2026-02-11 17:21:27+0000
 image: cover.png
 categories:
-    - Dataflows
+    - Dataflow
     - Microsoft Fabric
     - Variable Libraries
 tags:

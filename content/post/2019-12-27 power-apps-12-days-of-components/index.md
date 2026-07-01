@@ -5,10 +5,8 @@ slug: power-apps-12-days-of-components
 date: 2019-12-27 23:37:45+0000
 lastmod: 2025-02-14 13:27:07+0000
 categories:
-    - Components
-    - PowerApps
+    - Power Apps
     - SVG
-    - Uncategorized
 ---
 
 Madly I decided I was going to do 12 videos on Power App components and they have had a heavy focus using SVG. This post is to provide the code and resources for each video.

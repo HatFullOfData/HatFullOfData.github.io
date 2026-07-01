@@ -5,7 +5,7 @@ slug: power-apps-build-a-responsive-app-planning
 date: 2020-04-08 15:54:03+0000
 lastmod: 2025-02-14 13:25:22+0000
 categories:
-    - PowerApps
+    - Power Apps
 ---
 
 ### Introduction
