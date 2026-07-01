@@ -50,7 +50,23 @@
     display: block;
 }
 
-/* Remove overlay color from category cards with images. */
+/* Category cards: Remove overlay and fix text/image layout. */
 .subsection-list .article-list--tile article.has-image .article-details {
     background-color: transparent;
+}
+
+.subsection-list .article-list--tile article.has-image .article-title {
+    color: #000;
+}
+
+.subsection-list .article-list--tile article .article-image {
+    position: relative;
+    height: 70%;
+    width: 100%;
+}
+
+.subsection-list .article-list--tile article .article-details {
+    position: relative;
+    height: auto;
+    padding: var(--spacing-sm);
 }
