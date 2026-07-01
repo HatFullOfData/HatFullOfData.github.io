@@ -51,20 +51,27 @@
 }
 
 /* Category cards: Remove overlay and fix text/image layout. */
+.subsection-list .article-list--tile article.has-image {
+    background-color: var(--card-background) !important;
+}
+
 .subsection-list .article-list--tile article.has-image .article-details {
-    background-color: transparent;
+    background-color: transparent !important;
     justify-content: flex-start;
     flex-direction: column;
+    padding: var(--spacing-sm);
 }
 
 .subsection-list .article-list--tile article.has-image .article-title {
-    color: #000;
+    color: var(--card-text-color-main) !important;
+    margin-top: var(--spacing-xs);
 }
 
 .subsection-list .article-list--tile article.has-image .article-image {
     position: relative;
     height: 120px;
     width: 100%;
+    flex-shrink: 0;
 }
 
 .subsection-list .article-list--tile article.has-image .article-image img {
