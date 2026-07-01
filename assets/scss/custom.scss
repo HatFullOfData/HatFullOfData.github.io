@@ -66,9 +66,11 @@
     left: 0;
     height: 110px;
     width: 100%;
+    background-color: transparent;
 }
 
 .subsection-list .article-list--tile article.has-image .article-image img {
     height: 110px;
     object-fit: contain;
+    background-color: transparent;
 }
