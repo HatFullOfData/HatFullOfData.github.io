@@ -1,7 +1,7 @@
 ---
 title: Community
 description: Community highlights, events, and collaborations.
-image:
+image: community.svg
 
 # Badge style
 style:
