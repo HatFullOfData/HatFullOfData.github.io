@@ -1,7 +1,7 @@
 ---
 title: Power BI
 description: Power BI modeling, visuals, and governance.
-image:
+image: power_bi_48_color.svg
 
 # Badge style
 style:

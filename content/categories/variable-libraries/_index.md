@@ -1,7 +1,7 @@
 ---
 title: Variable Libraries
 description: Variable library usage in notebook workflows.
-image:
+image: variable_library_48_item.svg
 
 # Badge style
 style:
