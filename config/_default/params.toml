@@ -29,13 +29,14 @@ SortBy              = "default"
 
     [article.license]
         enabled = true
-        default = "© 2026 Laura Graham-Brown"
+        default = "2026 Laura Graham-Brown"
 
 [widgets]
     homepage = [
         { type = "search" },
-        { type = "archives", params = { limit = 5 } },
         { type = "categories", params = { limit = 10 } },
+        { type = "archives", params = { limit = 10 } },
+
     ]
     page = [{ type = "toc" }]
 
