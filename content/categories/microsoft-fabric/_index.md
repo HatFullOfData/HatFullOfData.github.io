@@ -1,7 +1,7 @@
 ---
 title: Microsoft Fabric
 description: Microsoft Fabric notebooks, lakehouse, and pipelines.
-image:
+image: fabric_32_color.png
 
 # Badge style
 style:
