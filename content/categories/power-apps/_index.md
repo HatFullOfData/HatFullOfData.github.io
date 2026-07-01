@@ -1,7 +1,7 @@
 ---
 title: Power Apps
 description: Power Apps patterns and implementation guides.
-image:
+image:PowerApps.svg
 
 # Badge style
 style:
