@@ -7,7 +7,6 @@ lastmod: 2025-02-14 10:42:57+0000
 categories:
     - Flow
     - How to
-    - Introduction
 ---
 
 This post is to support a video posted on YouTube regarding creating adaptive cards for Microsoft Teams using Power Automate.

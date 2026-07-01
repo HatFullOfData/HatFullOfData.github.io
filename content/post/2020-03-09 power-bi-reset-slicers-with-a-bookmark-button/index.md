@@ -5,7 +5,6 @@ slug: power-bi-reset-slicers-with-a-bookmark-button
 date: 2020-03-09 12:11:00+0000
 lastmod: 2025-02-14 12:39:07+0000
 categories:
-    - Introduction
     - Power BI
 ---
 

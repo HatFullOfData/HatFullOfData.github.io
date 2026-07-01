@@ -6,7 +6,6 @@ date: 2020-12-14 14:58:39+0000
 lastmod: 2025-02-14 12:02:21+0000
 image: cover.jpg
 categories:
-    - Introduction
     - Power BI
 ---
 

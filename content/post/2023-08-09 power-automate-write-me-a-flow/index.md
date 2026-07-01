@@ -6,7 +6,6 @@ date: 2023-08-09 16:44:09+0000
 lastmod: 2025-02-14 10:25:02+0000
 image: cover.png
 categories:
-    - Introduction
     - Power Automate
 ---
 
