@@ -1,7 +1,7 @@
 ---
 title: Azure
 description: Guides and notes for Azure services.
-image:
+image: Azure.svg
 
 # Badge style
 style:

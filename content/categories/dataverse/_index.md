@@ -1,7 +1,7 @@
 ---
 title: Dataverse
 description: Working with Dataverse data and integrations.
-image:
+image: Dataverse_scalable.svg
 
 # Badge style
 style:

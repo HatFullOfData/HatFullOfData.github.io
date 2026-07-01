@@ -1,7 +1,7 @@
 ---
 title: Charticulator
 description: Charticulator resources and custom chart ideas.
-image:
+image: Charticulator Icon.svg
 
 # Badge style
 style:

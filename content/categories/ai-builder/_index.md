@@ -1,7 +1,7 @@
 ---
 title: AI Builder
 description: AI Builder tips and model examples.
-image:
+image: AIBuilder_scalable.svg
 
 # Badge style
 style:
