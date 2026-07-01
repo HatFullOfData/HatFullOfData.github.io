@@ -49,3 +49,8 @@
     background-color: #fff;
     display: block;
 }
+
+/* Remove overlay color from category cards with images. */
+.subsection-list .article-list--tile article.has-image .article-details {
+    background-color: transparent;
+}
