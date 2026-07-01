@@ -5,7 +5,7 @@ slug: power-query-in-microsoft-flow-1
 date: 2019-08-26 21:34:42+0000
 lastmod: 2025-02-13 12:42:58+0000
 categories:
-    - Flow
+    - POwer Automate
     - Power Query
 ---
 

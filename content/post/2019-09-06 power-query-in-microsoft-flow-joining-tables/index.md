@@ -5,8 +5,8 @@ slug: power-query-in-microsoft-flow-joining-tables
 date: 2019-09-06 20:00:01+0000
 lastmod: 2025-02-13 12:38:14+0000
 categories:
-    - Flow
     - Power Query
+    - Power Automate
 ---
 
 This is the second post in my series regarding Power Query in Flow. In this post I will introduce one of the most powerful parts of Power Query, joining tables. Its the vlookup part of Power Query.
