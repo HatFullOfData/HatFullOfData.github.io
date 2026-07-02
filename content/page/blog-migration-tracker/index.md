@@ -5,7 +5,7 @@ slug: blog-migration-tracker
 date: 2026-06-21 00:00:00+0000
 menu:
     main:
-        weight: 2
+        weight: 5
         params: 
             icon: list-check
 ---

@@ -8,10 +8,7 @@
 #newtab = true
 
 [[main]]
-    identifier = "blog-migration-tracker"
-    name       = "Migration Tracker"
-    url        = "/blog-migration-tracker/"
-    weight     = 50
+
 
 [[social]]
     identifier = "github"
