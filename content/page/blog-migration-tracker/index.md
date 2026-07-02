@@ -3,6 +3,11 @@ title: Blog Migration Tracker
 description: Track migration progress from WordPress to Hugo.
 slug: blog-migration-tracker
 date: 2026-06-21 00:00:00+0000
+menu:
+    main:
+        weight: 2
+        params: 
+            icon: list-check
 ---
 
 Use this table to track migration progress for each blog page.
