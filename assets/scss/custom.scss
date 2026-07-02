@@ -2,6 +2,12 @@
     You can add your own custom styles here.
 */
 
+/* Make site name bigger */
+.sidebar header .site-name {
+    font-size: 3rem;
+}
+
+
 /* Remove Stack theme's left accent bar on article headings. */
 .article-content h1,
 .article-content h2,
@@ -25,7 +31,7 @@
 
 /* Keep front-page card image boxes fixed while avoiding image cropping. */
 .article-list article .article-image {
-    background-color: #fff;
+    background-color: transparent;
 }
 
 .article-list article .article-image img {
@@ -33,12 +39,12 @@
     height: var(--article-image-height);
     object-fit: contain;
     object-position: center;
-    background-color: #fff;
+    background-color: transparent;
     display: block;
 }
 
 .article-list--tile article .article-image {
-    background-color: #fff;
+    background-color: transparent;
 }
 
 .article-list--tile article .article-image img {
@@ -46,8 +52,16 @@
     height: 100%;
     object-fit: contain;
     object-position: center;
-    background-color: #fff;
+    background-color: transparent;
     display: block;
+}
+
+/* Light mode only: Add white background to article images for contrast */
+[data-scheme="light"] .article-list article .article-image,
+[data-scheme="light"] .article-list article .article-image img,
+[data-scheme="light"] .article-list--tile article .article-image,
+[data-scheme="light"] .article-list--tile article .article-image img {
+    background-color: #fff;
 }
 
 /* Category cards: Remove overlay and fix text/image layout. */

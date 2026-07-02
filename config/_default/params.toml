@@ -18,9 +18,8 @@ SortBy              = "default"
     lastUpdated = ":date_full"
 
 [sidebar]
-    emoji    = "🍥"
     subtitle = "Laura GB writes notes on how things work with data on the Microsoft stack."
-    avatar   = "img/avatar.png"
+
 
 [article]
     headingAnchor = false

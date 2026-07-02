@@ -17,4 +17,23 @@
 
     [social.params]
         icon = "brand-github"
+        newtab = true
+
+[[social]]
+    identifier = "linkedin"
+    name       = "LinkedIn"
+    url        = "https://www.linkedin.com/in/lauragb/"
+
+    [social.params]
+        icon = "brand-linkedin"
+        newtab = true
+
+[[social]]
+    identifier = "youtube"
+    name       = "YouTube"
+    url        = "https://www.youtube.com/c/hatfullofdata123"
+
+    [social.params]
+        icon = "brand-youtube"
+        newtab = true
 
