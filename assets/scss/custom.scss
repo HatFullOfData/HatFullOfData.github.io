@@ -89,9 +89,8 @@
     background-color: transparent;
 }
 
-/* Category and post image colors: Invert dark icons to light in dark mode */
-[data-scheme="dark"] .subsection-list .article-list--tile article.has-image .article-image img,
-[data-scheme="dark"] .article-list article .article-image img,
-[data-scheme="dark"] .article-list--tile article .article-image img {
+/* Invert specific category icons in dark mode */
+[data-scheme="dark"] .subsection-list img[src*="document_multiple_dax_20_regular"],
+[data-scheme="dark"] .subsection-list img[src*="document_tmdl_20_regular"] {
     filter: invert(1) brightness(0.9);
 }
