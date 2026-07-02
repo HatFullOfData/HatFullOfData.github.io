@@ -4,6 +4,7 @@ description: The June 2019 update for Power BI included a few updates for condit
 slug: power-bi-conditional-formatting-update
 date: 2019-06-13 19:26:40+0000
 lastmod: 2025-02-14 13:03:20+0000
+image: cover.png
 categories:
     - Power BI
 ---
