@@ -16,5 +16,7 @@ Looking forward to 2021, creating new content and collaborating with the amazing
 
 ## My 2020 in Content Views
 
+<iframe title="Stats Report" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiMDlkOWRkZWEtYzJlZS00NmFkLWFhYjUtNjAxY2M4ZjQ0YjhmIiwidCI6ImJlMWNhYzEzLTY1NzUtNGY4ZS1hNDBkLWZjYzJkODlkYTY0ZiIsImMiOjh9" frameborder="0" allowFullScreen="true"></iframe>
+
 For those who are curious the report above is based off data downloaded from YouTube analytics and Google analytics. No live connects, I’m on holiday 🙂
 
