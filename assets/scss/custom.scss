@@ -94,3 +94,57 @@
 [data-scheme="dark"] .subsection-list img[src*="document_tmdl_20_regular"] {
     filter: invert(1) brightness(0.9);
 }
+
+/* Alert Boxes Layout matching Theme Stack */
+.article-content blockquote.markdown-alert,
+.article-content blockquote.alert {
+    background-color: var(--card-background); /* Automatically shifts with Light/Dark mode */
+    border-radius: 4px;
+    padding: 1.25rem;
+    margin: 1.5rem 0;
+    box-shadow: var(--shadow-l1);
+}
+
+.article-content blockquote.markdown-alert .markdown-alert-title,
+.article-content blockquote.markdown-alert .alert-title,
+.article-content blockquote.alert .markdown-alert-title,
+.article-content blockquote.alert .alert-title {
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.article-content blockquote.markdown-alert .markdown-alert-content p:last-child,
+.article-content blockquote.alert .alert-body p:last-child {
+    margin-bottom: 0;
+}
+
+/* Instructions - Blue */
+.article-content blockquote.markdown-alert-instructions,
+.article-content blockquote.alert-instructions {
+    border-left: 4px solid #00a8ff !important;
+}
+
+.article-content blockquote.markdown-alert-instructions .markdown-alert-title,
+.article-content blockquote.markdown-alert-instructions .alert-title,
+.article-content blockquote.alert-instructions .markdown-alert-title,
+.article-content blockquote.alert-instructions .alert-title {
+    color: #00a8ff !important;
+}
+
+/* Tip - Green */
+.article-content blockquote.markdown-alert-tip,
+.article-content blockquote.alert-tip {
+    border-left: 4px solid #28a745 !important;
+}
+
+.article-content blockquote.markdown-alert-tip .markdown-alert-title,
+.article-content blockquote.markdown-alert-tip .alert-title,
+.article-content blockquote.alert-tip .markdown-alert-title,
+.article-content blockquote.alert-tip .alert-title {
+    color: #28a745 !important;
+}
+

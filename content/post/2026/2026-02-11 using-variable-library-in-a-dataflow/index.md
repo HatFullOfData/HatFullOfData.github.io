@@ -39,21 +39,18 @@ So for my example the string will be **“$(/\*\*/Finance Variables/Limit)”**.
 
 ![snapshots of getting the variable value from variable library in a dataflow](image-1.png)
 
-::: info Instructions
-1. On the Home ribbon, expand Get data and select Blank query.
-1. Rename the query to DataRows. 
-1. Then in the formula bar enter in the code below. 
-1. This will return the current value of the variable in the library. 
-
-:::
+> [!NOTE]Instructions
+> 1. On the Home ribbon, expand Get data and select Blank query.
+> 1. Rename the query to DataRows. 
+> 1. Then in the formula bar enter in the code below. 
+> 1. This will return the current value of the variable in the library. 
 
 ```xml
 Variable.ValueOrDefault("$(/**/Finance Variables/Limit)",2)
 ```
 
-::: tip Note
-The documentation as of publishing this post states it won’t work hence we use the OrDefault function and in this example the default is 2. It does work though, and we can see the answer 8 comes through.
-:::
+>[!TIP]
+>The documentation as of publishing this post states it won’t work hence we use the OrDefault function and in this example the default is 2. It does work though, and we can see the answer 8 comes through.
 
 
 

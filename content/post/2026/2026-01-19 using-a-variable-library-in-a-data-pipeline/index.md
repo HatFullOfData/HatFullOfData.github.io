@@ -9,25 +9,13 @@ categories:
     - Data Pipeline
     - Microsoft Fabric
     - Variable Libraries
+tags:
+    - "2025-2026"
 ---
 
 You’ve set up your variable pipeline with WorkspaceIDs and LakehouseIDs etc etc Now you want to use that variable library in a data pipeline so we can use the common values and they will behave in a deployment pipeline.
 
-## Using Variable Libraries
-
-Variable libraries should be part of every project. This post is part of my series to help get you started creating the library and then using the variables and finally seeing your hardwork pay back when it comes to deployment pipelines.
-
-- [Getting Started with Variable Libraries](https://hatfullofdata.blog/variable-library/)
-
-- [Variable Values in a Fabric Notebook](https://hatfullofdata.blog/accessing-a-variable-library-in-a-notebook/)
-
-- [Variable Values in a Data Pipeline](https://hatfullofdata.blog/using-a-variable-library-in-a-data-pipeline/)
-
-- [Variable Values in Lakehouse Shortcuts](https://hatfullofdata.blog/using-a-variable-library-in-lakehouse-shortcuts/)
-
-- [Variable Values in Dataflows](https://hatfullofdata.blog/using-variable-library-in-a-dataflow/)
-
-- Variable Libraries in Deployment Pipelines
+{{< variablelibrary-series current="3" >}}
 
 ## Adding the Variables to the Data Pipeline
 
@@ -43,7 +31,7 @@ Yes you have to add each variable in turn, no multi-select. You can rename the v
 
 You can use the variable values anywhere you can use Dynamic Content. Click on the Add Dynamic content link to open the Pipeline expression builder. Click on the three dots to select Library variables. Click on the variable value you want to use to enter in the formula into the expression. Click OK to put the formula back into the box.
 
-![](Variable-Library-004.png)
+![screenshot of adding dynamic content to get Variable Values](Variable-Library-004.png)
 
 You can use the variable value inside any functions if required.
 
@@ -113,5 +101,5 @@ I’d also really like it if in lineage view you could see which artifacts are u
 
 ## Resources
 
-[https://learn.microsoft.com/en-us/fabric/data-factory/variable-library-integration-with-data-pipelines](https://learn.microsoft.com/en-us/fabric/data-factory/variable-library-integration-with-data-pipelines)
+[https://learn.microsoft.com/en-us/fabric/data-factory/variable-library-integration-with-data-pipelines](https://learn.microsoft.com/en-us/fabric/data-factory/variable-library-integration-with-data-pipelines?wt.mc_id=DX-MVP-5003563)
 

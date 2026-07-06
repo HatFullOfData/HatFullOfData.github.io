@@ -8,6 +8,8 @@ image: cover.png
 categories:
     - Microsoft Fabric
     - Variable Libraries
+tags:
+    - "2025-2026"
 ---
 
 Lakehouse shortcuts are a popular addition to the Fabric set of tools to access data easily without copying it. Using a variable library in lakehouse shortcuts means its easy to point shortcuts to an alternative location. This great for ALM using development, test and production workspaces.
