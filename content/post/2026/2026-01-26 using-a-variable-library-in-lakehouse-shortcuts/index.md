@@ -12,21 +12,7 @@ categories:
 
 Lakehouse shortcuts are a popular addition to the Fabric set of tools to access data easily without copying it. Using a variable library in lakehouse shortcuts means its easy to point shortcuts to an alternative location. This great for ALM using development, test and production workspaces.
 
-## Using Variable Libraries
-
-Variable libraries should be part of every project. This post is part of my series to help get you started creating the library and then using the variables and finally seeing your hardwork pay back when it comes to deployment pipelines.
-
-- [Getting Started with Variable Libraries](https://hatfullofdata.blog/variable-library/)
-
-- [Variable Values in a Fabric Notebook](https://hatfullofdata.blog/accessing-a-variable-library-in-a-notebook/)
-
-- [Variable Values in a Data Pipeline](https://hatfullofdata.blog/using-a-variable-library-in-a-data-pipeline/)
-
-- [Variable Values in Lakehouse Shortcuts](https://hatfullofdata.blog/using-a-variable-library-in-lakehouse-shortcuts/)
-
-- [Variable Values in Dataflows](https://hatfullofdata.blog/using-variable-library-in-a-dataflow/)
-
-- Variable Libraries in Deployment Pipelines
+{{< variablelibrary-series current="4" >}}
 
 ## Setting Up the Shortcuts
 
@@ -40,17 +26,17 @@ According to the documentation using the rest API also does not allow for the us
 
 If we select the short cut and click on the 3 dots to expand the menu we can then click on Manage Shortcut. This opens a pan that shows the values behind the shortcut. The values that be populated from a variable library have a Variable drop down, so we can see Target workspace, Target item and Target path.
 
-![](image-13.png)
+![screenshot of the exploere and manage shortcut panes](image-13.png)
 
 I only want to populate the workspace and item guids, so I set up a those variables in my variable library. The variables must be set up as strings, they might look like guids but the shortcut demands they are strings. I set the default values to match the current values. When we apply each variables it will check the current values work so it only works if you use the current values.
 
-![](image-15.png)
+![screenshot of the variable library](image-15.png)
 
 ## Applying the Variables
 
 Back in the Manage Shortcut pane click on the Variable below the current value to expand that section. Then click on Select variable to open the Select variable dialog. Click on the correct variable and then click Select Variable. This will update the value to come from the variable.
 
-![](image-16.png)
+![screenshots of clicking on select variable and selecting the right one](image-16.png)
 
 Once you have pointed it to the variable there does not appear to be a method to change back to a hard coded value.
 
@@ -64,7 +50,7 @@ Open the lakehouse and stay in the lakehouse view. On the ribbon the last button
 
 If one of the shortcut fails in the update please be aware the successful ones will have updated. You do get a notification and an error message that tries to help.
 
-![](2026-01-26_16-58-29.png)
+![screenshots of updatings the variables](2026-01-26_16-58-29.png)
 
 ## Conclusion on Variable Library in Lakehouse Shortcuts
 

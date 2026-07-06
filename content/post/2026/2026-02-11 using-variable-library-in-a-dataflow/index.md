@@ -17,21 +17,7 @@ One of the popular low-code tools within Microsoft Fabric is the Gen2 Dataflow. 
 
 I will confess the first time I tried these I could not get them to work till I read the instructions correctly. So they do work just understand the limitations!
 
-## Using Variable Libraries
-
-Variable libraries should be part of every project. This post is part of my series to help get you started creating the library and then using the variables and finally seeing your hard work pay back when it comes to deployment pipelines.
-
-- [Getting Started with Variable Libraries](https://hatfullofdata.blog/variable-library/)
-
-- [Variable Values in a Fabric Notebook](https://hatfullofdata.blog/accessing-a-variable-library-in-a-notebook/)
-
-- [Variable Values in a Data Pipeline](https://hatfullofdata.blog/using-a-variable-library-in-a-data-pipeline/)
-
-- [Variable Values in Lakehouse Shortcuts](https://hatfullofdata.blog/using-a-variable-library-in-lakehouse-shortcuts/)
-
-- [Variable Values in Dataflows](https://hatfullofdata.blog/using-variable-library-in-a-dataflow/)
-
-- Variable Libraries in Deployment Pipelines
+{{< variablelibrary-series current="5" >}}
 
 ## Scenario
 
@@ -45,7 +31,7 @@ I create the dataflow and then using Keep Rows, I select Keep top rows. In the n
 
 The next step is to get the value from the variable library into the dataflow. We are going to use a new Power Query function for this called **Variable.ValueOrDefault**. For the first parameter of this function, you need the Variable Library name and a Variable name. Then you combine together in a string.
 
-```xml
+```
 "$(/**/<Library Name>/<Variable Name>)"
 ```
 
@@ -53,17 +39,29 @@ So for my example the string will be **“$(/\*\*/Finance Variables/Limit)”**.
 
 ![snapshots of getting the variable value from variable library in a dataflow](image-1.png)
 
-On the Home ribbon, expand Get data and select Blank query. I renamed the query to DataRows. Then in the formula bar enter in the code below. This will return the current value of the variable in the library. The documentation as of publishing this post states it won’t work hence we use the OrDefault function and in this example the default is 2. It does work though, and we can see the answer 8 comes through.
+::: info Instructions
+1. On the Home ribbon, expand Get data and select Blank query.
+1. Rename the query to DataRows. 
+1. Then in the formula bar enter in the code below. 
+1. This will return the current value of the variable in the library. 
+
+:::
 
 ```xml
 Variable.ValueOrDefault("$(/**/Finance Variables/Limit)",2)
 ```
 
+::: tip Note
+The documentation as of publishing this post states it won’t work hence we use the OrDefault function and in this example the default is 2. It does work though, and we can see the answer 8 comes through.
+:::
+
+
+
 ## Using the Variable Value
 
 We’ve got the variable value from the variable library in a dataflow, now we need to use it. In the last line of my project query that limited the query to 5 rows I can replace the 5 with DataRows. I now get 8 rows of data.
 
-![](image-2.png)
+![screenshot of the data table showing there are only 8 rows of data](image-2.png)
 
 This works as long as we always want to limit the rows, the chances are in production we don’t want to limit, so I add the extra of only limit if DataRows is greater than 0. Here is my new statement, the previous step is call Sorted Rows hence the #”Sorted rows”
 
