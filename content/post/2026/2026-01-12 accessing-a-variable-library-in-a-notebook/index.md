@@ -13,21 +13,7 @@ categories:
 
 This post walks through how to access a variable library in a notebook in Microsoft Fabric. I recommend a Microsoft Fabric project starts by creating a variable library to store the common values different artifacts need and could be changed if a deployment pipeline gets involved. So when we create a notebook we need to be able to use these variables. This means we need load the variable library in a notebook and then get the variable values.
 
-## Using Variable Libraries
-
-Variable libraries should be part of every project. This post is part of my series to help get you started creating the library and then using the variables and finally seeing your hardwork pay back when it comes to deployment pipelines.
-
-- [Getting Started with Variable Libraries](https://hatfullofdata.blog/variable-library/)
-
-- [Variable Values in a Fabric Notebook](https://hatfullofdata.blog/accessing-a-variable-library-in-a-notebook/)
-
-- [Variable Values in a Data Pipeline](https://hatfullofdata.blog/using-a-variable-library-in-a-data-pipeline/)
-
-- [Variable Values in Lakehouse Shortcuts](https://hatfullofdata.blog/using-a-variable-library-in-lakehouse-shortcuts/)
-
-- [Variable Values in Dataflows](https://hatfullofdata.blog/using-variable-library-in-a-dataflow/)
-
-- Variable Libraries in Deployment Pipelines
+{{< variablelibrary-series current="2" >}}
 
 ## Connect to Library
 
@@ -72,7 +58,7 @@ And here is the run
 There is a third way to get a variable value. The get method from notebookutils variable library uses a reference string that follows the following syntax:
 
 ```xml
-"$(/**//)"
+"$(/**/<LIBRARY NAME>/<VARIABLE NAME>)"
 ```
 
 Before you get excited that the ** implies you could refer to another workspace, sorry that is not supported. This string is used in the variableLibrary.get action in notebookutils. For example to get the two values from before could be done like this
@@ -87,9 +73,12 @@ And here is the run
 
 ![Screen shot of the code loading variable library in a notebook using references and the results after it ran.](image-4.png)
 
+> [!TIP]
+> The print(f"{Limit=}") prints Limit=4 for us newbies to Python!
+
 ## Naming Conventions
 
-When you start and there are only 4 variables in the library its easy to remember the names to type in by hand when you are using a variable library in a notebook. When it gets to 20 names, its harder. So create standards, whats the case pattern, you using _ between words or not? Pick a set of rules and stick with it, BronzeWorkspaceID workds just as well as Bronze_Workspace_ID, WorkspaceID1 and workspace_id2 are a technical debt you don’t need.
+When you start and there are only 4 variables in the library its easy to remember the names to type in by hand when you are using a variable library in a notebook. When it gets to 20 names, its harder. So create standards, whats the case pattern, you using _ between words or not? Pick a set of rules and stick with it, BronzeWorkspaceID works just as well as Bronze_Workspace_ID, WorkspaceID1 and workspace_id2 are a technical debt you don’t need.
 
 ## Conclusion on using Variable Library in a Notebook
 

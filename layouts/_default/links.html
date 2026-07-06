@@ -1,0 +1,38 @@
+{{ define "body-class" }}template-links{{ end }}
+{{ define "main" }}
+    {{ $params := .Params }}
+
+    <article class="main-article">
+        {{ partial "article/article.html" . }}
+
+        {{- if $params.links -}}
+            <div class="article-list--compact links">
+                {{ range $params.links }}
+                    {{ $link := . }}
+                    <article>
+                        <a href="{{ $link.website }}" target="_blank" rel="noopener">
+                            <div class="article-details">
+                                <h2 class="article-title">{{ $link.title }}</h2>
+                                <footer class="article-meta">
+                                    {{ with $link.description }}
+                                        {{ . }}
+                                    {{ end }}
+                                </footer>
+                            </div>
+
+                            {{ if $link.image }}
+                                <div class="article-image">
+                                    {{ if or (strings.HasPrefix $link.image "http://") (strings.HasPrefix $link.image "https://") }}
+                                        <img alt="{{ $link.title }}" loading="lazy" src="{{ $link.image }}">
+                                    {{ else }}
+                                        <img alt="{{ $link.title }}" loading="lazy" src="{{ ($.Page.Resources.GetMatch $link.image).RelPermalink }}">
+                                    {{ end }}
+                                </div>
+                            {{ end }}
+                        </a>
+                    </article>
+                {{ end }}
+            </div>
+        {{- end -}}
+    </article>
+{{ end }}

@@ -4,6 +4,7 @@ description: Welcome to 2026! In a world full of AI generated content I am very 
 slug: happy-new-year-and-2025-review
 date: 2026-01-07 10:52:18+0000
 lastmod: 2026-01-07 10:52:20+0000
+image: cover.png
 categories:
     - Community
 ---

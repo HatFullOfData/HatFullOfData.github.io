@@ -18,7 +18,7 @@ SortBy              = "default"
     lastUpdated = ":date_full"
 
 [sidebar]
-    subtitle = "Laura GB writes notes on how things work with data on the Microsoft stack."
+    subtitle = "Laura GB writes notes on how she broke things and then fixed them again on the Microsoft stack."
 
 
 [article]

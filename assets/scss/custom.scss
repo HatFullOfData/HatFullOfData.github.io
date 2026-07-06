@@ -95,6 +95,20 @@
     filter: invert(1) brightness(0.9);
 }
 
+/* Links page - allow images to maintain aspect ratio */
+.article-list--compact.links article .article-image img {
+    width: auto !important;
+    height: auto !important;
+    max-height: 100px;
+    max-width: 250px;
+    object-fit: contain;
+}
+
+/* Links page - fix article content text in dark mode */
+[data-scheme="dark"] .main-article .article-content p {
+    color: var(--body-text-color);
+}
+
 /* Alert Boxes Layout matching Theme Stack */
 .article-content blockquote.markdown-alert,
 .article-content blockquote.alert {
