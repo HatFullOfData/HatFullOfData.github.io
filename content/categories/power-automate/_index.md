@@ -5,6 +5,6 @@ image: PowerAutomate_scalable.svg
 
 # Badge style
 style:
-    background: "#6478d2"
+    background: "#074c56"
     color: "#fff"
 ---

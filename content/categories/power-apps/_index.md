@@ -5,6 +5,6 @@ image: PowerApps.svg
 
 # Badge style
 style:
-    background: "#77b044"
-    color: "#111"
+    background: "#074c56"
+    color: "#fff"
 ---

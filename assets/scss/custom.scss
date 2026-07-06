@@ -20,6 +20,40 @@
     border-inline-start: 0;
 }
 
+/* Teal heading colors for light and dark mode */
+[data-scheme="light"] .article-content h1,
+[data-scheme="light"] .article-content h2,
+[data-scheme="light"] .article-content h3,
+[data-scheme="light"] .article-content h4,
+[data-scheme="light"] .article-content h5,
+[data-scheme="light"] .article-content h6,
+[data-scheme="light"] .article-title,
+[data-scheme="light"] .article-title a 
+{
+    color: #074c56; /* Darker teal for light mode */
+}
+
+[data-scheme="dark"] .article-content h1,
+[data-scheme="dark"] .article-content h2,
+[data-scheme="dark"] .article-content h3,
+[data-scheme="dark"] .article-content h4,
+[data-scheme="dark"] .article-content h5,
+[data-scheme="dark"] .article-content h6,
+[data-scheme="dark"] .article-title ,
+[data-scheme="dark"] .article-title a {
+    color: #0097ad; /* Lighter teal for dark mode */
+}
+
+/* Make article title larger */
+.article-title-wrapper .article-title {
+    font-size: 2.5rem !important;
+}
+
+.article-title-wrapper .article-title a {
+    font-size: inherit !important;
+}
+
+
 /* Slightly darken light-mode code blocks for better contrast. */
 [data-scheme="light"] {
     --pre-background-color: #f2f2f2;

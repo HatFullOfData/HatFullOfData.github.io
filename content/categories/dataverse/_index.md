@@ -5,6 +5,6 @@ image: Dataverse_scalable.svg
 
 # Badge style
 style:
-    background: "#3ab135"
+    background: "#074c56"
     color: "#fff"
 ---

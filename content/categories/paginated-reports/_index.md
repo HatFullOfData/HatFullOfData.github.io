@@ -5,6 +5,6 @@ image: paginated_report_48_item.svg
 
 # Badge style
 style:
-    background: "#2a5e61"
+    background: "#074c56"
     color: "#fff"
 ---

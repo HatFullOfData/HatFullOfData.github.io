@@ -5,6 +5,6 @@ image: pipeline_48_item.svg
 
 # Badge style
 style:
-    background: "#39d553"
-    color: "#111"
+    background: "#074c56"
+    color: "#fff"
 ---

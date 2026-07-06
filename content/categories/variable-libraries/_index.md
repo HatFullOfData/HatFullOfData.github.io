@@ -5,6 +5,6 @@ image: variable_library_48_item.svg
 
 # Badge style
 style:
-    background: "#7b19d6"
+    background: "#074c56"
     color: "#fff"
 ---

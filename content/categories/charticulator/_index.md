@@ -5,6 +5,6 @@ image: Charticulator Icon.svg
 
 # Badge style
 style:
-    background: "#9d4b6f"
+    background: "#074c56"
     color: "#fff"
 ---

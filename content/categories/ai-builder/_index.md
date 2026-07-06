@@ -5,6 +5,6 @@ image: AIBuilder_scalable.svg
 
 # Badge style
 style:
-    background: "#2c2684"
+    background: "#074c56"
     color: "#fff"
 ---

@@ -5,6 +5,6 @@ image: dataflow_gen2_48_item.svg
 
 # Badge style
 style:
-    background: "#808b19"
+    background: "#074c56"
     color: "#fff"
 ---

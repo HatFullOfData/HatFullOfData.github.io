@@ -5,6 +5,6 @@ image: community.svg
 
 # Badge style
 style:
-    background: "#bd7e53"
+    background: "#074c56"
     color: "#fff"
 ---

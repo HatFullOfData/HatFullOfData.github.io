@@ -15,11 +15,11 @@
     {{ end }}
 
     <div class="article-title-wrapper">
-        <h2 class="article-title">
+        <h1 class="article-title">
             <a href="{{ $Page.RelPermalink }}">
                 {{- $Page.Title -}}
             </a>
-        </h2>
+        </h1>
     
         {{ if $IsList }}
             {{ with $Page.Params.description }}

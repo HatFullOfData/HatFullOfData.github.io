@@ -5,6 +5,6 @@ image: power_bi_48_color.svg
 
 # Badge style
 style:
-    background: "#a4465c"
+    background: "#074c56"
     color: "#fff"
 ---

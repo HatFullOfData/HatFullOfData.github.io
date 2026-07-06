@@ -5,6 +5,6 @@ image: fabric_28_color.svg
 
 # Badge style
 style:
-    background: "#50199e"
+    background: "#074c56"
     color: "#fff"
 ---

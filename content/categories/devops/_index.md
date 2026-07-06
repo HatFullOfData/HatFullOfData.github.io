@@ -5,6 +5,6 @@ image: azure-devops-color.svg
 
 # Badge style
 style:
-    background: "#7354a3"
+    background: "#074c56"
     color: "#fff"
 ---

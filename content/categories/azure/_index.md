@@ -5,6 +5,6 @@ image: Azure.svg
 
 # Badge style
 style:
-    background: "#ceb49e"
-    color: "#111"
+    background: "#074c56"
+    color: "#fff"
 ---
