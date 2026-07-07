@@ -7,7 +7,7 @@ menu:
     main:
         weight: 2
         params: 
-            icon: list-check
+            icon: smile
 ---
 # Hello! 
 I'm Laura.
