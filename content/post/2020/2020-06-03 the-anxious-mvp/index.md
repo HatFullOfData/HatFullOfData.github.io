@@ -4,11 +4,10 @@ description: The buzz of being nominated for an MVP is great, adding the communi
 slug: the-anxious-mvp
 date: 2020-06-03 18:22:41+0000
 lastmod: 2025-02-12 11:43:56+0000
+image: target.png
 categories:
     - Community
 ---
-
-![](target.png)
 
 The buzz of being nominated for an MVP is great, adding the community activities you do with passion all working towards what is built up to being a huge a goal. Hopefully eventually you get the email we’ve all seen in social media to say you’ve been awarded an MVP. You put out the messages saying how humbled, honoured, happy and other words beginning to h and everyone celebrates with you, you get followed, connected to by people you’ve never heard of and you stick the blue badge everywhere. For me that happened 1st December 2019.
 

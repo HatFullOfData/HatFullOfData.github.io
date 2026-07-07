@@ -4,8 +4,10 @@ description: Recently in a few Power BI projects and training courses we’ve ne
 slug: power-bi-counting-active-records-easily
 date: 2025-09-15 16:58:48+0000
 lastmod: 2025-09-15 16:58:51+0000
+image: cover.png
 categories:
     - Power BI
+    - DAX
 ---
 
 Recently in a few Power BI projects and training courses we’ve needed to create a measure for counting active records based on start and end dates for a time period. This has varied from active projects, active employees to active contracts. All of them have had the common feature of start and end dates.
@@ -14,7 +16,14 @@ Recently in a few Power BI projects and training courses we’ve needed to creat
 
 ![diagram showing tasks with the active tasks highlighted in blue](image-15.png)
 
-TaskStartEndA01-May20-MayB15-May15-JunC5-Jun25-JunD20-Jun20-JulE10-Jul25-JulF25-Jun15-Jul
+|Task|Start|End|
+|---|---|---|
+|A|01-May|20-May|
+|B|15-May|15-Jun|
+|C|5-Jun|25-Jun|
+|D|20-Jun|20-Jul|
+|E|10-Jul|25-Jul|
+|F|25-Jun|15-Jul|
 
 We have 6 tasks A-F. We want to know how many tasks are active in June. In the list in table above and shown in the image the 2 that don’t count are task A, that finishes before June starts and task E that starts after June finishes. I have a separate calendar table called Calendar.
 
@@ -32,7 +41,10 @@ VAR Result =
     CALCULATE(
         COUNTROWS(Tasks),
         Tasks[Finish] >= MinDate,
-        Tasks[Start] 
+        Tasks[Start] <= MaxDate
+    )
+RETURN Result
+```
 
 This code does not rely on any relationships between the tasks and calendar tables. If there is a relationship that is altering the calculation a CROSSFILTER function can be used to set the relationship to None.
 
@@ -52,5 +64,5 @@ This is a simple example of using CALCULATE and creating a useful measure. One I
 
 ## Conclusion on Counting Active Records
 
-Yes this is another post on me being lazy to answer a question I end up answering lots. Understanding how you can use CALCULATE and how to work out the right filters for your logic is the crux of understanding quite a bit of DAX. Something I am still every day still working on.
+Yes this is another post on me being lazy to answer a question I end up answering lots. Understanding how you can use CALCULATE and how to work out the right filters for your logic is the crux of understanding quite a bit of DAX. Something I am still learning every day still working on.
 

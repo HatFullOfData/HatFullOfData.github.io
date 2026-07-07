@@ -14,7 +14,7 @@ One of the challenges of making sure your query works in Power Query is data sou
 
 You know you have this problem when you get the an error similar to this:
 
-![An erroe stating Expression Error, the column Debit of the table wasn't found](2025-01-08_10-09-49.png)
+![An error stating Expression Error, the column Debit of the table wasn't found](2025-01-08_10-09-49.png)
 
 ## Single Missing Column
 

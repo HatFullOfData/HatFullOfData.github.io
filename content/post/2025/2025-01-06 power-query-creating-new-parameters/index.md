@@ -41,25 +41,3 @@ As a side note I recommend that you always give parameters a Type rather than le
 
 This is a really small feature, possibly doesn’t need a whole blog post. But that little drop down making the creating a new parameter that few clicks easier means I am more likely to follow my own advice and use parameters from the start.
 
-## More Power Query Posts
-
-- [Custom Handwritten Function](https://hatfullofdata.blog/power-query-handwritten-function/)
-
-- [Multi-step Function](https://hatfullofdata.blog/power-query-multi-step-function/)
-
-- [Replace Values for Whole Table](https://hatfullofdata.blog/power-query-replace-values-for-whole-table/)
-
-- [AI Insights Error](https://hatfullofdata.blog/power-query-ai-insights-error/)
-
-- [VBA to Edit a Parameter Value](https://hatfullofdata.blog/excel-power-query-vba-to-edit-a-parameter-value/)
-
-- [Dynamic Data Source and Web.Contents()](https://hatfullofdata.blog/power-query-dynamic-data-source-and-web-content/)
-
-- [Get Previous Row Data](https://hatfullofdata.blog/power-query-get-previous-row-data/)
-
-- [Creating New Parameters](https://hatfullofdata.blog/power-query-creating-new-parameters/)
-
-- [Fixing Missing Columns Dynamically](https://hatfullofdata.blog/power-query-fixing-missing-columns-dynamically/)
-
-- [Handling Null Values Properly](https://hatfullofdata.blog/power-query-handling-null-values/)
-

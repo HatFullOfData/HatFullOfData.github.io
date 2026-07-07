@@ -4,6 +4,7 @@ description: At the end of July 2019 I decided to posting more regularly to my o
 slug: thank-you-one-year-on
 date: 2020-08-06 10:39:15+0000
 lastmod: 2025-02-12 11:33:22+0000
+image: legopeeps.jpg
 categories:
     - Community
 ---
@@ -15,8 +16,6 @@ I remember being highly amused when I got 25 subscribers and when people I respe
 So I would like to thank you, the people who read my blog posts, watched my videos, subscribed, re-tweeted and even tweeted their own tweets regarding my content. I’ve been unbearably happy when my posts have been included in community leader round-ups. It has now become a passion of mine to blog and record videos and every like, comment or smile I get is what I do it for.
 
 If you haven’t yet found my YouTube channel it is at[https://www.youtube.com/lauragbpowerplatform](https://www.youtube.com/lauragbpowerplatform)
-
-![](legopeeps.jpg)
 
 ### The Data
 
