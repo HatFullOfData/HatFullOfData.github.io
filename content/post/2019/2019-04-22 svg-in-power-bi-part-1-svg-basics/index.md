@@ -54,7 +54,7 @@ In a path element you can move the pen, draw lines, arcs, and curves. Below is a
 
 Lots of icons available on the web are written in SVG and many can be downloaded. Be aware of copyright and always give credit where credit is due.
 
-If you have PowerPoint O365 you can insert icons onto a slide and save as a picture, which gives you SVG code.
+If you have PowerPoint you can insert icons onto a slide and save as a picture, which gives you SVG code.
 
 ## SVG Resources
 
