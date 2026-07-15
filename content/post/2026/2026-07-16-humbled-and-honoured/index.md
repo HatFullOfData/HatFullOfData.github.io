@@ -1,10 +1,10 @@
 ---
 title: Humbled and Honoured
-description: # TODO: Add description
+description: MVP Renewal day come around, so here is my Humbled and Honoured post
 slug: humbled-and-honoured
 date: 2026-07-15 00:00:00+0000
 lastmod: 2026-07-15 00:00:00+0000
-image: MVP_Digital_RGB_16_symbol_single_color_blue.png
+image: cover.png
 categories:
     - Community
 ---
