@@ -19,7 +19,7 @@ disqusShortname = "hugo-theme-stack"
         id = "G-KELL2TJX6C"
 
 [pagination]
-    pagerSize = 3
+    pagerSize = 10
 
 [params]
     [[params.social]]
