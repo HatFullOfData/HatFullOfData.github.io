@@ -11,11 +11,11 @@ categories:
 
 Yesterday I got the news I get to be a Data Platform MVP for another year!
 
-As tradition dictates I am of course Humbled and Honoured. In reality though I'm hugely grateful to many people.
+As tradition dictates I am of course Humbled and Honoured. In reality though I'm hugely grateful to lots of people who let me be me in this community.
 
 - Hosts of user groups and conferences who create the place for us to meet and present
 - Helpers who make conferences work, tell me when to end a session and help me find my room
-- Humans who came to my sessions, read my blog, watched my youtube channel. If any non-humans were involved I am of course grateful to them as well.
+- Humans who came to my sessions, read my blog, watched my youtube channel, asked questions and made it feel worth while. If any non-humans were involved I am of course grateful to them as well.
 - Hecklers<sup>1</sup>
 - Handful of friends who have shared the highs, the hurdles, headaches and the hilarity of another year in tech.
 - Hubby, Harry, who has done the airport drop offs and pickups, cooked while I build slides and demos, never complains when head off to another conference or user group.
@@ -28,7 +28,7 @@ The award comes with a badge, a new one this year, but in reality the award open
 
 A huge thank you to my co-speakers this year Claire Edgson, Joe Griffin, Lewis Baybutt and Will Johnson. We rocked!
 
-Also to Mark Pryce-Mayer who makes me laugh and fixes the lakehouses I break, Sue Bayes who makes me smile every week, Alex Powers who encouraged me to keep going, and Ian Tweedie who helped me transfer my blog from wordpress to hugo, so blogging will again be enjoyable.
+Also to Mark Pryce-Mayer who makes me laugh and fixes the lakehouses I break, Sue Bayes who makes me smile every week, Alex Powers who encouraged me to keep going, Ian Tweedie who helped me transfer my blog from wordpress to hugo, so blogging will again be enjoyable and Ash Graham-Brown who did the accessibility checks to make sure a screen reader makes some sense on the blog.
 
 And last, but never least, Rie Merritt who looks after us Data Platform MVPs, keeps us in line and always supports us non-males in a male dominated industry.
 
