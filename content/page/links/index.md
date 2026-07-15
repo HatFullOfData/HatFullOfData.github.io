@@ -14,10 +14,14 @@ links:
     description: When Users Leave - The Ripple Effect Across Microsoft 365 and Power Platform
     website: https://nordicsummit.info/
     image: nordic.png
-  - title: Collab Days Bletchley 23 September 2026 - Bletchley
+  - title: Collab Days Bletchley - 23 September 2026 - Bletchley
     description: Best location to have a conference!
     website: https://www.collabdays.org/2026-bletchleypark/
     image: collabdays.png
+  - title: European Microsoft Fabric + SQL Community Conference - 28 Sep - 01 Oct 2026 - Barcelona
+    description: Come find me volunteering in the community lounge
+    website: https://espc.tech/conference/fabcon-europe-2026/
+    image: fabcon-barcelona.png
   - title: ESPC 2026 - 30 Nov - 3 Dec - Amsterdam
     description: When Users Leave - The Ripple Effect Across Microsoft 365 and Power Platform
     website: https://espc.tech/conference/espc-2026/
