@@ -1,0 +1,9 @@
+{{ define "main" }}
+    {{ $pages := .Paginate .Pages 10 }}
+    <section class="article-list">
+        {{ range $pages.Pages }}
+            {{ partial "article-list/default" . }}
+        {{ end }}
+    </section>
+    {{ partial "pagination" . }}
+{{ end }}
