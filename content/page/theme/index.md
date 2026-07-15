@@ -1,7 +1,7 @@
 ---
 title: "Hidden Page"
 slug: "theme"
-_build:
+build:
   list: false
   render: true
 sitemap:
