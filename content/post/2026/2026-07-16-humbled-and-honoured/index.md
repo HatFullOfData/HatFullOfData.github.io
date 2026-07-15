@@ -32,7 +32,7 @@ Also to Mark Pryce-Mayer who makes me laugh and fixes the lakehouses I break, Su
 
 And last, but never least, Rie Merritt who looks after us Data Platform MVPs, keeps us in line and always supports us non-males in a male dominated industry.
 
-My advice to anyone looking in on the community, unsure how to join, please reach out. Come talk to a speaker after a session, ask the questions, be brave and say hello. Many of us are incredibly shy, anxious and imposter syndrome is our best skill, so we understand your shyness. You are one of us, I promise. Take a look at my [Upcoming Events page](https://hatfullofdata.blog/upcoming-events/) and if you are going to be at one of them reach out to me on and we can have a coffee together and I'll introduce to people you want to meet.
+My advice to anyone looking in on the community, unsure how to join, please reach out. Come talk to a speaker after a session, ask the questions, be brave and say hello. Many of us are incredibly shy, anxious and imposter syndrome is our best skill, so we understand your shyness. You are one of us, I promise. Take a look at my [Upcoming Events page](https://hatfullofdata.blog/upcoming-events/) and if you are going to be at one of them reach out to me beforehand and we can have a coffee together and I'll introduce to people you want to meet.
 
 <hr>
 <sup>1</sup> You know who you are<br>
