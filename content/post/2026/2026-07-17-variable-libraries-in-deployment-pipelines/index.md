@@ -74,5 +74,24 @@ I've created a deployment pipeline and deployed to Test.
 In order to use the different values for Test and Prod I need to change the active set in the variable library in the workspaces.
 
 > [!NOTE]Instructions
-> 1. 
+> 1. Go to the Test workspace
+> 1. Open the variable library
+> 1. Click on the three dots on the Test set and select Set as active from the menu.
+> 1. In the confirmation message that pops up, click Set as Active
+> 1. not the active badge moves and the test set has a heavier border
+> 1. Save the variable library
 
+![Snapshots of the above instructions](<change set.png>)
+
+The pipeline does not notice the change and any updates to the variable library from deploying from dev do not reset the active set.
+
+If we now test the notebook in the test workspace we get 20 rows coming through because of the different value in the library.
+
+![Picture of the code block with its output showing RowLimit=20 and Data limited to 20 Rows](<test run.png>)
+
+> [!TIP]
+> Always change the variable library values in your dev workspace and deploy the changes through the pipeline.
+
+## Conclusion
+
+This is the big reason Variable libraries are a must have in Fabric solution development. Even if you don't use deployment pipelines it is sometimes useful to be able to swap values.
