@@ -9,4 +9,4 @@ categories:
     - Microsoft Fabric
 ---
 
-<!-- TODO: Write blog post content here -->
+{{</* variablelibrary-series current="7" */>}}

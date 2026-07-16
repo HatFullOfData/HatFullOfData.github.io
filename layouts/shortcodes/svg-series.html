@@ -17,8 +17,12 @@
     <li>
         {{- if eq $current .part -}}
             <strong>{{ .title }}</strong>
-        {{- else -}}
+        {{- else if and .publishDate ((time .publishDate).After now) -}}
+            {{ .title }} <em>(coming soon)</em>
+        {{- else if .url -}}
             <a href="{{ .url }}">{{ .title }}</a>
+        {{- else -}}
+            {{ .title }}
         {{- end -}}
     </li>
     {{- end }}

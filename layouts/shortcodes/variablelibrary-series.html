@@ -5,7 +5,8 @@
     (dict "part" "3" "title" "Variable Values in a Data Pipeline" "url" "/using-a-variable-library-in-a-data-pipeline/")
     (dict "part" "4" "title" "Variable Values in Lakehouse Shortcuts" "url" "/using-a-variable-library-in-lakehouse-shortcuts/")
     (dict "part" "5" "title" "Variable Values in Dataflows" "url" "/using-variable-library-in-a-dataflow/")
-    (dict "part" "6" "title" "Variable Libraries in Deployment Pipelines" "url" "")
+    (dict "part" "6" "title" "Variable Libraries in Deployment Pipelines")
+    (dict "part" "7" "title" "Connection variables in a variable library" "url" "/connection-variables-in-variable-library/" "publishDate" "2026-07-20")
 -}}
 
 <h2>Variable Library Series</h2>
@@ -15,8 +16,12 @@
     <li>
         {{- if eq $current .part -}}
             <strong>{{ .title }}</strong>
-        {{- else -}}
+        {{- else if and .publishDate ((time .publishDate).After now) -}}
+            {{ .title }} <em>(coming soon)</em>
+        {{- else if .url -}}
             <a href="{{ .url }}">{{ .title }}</a>
+        {{- else -}}
+            {{ .title }}
         {{- end -}}
     </li>
     {{- end }}
