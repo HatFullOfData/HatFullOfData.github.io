@@ -5,6 +5,8 @@ on:
       - main
       - master
   workflow_dispatch:
+  schedule:
+    - cron: '0 6 * * *'  # daily at 06:00 UTC
 permissions:
   contents: read
   pages: write
