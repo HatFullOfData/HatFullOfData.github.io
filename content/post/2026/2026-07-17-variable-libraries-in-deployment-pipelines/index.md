@@ -1,6 +1,6 @@
 ---
 title: Variable Libraries in Deployment Pipelines
-description: # TODO: Add description
+description: How precisely does a variable library work with a deployment pipeline? This post walks through changing a value at different stages of your deployment.
 slug: variable-libraries-in-deployment-pipelines
 date: 2026-07-17 00:00:00+0000
 lastmod: 2026-07-17 00:00:00+0000
@@ -12,13 +12,13 @@ tags:
     - 2026-2027
 ---
 
-So you've done the hard work of building a variable library to make all your Fabric artifacts not have hard coded items. This was promised to be the prep work for making deployment pipelines easier. So lets take a look how that works.
+So you've done the hard work of building a variable library to make all your Fabric artifacts not have hard coded values. This was promised to be the prep work for making deployment pipelines easier. So lets take a look how that works.
 
 {{</* variablelibrary-series current="6" */>}}
 
 ## Scenario
 
-For this post we are keeping the example very simple. We are building a process that ingests data from a file into a table. The variable library includes a RowLimit variable. If the RowLimit is 0 load all the data, otherwise trim the data to that many rows. This means in dev we can limit to a few rows but in test and prod we can have all the rows. Here is the code snippet that handles that logic.
+For this post we are keeping the example very simple. We are building a process that ingests data from a file into a table. As part of that process the data is loaded into a dataframe called df. The variable library includes a RowLimit variable. If the RowLimit is 0 load all the data, otherwise trim the data to that many rows. This means in dev we can limit to a few rows but in test and prod we can have all the rows. Here is the code snippet that handles that logic.
 
 ```python
 # Get RowLimit Value

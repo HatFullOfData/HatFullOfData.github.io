@@ -7,6 +7,8 @@ lastmod: 2026-07-15 00:00:00+0000
 image: cover.png
 categories:
     - Community
+tags:
+    - 2026-2027
 ---
 
 Today I got the news I get to be a Data Platform MVP for another year!
@@ -22,7 +24,7 @@ As tradition dictates I am of course Humbled and Honoured. In reality though, I'
 
 Turns out H is a great letter.
 
-![MVP Dark Blue Badge includes the words Microsoft Most Valuable Professional](MVP_Digital_RGB_36_badge_single_color_dark_blue.png)
+![MVP Blue Badge includes the words Microsoft Most Valuable Professional](MVP_Digital_RGB_35_badge_single_color_blue.png)
 
 The award comes with a badge, an updated one this year, but in reality the award opened doors for me to an amazing community. We use the ever changing, name changing, icon changing<sup>2</sup> tech as an excuse to gather, but we stay because of the community of wonderfully diverse, usually neurodivergent and amazing humans we are.
 
