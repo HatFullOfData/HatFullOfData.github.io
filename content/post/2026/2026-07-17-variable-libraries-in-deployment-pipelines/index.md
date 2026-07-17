@@ -14,7 +14,7 @@ tags:
 
 So you've done the hard work of building a variable library to make all your Fabric artifacts not have hard coded values. This was promised to be the prep work for making deployment pipelines easier. So lets take a look how that works.
 
-{{</* variablelibrary-series current="6" */>}}
+{{< variablelibrary-series current="6" >}}
 
 ## Scenario
 
