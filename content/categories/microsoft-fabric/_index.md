@@ -4,7 +4,7 @@ description: Microsoft Fabric notebooks, lakehouse, and pipelines.
 image: fabric_28_color.svg
 
 # Badge style
-style:
-    background: "#074c56"
-    color: "#fff"
+#style:
+#    background: "#074c56"
+#    color: "#fff"
 ---
