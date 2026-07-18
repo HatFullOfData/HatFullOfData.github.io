@@ -66,13 +66,13 @@
 
 /* changing the colours of the category boxes to match light mode and dark mode*/
 [data-scheme="dark"] .article-categories a{
-    background-color: #a1c4ca;
-    color: #424242;
+    background-color: #a1c4ca !important;
+    color: #424242 !important;
 }
 
 [data-scheme="light"] .article-categories a{
-    background-color: #074c56;
-    color: #fff;
+    background-color: #074c56 !important;
+    color: #fff !important;
 }
 
 /* Keep front-page card image boxes fixed while avoiding image cropping. */
