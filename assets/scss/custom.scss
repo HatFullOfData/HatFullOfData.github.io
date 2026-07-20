@@ -28,7 +28,7 @@
 [data-scheme="light"] .article-content h5,
 [data-scheme="light"] .article-content h6,
 [data-scheme="light"] .article-title,
-[data-scheme="light"] .article-title a 
+[data-scheme="light"] .article-title a
 {
     color: #074c56; /* Darker teal for light mode */
 }
@@ -39,8 +39,9 @@
 [data-scheme="dark"] .article-content h4,
 [data-scheme="dark"] .article-content h5,
 [data-scheme="dark"] .article-content h6,
-[data-scheme="dark"] .article-title ,
-[data-scheme="dark"] .article-title a {
+[data-scheme="dark"] .article-title,
+[data-scheme="dark"] .article-title a
+{
     color: #a1c4ca; /* Lighter teal for dark mode */
 }
 
@@ -61,6 +62,17 @@
 
 [data-scheme="light"] .chroma {
     background-color: #f2f2f2;
+}
+
+/* changing the colours of the category boxes to match light mode and dark mode*/
+[data-scheme="dark"] .article-categories a{
+    background-color: #a1c4ca !important;
+    color: #424242 !important;
+}
+
+[data-scheme="light"] .article-categories a{
+    background-color: #074c56 !important;
+    color: #fff !important;
 }
 
 /* Keep front-page card image boxes fixed while avoiding image cropping. */
