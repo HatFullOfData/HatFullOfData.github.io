@@ -34,7 +34,7 @@ For those who just want the code here is the answer in M, I'm assuming you can a
 = Table.TransformColumns(PREVIOUS_STEP_NAME, {{"COLUMN_NAME", each _ + #duration(0,1,0,0), type number}})
 ```
 
-### Fpr non-M coders
+### For non-M coders
 
 M is a weird language so don't feel bad if the above looks foul. Here is my walk through of how I teach people to do the above.
 
@@ -42,7 +42,7 @@ We want to add an hour but when we look on the Transform ribbon there is no opti
 
 > [!NOTE]Instructions
 > 1. On the Add Column ribbon click Custom Column
-> 1. LEave the column name as Custom and just put in 1 as the formula and click OK.
+> 1. Leave the column name as Custom and just put in 1 as the formula and click OK.
 > 1. You now have a column of 1, select it.
 > 1. On the transform ribbon, click Standard and select Add
 > 1. In the dialog enter in 1.
@@ -54,8 +54,8 @@ These steps have given us a line of M code that add a number to a column. We jus
 
 #### Prefix
 
-```
-= Table.TransformColumns(#"Added Custom", {{**"Custom"**, each _ **+ 1**, type number}})
+```colorful
+= Table.TransformColumns(#"Added Custom", {{"Custom", each _ + 1, type number}})
 ```
 
 The column name we can type in, for me that is pni_airdatedateonly. The + 1 needs to become + 1 hour which we enter using the #duration(0,1,0,0) function. The 4 parameters are day, hour, minute and second. 
@@ -63,10 +63,10 @@ The column name we can type in, for me that is pni_airdatedateonly. The + 1 need
 #### Fixed Code
 
 ```
-= Table.TransformColumns(#"Added Custom", {{**"pni_airdatedateonly"**, each _ **+ #duration(0,1,0,0)**, type number}})
+= Table.TransformColumns(#"Added Custom", {{"pni_airdatedateonly", each _ + #duration(0,1,0,0), type number}})
 ```
 
-Then we can make the column be date format and it all works. We should remove the Added Custom step from the query in the query settings pane.
+Then we can make the column be date format and it all works. We should remove the Added Custom step from the query in the query settings pane tp get rid of our column of 1s.
 
 Here is my fixed data.
 
