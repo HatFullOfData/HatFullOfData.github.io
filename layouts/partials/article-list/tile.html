@@ -1,0 +1,35 @@
+{{ $image := partial "helper/image" (dict "Image" .Params.image "Resources" .Resources "Context" .) }}
+{{ $title := .Title }}
+<article class="{{ if $image }}has-image{{ end }}">
+    <a href="{{ .RelPermalink }}">
+        {{ if $image }}
+        <div class="article-image">
+            {{ $widths := slice }}
+            {{ if .Site.Params.ImageProcessing.Thumbnail.Enabled }}
+                {{ $widths = slice 200 400 }}
+            {{ end }}
+            {{ partial "helper/responsive-image" (dict
+                "Resource" $image.Resource
+                "Widths" $widths
+                "Attributes" (dict
+                    "src" $image.Permalink
+                    "alt" (printf "Featured image of post %s" .Title)
+                    "loading" "lazy"
+                    "width" $image.Width
+                    "height" $image.Height
+                )
+            ) }}
+        </div>
+        {{ end }}
+
+        <div class="article-details">
+            <h2 class="article-title">
+                {{ if gt (len $title) 40 }}
+                    {{- printf "%s..." (substr $title 0 40) -}}
+                {{ else }}
+                    {{- $title -}}
+                {{ end }}
+            </h2>
+        </div>
+    </a>
+</article>
