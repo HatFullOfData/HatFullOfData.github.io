@@ -7,7 +7,6 @@ lastmod: 2026-07-21 00:00:00+0000
 image: cover.png
 categories:
     - Power Query
-    - M
 tags:
     - 2026-2027
 ---

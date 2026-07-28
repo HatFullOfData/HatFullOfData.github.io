@@ -5,7 +5,6 @@ slug: power-query-multi-step-function
 date: 2019-09-29 17:28:40+0000
 lastmod: 2025-02-13 12:29:13+0000
 categories:
-    - M
     - Power BI
     - Power Query
 ---

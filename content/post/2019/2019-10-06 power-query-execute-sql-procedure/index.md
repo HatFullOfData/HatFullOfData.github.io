@@ -5,7 +5,6 @@ slug: power-query-execute-sql-procedure
 date: 2019-10-06 17:25:02+0000
 lastmod: 2025-02-13 12:25:00+0000
 categories:
-    - M
     - Power BI
     - Power Query
 ---

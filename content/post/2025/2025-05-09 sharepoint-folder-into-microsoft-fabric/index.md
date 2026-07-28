@@ -6,7 +6,7 @@ date: 2025-05-09 17:08:15+0000
 lastmod: 2025-05-12 16:01:10+0000
 image: cover.png
 categories:
-    - M
+    - Power Query
     - Microsoft Fabric
 ---
 

@@ -7,7 +7,7 @@ lastmod: 2025-05-12 15:59:41+0000
 image: cover.png
 categories:
     - Dataflow
-    - M
+    - Power Query
     - Microsoft Fabric
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Power Query
 description: Power Query transformations and techniques.
-image:
+image: microsoft-powerquery_logo.png
 
 # Badge style
 style:

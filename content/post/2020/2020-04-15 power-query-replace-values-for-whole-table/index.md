@@ -6,7 +6,6 @@ date: 2020-04-15 15:40:57+0000
 lastmod: 2025-02-13 12:22:46+0000
 image: cover.png
 categories:
-    - M
     - Power BI
     - Power Query
 ---

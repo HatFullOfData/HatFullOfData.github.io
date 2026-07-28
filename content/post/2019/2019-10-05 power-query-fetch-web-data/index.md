@@ -5,7 +5,6 @@ slug: power-query-fetch-web-data
 date: 2019-10-05 17:33:54+0000
 lastmod: 2025-02-13 12:26:28+0000
 categories:
-    - M
     - Power BI
     - Power Query
 ---

@@ -6,7 +6,6 @@ date: 2021-06-08 08:55:16+0000
 lastmod: 2025-02-13 12:08:01+0000
 image: cover.png
 categories:
-    - M
     - Power Query
 ---
 
