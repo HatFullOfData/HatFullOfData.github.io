@@ -32,7 +32,7 @@ EXECUTE dbo.GetExpenses @CostCenter="B01"
 
 ### Create Initial Query
 
-The initial query will excute a procedure with a fixed parameter being passed to the procedure using the SQL in the previous section.
+The initial query will execute a procedure with a fixed parameter being passed to the procedure using the SQL in the previous section.
 
 Add a new source of SQL Server. Fill in the Server and Database and then click on Advanced options to reveal the SQL statement box where you enter the SQL statement to execute the procedure.
 

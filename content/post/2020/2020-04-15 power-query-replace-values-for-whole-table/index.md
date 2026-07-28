@@ -48,7 +48,7 @@ If I then rename this step to ColumnNames I can then use that step name in a rep
 
 ### Note
 
-Yes the Replaced Value step is refering to a calculation that comes after it (yup its wacky). If you reorder the steps by dragging them Power Query will decide to change the code so steps refer to the new previous step.
+Yes the Replaced Value step is referring to a calculation that comes after it (yup its wacky). If you reorder the steps by dragging them Power Query will decide to change the code so steps refer to the new previous step.
 
 ### References
 
