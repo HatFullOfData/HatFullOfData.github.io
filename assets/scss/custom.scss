@@ -64,13 +64,26 @@
     background-color: #f2f2f2;
 }
 
+/* Make highlighted code lines readable and fit the teal scheme. */
+[data-scheme="dark"] .chroma .hl {
+    background-color: rgba(7, 76, 86, 0.3) !important;
+}
+
+[data-scheme="light"] .chroma .hl {
+    background-color: rgba(161, 196, 202, 0.3) !important;
+}
+
 /* changing the colours of the category boxes to match light mode and dark mode*/
-[data-scheme="dark"] .article-categories a{
+[data-scheme="dark"] .article-category a,
+[data-scheme="dark"] .article-tags a
+{
     background-color: #a1c4ca !important;
     color: #424242 !important;
 }
 
-[data-scheme="light"] .article-categories a{
+[data-scheme="light"] .article-category a,
+[data-scheme="light"] .article-tags a
+{
     background-color: #074c56 !important;
     color: #fff !important;
 }
@@ -211,3 +224,5 @@
 .widget-icon, figcaption {
     display:none;
 }
+
+
