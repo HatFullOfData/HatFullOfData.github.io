@@ -1,0 +1,25 @@
+{{- $current := printf "%v" (.Get "current" | default "") -}}
+{{- $items := slice
+    (dict "part" "1" "title" "Send Email from Microsoft Fabric with Power Automate" "url" "/send-email-from-microsoft-fabric-with-power-automate/" "publishDate" "2026-08-11")
+    (dict "part" "2" "title" "Send Email from Microsoft Fabric Data Pipelines" "url" "/send-email-from-microsoft-fabric-data-pipelines/" "publishDate" "2026-08-13")
+    (dict "part" "3" "title" "Send Email from a Microsoft Fabric Notebook with a Service Principal" "url" "/send-email-from-a-microsoft-fabric-notebook-with-a-service-principal/" "publishDate" "2026-08-18")
+    (dict "part" "4" "title" "Comparing the Different Ways to Send Email from Microsoft Fabric" "url" "/comparing-the-different-ways-to-send-email-from-microsoft-fabric/" "publishDate" "2026-08-20")
+-}}
+
+<h2>Ways to Send an Email from Microsoft Fabric</h2>
+<p>This series explores different ways to send email from Microsoft Fabric, from low-code automation to code-driven and event-based approaches. Finishing with comparing the tradeoffs, setup, and best use cases for each method so you can choose the right pattern for your scenario.</p>
+<ol>
+    {{- range $items }}
+    <li>
+        {{- if eq $current .part -}}
+            <strong>{{ .title }}</strong>
+        {{- else if and .publishDate ((time .publishDate).After now) -}}
+            {{ .title }} <em>(coming soon)</em>
+        {{- else if .url -}}
+            <a href="{{ .url }}">{{ .title }}</a>
+        {{- else -}}
+            {{ .title }}
+        {{- end -}}
+    </li>
+    {{- end }}
+</ol>
