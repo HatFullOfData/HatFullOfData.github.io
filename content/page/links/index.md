@@ -2,10 +2,6 @@
 title: Upcoming Events
 layout: links
 links:
-  - title: South Coast User Group - 7th July 2026 - Southampton
-    description: Lets build an Agent session at Meetup + Evening BBQ Social 
-    website: https://www.meetup.com/mcscug/events/312953958/
-    image: southcoast.png
   - title: Data Community Conference 1-3 September 2026 - London
     description: Session on business users building data solutions
     website: https://www.data-community.org/conference-2026
@@ -22,10 +18,17 @@ links:
     description: Come find me volunteering in the community lounge
     website: https://espc.tech/conference/fabcon-europe-2026/
     image: fabcon-barcelona.png
+  - title: South Coast User Group - 22-23rd October 2026 - Southampton
+    description: 2 day event at Hilton Ageas Bowl, Southampton 
+    website: https://www.meetup.com/mcscug/events/312953958/
+    image: southcoast.png
   - title: ESPC 2026 - 30 Nov - 3 Dec - Amsterdam
     description: When Users Leave - The Ripple Effect Across Microsoft 365 and Power Platform
     website: https://espc.tech/conference/espc-2026/
     image: ESPC.svg
+  - title: Past Events
+    description: The slide decks and resources from my past sessions.
+    website: https://hatfullofdata.blog/Sessions/
 menu:
     main: 
         weight: 3
