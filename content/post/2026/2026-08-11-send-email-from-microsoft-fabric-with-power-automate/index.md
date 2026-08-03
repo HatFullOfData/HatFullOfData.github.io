@@ -11,4 +11,4 @@ categories:
     - Automation
 ---
 
-{{</ fabric-email-series current="1" >}}
+{{< fabric-email-series current="1" >}}
