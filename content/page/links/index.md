@@ -1,5 +1,6 @@
 ---
 title: Upcoming Events
+image: cover.jpg
 layout: links
 links:
   - title: Data Community Conference 1-3 September 2026 - Virtual
