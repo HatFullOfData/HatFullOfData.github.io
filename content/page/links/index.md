@@ -6,6 +6,10 @@ links:
     description: Session on business users building data solutions
     website: https://www.data-community.org/conference-2026
     image: datacommunityconf.png
+  - title: Manchester D365PPUG All Day - 09 September 2029
+    description: Microsoft Fabric Activator and Power Automate - a great combination
+    website: https://www.meetup.com/d365ppug/events/310987087/
+    image: D365PPUG.png
   - title: Nordic Summit - 21st-22nd Sept 2026 - Billund
     description: When Users Leave - The Ripple Effect Across Microsoft 365 and Power Platform
     website: https://nordicsummit.info/
