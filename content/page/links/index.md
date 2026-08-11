@@ -2,7 +2,7 @@
 title: Upcoming Events
 layout: links
 links:
-  - title: Data Community Conference 1-3 September 2026 - London
+  - title: Data Community Conference 1-3 September 2026 - Virtual
     description: Session on business users building data solutions
     website: https://www.data-community.org/conference-2026
     image: datacommunityconf.png
@@ -18,6 +18,10 @@ links:
     description: Come find me volunteering in the community lounge
     website: https://espc.tech/conference/fabcon-europe-2026/
     image: fabcon-barcelona.png
+  - title: Women in Fabric 2026 - 03 October - Barcelona
+    description: Fabric and the mess of SharePoint
+    website: https://www.womeninfabric.com/
+    image: women-in-fabric.png
   - title: South Coast User Group - 22-23rd October 2026 - Southampton
     description: 2 day event at Hilton Ageas Bowl, Southampton 
     website: https://www.meetup.com/mcscug/events/312953958/

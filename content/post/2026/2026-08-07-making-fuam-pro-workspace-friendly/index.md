@@ -39,6 +39,7 @@ On the notebook activity in the pipeline I add the parameter under base paramete
 Lastly in the notebook I add a new code block, after cell 10 and before the write to silver delta table. The shared capacity needs to have a region assigned. It is the region of the home tenancy. I could not find an api to give me that detail, but the PP3, premium per user capacity is also in the home region so I used that to get the region. If there isn't a PP3 then I set the region to unknown.
 
 ```python
+# Add Shared capacity
 if not dedicated_only:
     # Get Home Region from PP3 row
     pp3_region_row = (
@@ -122,7 +123,7 @@ There will only be null capacity id values if pro workspaces have been included 
 Also to avoid the Default Dataset Storage mde being blank I make an assumption that its either Small or Large and Large is only available for premium and Fabric capacities. So I these for assume null should be replaced with small in the DefaultDatasetStorageFormat column.
 
 ```
-# Replace Nulls with Shared Capacity Id
+# Replace Nulls in Capacity Id and Default Dataset Storage Mode
 silver_df = silver_df.fillna(value="00000000-0000-0000-0000-000000000000", subset=['CapacityId'])
 silver_df = silver_df.fillna(value="Small", subset=['DefaultDatasetStorageFormat'])
 ```
