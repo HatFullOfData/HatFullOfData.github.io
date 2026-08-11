@@ -45,6 +45,8 @@ menu:
             icon: link
 
 comments: false
+readingTime: false
+license: false
 ---
 
 Conferences are my happy place. I love the community, chance to share ideas and sometimes get on a stage and do demos live or talk about my passion for low-code solutions and technology adoption.
