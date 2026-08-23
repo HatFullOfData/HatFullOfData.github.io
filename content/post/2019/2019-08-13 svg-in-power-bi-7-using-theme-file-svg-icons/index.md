@@ -30,6 +30,9 @@ The url can be SVG code in a similar format to the measures from previous posts.
 
 ```xml
 data:image/svg+xml;utf8, 
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'>
+    <path d='M50,50 L50,0 A50,50 1 0,1 100,50 z' fill='#ED003C' />
+</svg> 
 
 ```
 
@@ -40,7 +43,7 @@ A simple theme file to create one extra icon would look like
     "name": "New Icons",
      "icons": {
           "complete025": {
-               "url": "data:image/svg+xml;utf8, ",
+               "url": "data:image/svg+xml;utf8, <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><path d='M50,50 L50,0 A50,50 1 0,1 100,50 z' fill='#ED003C' /></svg>",
                "description": "25% Complete"
           }
 	}
@@ -58,19 +61,19 @@ I then expanded the list of icons to cope with 25%, 50%, 75% and 100% going from
      "name": "Percent Icons",
      "icons": {
           "complete025": {
-               "url": "data:image/svg+xml;utf8, ",
+               "url": "data:image/svg+xml;utf8, <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><path d='M50,50 L50,0 A50,50 1 0,1 100,50 z' fill='#ED003C' /></svg> ",
                "description": "25% Complete"
           },
           "complete050": {
-               "url": "data:image/svg+xml;utf8,  ",
+               "url": "data:image/svg+xml;utf8, <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><path d='M50,50 L50,0 A50,50 1 0,1 50,100 z' fill='#E49B13' /></svg> ",
                "description": "50% Complete"
           },
 		  "complete075": {
-				"url":"data:image/svg+xml;utf8,  ",
+				"url":"data:image/svg+xml;utf8, <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><path d='M50,50 L50,0 A50,50 1 1,1 0,50 z' fill='#E49B13' /> </svg>",
 				"description":"75% Complete"
 		  },
          "complete100": {
-               "url": "data:image/svg+xml;utf8,  ",
+               "url": "data:image/svg+xml;utf8, <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='50' fill='#008A00' /> </svg>",
                "description": "100% Complete"
          }
      }
