@@ -8,6 +8,8 @@ image: cover.png
 categories:
     - Microsoft Fabric
     - Power Automate
+tags:
+    - 2026-2027
 ---
 
 I have a Fabric capacity I use for demos, write this blog and to learn. I am forever forgetting to turn it off. For companies this could be that dev or training capacity that is pay as you go and should only be on when its required. This is a simple cost saving automation. For this post I am assuming you are the capacity admin so therefore can pause and resume it manually. 

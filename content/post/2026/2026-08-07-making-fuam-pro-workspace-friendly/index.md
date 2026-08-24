@@ -8,6 +8,8 @@ image: cover.png
 categories:
     - Microsoft Fabric
     - FUAM
+tags:
+    - 2026-2027
 ---
 
 FUAM stands for Fabric Unified Admin Monitoring. It is a community-driven tool designed for Power BI and Microsoft Fabric administrators to track tenant settings, monitor capacity usage, audit user activities and manage data governance. Its a great starting place to do monitoring.
