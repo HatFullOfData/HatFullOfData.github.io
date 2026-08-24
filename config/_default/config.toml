@@ -3,6 +3,9 @@ baseurl = "https://hatfullofdata.blog/"
 locale  = "en-gb"
 title   = "Hat Full of Data"
 
+# Generates robots.txt pointing crawlers at the sitemap
+enableRobotsTXT = true
+
 # Theme i18n support
 # See all available values at https://github.com/CaiJimmy/hugo-theme-stack/tree/master/i18n
 defaultContentLanguage = "en"
