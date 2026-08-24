@@ -4,6 +4,7 @@ description: Notebook workflows, helpers, and patterns.
 image:
 aliases:
     - /category/notebooks/
+    - /category/microsoft-fabric/notebooks/
 
 # Badge style
 style:

@@ -4,6 +4,7 @@ description: Power Apps patterns and implementation guides.
 image: PowerApps.svg
 aliases:
     - /category/power-apps/
+    - /category/powerapps/
 
 # Badge style
 style:

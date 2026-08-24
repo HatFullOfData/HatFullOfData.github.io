@@ -3,6 +3,8 @@ title: About Me
 description: Track migration progress from WordPress to Hugo.
 slug: about-me
 date: 2026-06-21 00:00:00+0000
+aliases:
+  - /about-laura-gb/
 menu:
     main:
         weight: 2
