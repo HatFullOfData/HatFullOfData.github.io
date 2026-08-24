@@ -2,6 +2,8 @@
 title: DevOps
 description: Azure DevOps reporting and process automation.
 image: azure-devops-color.svg
+aliases:
+    - /category/devops/
 
 # Badge style
 style:

@@ -2,6 +2,8 @@
 title: Entra
 description: Microsoft Entra identity and access topics.
 image:
+aliases:
+    - /category/entra/
 
 # Badge style
 style:

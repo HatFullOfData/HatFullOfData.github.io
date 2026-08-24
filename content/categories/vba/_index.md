@@ -2,6 +2,8 @@
 title: VBA
 description: VBA automation scripts and examples.
 image:
+aliases:
+    - /category/vba/
 
 # Badge style
 style:

@@ -2,6 +2,8 @@
 title: Power Automate
 description: Power Automate workflows and API integrations.
 image: PowerAutomate_scalable.svg
+aliases:
+    - /category/power-automate/
 
 # Badge style
 style:

@@ -2,6 +2,8 @@
 title: Dataflow
 description: Dataflow setup patterns and guidance.
 image: dataflow_gen2_48_item.svg
+aliases:
+    - /category/dataflow/
 
 # Badge style
 style:

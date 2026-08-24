@@ -2,6 +2,8 @@
 title: Microsoft Graph
 description: Microsoft Graph API usage and examples.
 image:
+aliases:
+    - /category/microsoft-graph/
 
 # Badge style
 style:

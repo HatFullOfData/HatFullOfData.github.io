@@ -2,6 +2,8 @@
 title: YouTube
 description: Video tutorials and YouTube-related posts.
 image:
+aliases:
+    - /category/youtube/
 
 # Badge style
 style:

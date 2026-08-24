@@ -2,6 +2,8 @@
 title: Excel
 description: Excel tips, automation, and integrations.
 image:
+aliases:
+    - /category/excel/
 
 # Badge style
 style:
