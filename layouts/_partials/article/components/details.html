@@ -20,7 +20,10 @@
                 {{- $Page.Title -}}
             </a>
         </h1>
-    
+        <p>
+            By {{ with .Params.author }}{{ . }}{{ else }}{{ site.Params.author }}{{ end }}
+        </p>
+
         {{ if $IsList }}
             {{ with $Page.Params.description }}
             <h3 class="article-subtitle">
