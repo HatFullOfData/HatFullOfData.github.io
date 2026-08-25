@@ -20,9 +20,6 @@
                 {{- $Page.Title -}}
             </a>
         </h1>
-        <p>
-            By {{ with .Params.author }}{{ . }}{{ else }}{{ site.Params.author }}{{ end }}
-        </p>
 
         {{ if $IsList }}
             {{ with $Page.Params.description }}
@@ -43,6 +40,7 @@
     <footer class="article-meta">
         {{ if $showTime }}
             <div class="inline-meta">
+                {{ partial "helper/icon" "pen" }} {{ with .Params.author }}{{ . }}{{ else }}{{ site.Params.author }}{{ end }}
                 {{ if $showDate }}
                     {{ partial "helper/icon" "date" }}
                     <time class="article-time--published" datetime='{{ $Page.Date.Format "2006-01-02T15:04:05Z07:00" }}'>
