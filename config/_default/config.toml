@@ -5,6 +5,7 @@ title   = "Hat Full of Data"
 
 # Generates robots.txt pointing crawlers at the sitemap
 enableRobotsTXT = true
+canonifyURLS = true
 
 # Theme i18n support
 # See all available values at https://github.com/CaiJimmy/hugo-theme-stack/tree/master/i18n
@@ -25,6 +26,7 @@ disqusShortname = "hugo-theme-stack"
     pagerSize = 10
 
 [params]
+    author = "Laura GB"
     [[params.social]]
         url   = "https://linkedin.com/"
         icon  = "linkedin-in" # icon name without the 'fa-'
