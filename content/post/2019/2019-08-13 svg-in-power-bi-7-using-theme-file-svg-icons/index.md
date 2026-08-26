@@ -3,12 +3,15 @@ title: SVG in Power BI Part 7 – Using a Theme File to add SVG Icons
 description: As part of the July 2019 update there were changes to conditional formatting. In this post I am going to cover adding to or swapping the built in icons using a theme file and some SVG.
 slug: svg-in-power-bi-7-using-theme-file-svg-icons
 date: 2019-08-13 13:01:24+0000
-lastmod: 2025-02-14 12:46:47+0000
+lastmod: 2026-08-26 12:46:47+0000
 image: cover.png
 categories:
     - Power BI
     - SVG
 ---
+
+> [!WARNING]
+> The code in this post stopped working at some point. But its okay, a video at [https://www.youtube.com/watch?v=lfqPpUdtTss](https://www.youtube.com/watch?v=lfqPpUdtTss) explains that you need to swap # with %23 when you specify colours in the SVG.
 
 {{< svg-series current="6" >}}
 
