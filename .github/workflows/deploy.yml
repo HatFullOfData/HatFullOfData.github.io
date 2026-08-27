@@ -95,6 +95,16 @@ jobs:
         uses: actions/upload-pages-artifact@v5
         with:
           path: ./public
+      - name: Submit URLs to IndexNow
+        env:
+          INDEXNOW_KEY: 8f4c5303bb5b4fb38122a623eee43685
+          INDEXNOW_HOST: hatfullofdata.blog
+        run: |
+          urls=$(grep -oP '(?<=<loc>)[^<]+' public/sitemap.xml | jq -R -s -c 'split("\n") | map(select(length > 0))')
+          curl -s -o /dev/null -w "IndexNow response: %{http_code}\n" -X POST "https://api.indexnow.org/indexnow" \
+            -H "Content-Type: application/json; charset=utf-8" \
+            -d "$(jq -n --arg host "$INDEXNOW_HOST" --arg key "$INDEXNOW_KEY" --argjson urlList "$urls" \
+              '{host: $host, key: $key, keyLocation: ("https://" + $host + "/" + $key + ".txt"), urlList: $urlList}')"
   deploy:
     environment:
       name: github-pages
