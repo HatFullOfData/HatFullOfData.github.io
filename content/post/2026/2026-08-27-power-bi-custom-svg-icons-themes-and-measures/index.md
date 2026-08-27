@@ -14,7 +14,7 @@ tags:
 
 ## Introduction
 
-Conditional formatting with meaningful icons is one of my favourite ways to make a table or matrix mean something to anyone in the business. Red cross or diamond usually means something is wrong, green tick or circle means everything is okay. People understand that as a concept. So to make this easy I use measures and add my own custom icons<sup>1</sup>
+Conditional formatting with meaningful icons is one of my favourite ways to make a table or matrix mean something to anyone in the business. Red cross or diamond usually means something is wrong, green tick or circle means everything is okay.<sup>1</sup>  People understand that as a concept. So to make this easy I use measures and add my own custom icons
 
 ## Out of Box Conditional Formatting
 
