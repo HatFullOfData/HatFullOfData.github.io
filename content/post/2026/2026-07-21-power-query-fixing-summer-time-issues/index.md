@@ -1,6 +1,6 @@
 ---
 title: "Power Query : Fixing Summer Time Issues"
-description: Fixing daylight saving and summer time issues in Power Query with a simple pattern to stop dates becoming a day earlier.
+description: Fix Power Query daylight saving time errors that shift dates back a day by adding an hour to datetime values before converting them to date fields.
 slug: power-query-fixing-summer-time-issues
 date: 2026-07-21 00:00:00+0000
 lastmod: 2026-07-21 00:00:00+0000

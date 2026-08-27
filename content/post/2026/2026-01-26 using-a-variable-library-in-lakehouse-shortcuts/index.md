@@ -1,6 +1,6 @@
 ---
 title: Using a Variable Library in Lakehouse Shortcuts
-description: Lakehouse shortcuts are a popular addition to the Fabric set of tools to access data easily without copying it. Using a variable library in lakehouse shortcuts means its easy to point shortcuts to an alternative location. This great for ALM using development, test and production workspaces. Setting Up the Shortcuts Using the standard GUI you have no option to use...
+description: Learn how to use Microsoft Fabric variable library values in Lakehouse shortcuts, update shortcut targets, and support dev, test, and production deployments.
 slug: using-a-variable-library-in-lakehouse-shortcuts
 date: 2026-01-26 18:43:51+0000
 lastmod: 2026-01-26 18:43:56+0000

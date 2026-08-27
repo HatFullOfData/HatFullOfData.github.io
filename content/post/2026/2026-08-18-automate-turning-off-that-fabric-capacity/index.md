@@ -1,6 +1,6 @@
 ---
 title: Use Power Automate to schedule pausing a Fabric Capacity
-description: Learn how to use Power Automate to automatically pause a Microsoft Fabric capacity on a schedule and save costs. This step-by-step guide shows how to check the current capacity state and only suspend it when it is Active.
+description: Learn how to schedule Power Automate to pause a Microsoft Fabric capacity, check its current state, and reduce costs by suspending it only when active.
 slug: power-automate-pause-fabric-capacity-schedule
 date: 2026-08-18 00:00:00+0000
 lastmod: 2026-08-18 00:00:00+0000

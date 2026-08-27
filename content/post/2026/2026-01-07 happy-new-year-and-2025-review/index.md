@@ -1,6 +1,6 @@
 ---
 title: Happy New Year and 2025 Review
-description: Welcome to 2026! In a world full of AI generated content I am very proud that none of the content here on this blog will be AI generated. Mostly because here is my personal notebook of how to do stuff. I still refer back to my first posts from April 2019 on writing SVG. That copy button in code blocks...
+description: A personal review of 2025, covering Hat Full of Data blog traffic, YouTube growth, community speaking, and plans for more Microsoft technology content in 2026.
 slug: happy-new-year-and-2025-review
 date: 2026-01-07 10:52:18+0000
 lastmod: 2026-01-07 10:52:20+0000

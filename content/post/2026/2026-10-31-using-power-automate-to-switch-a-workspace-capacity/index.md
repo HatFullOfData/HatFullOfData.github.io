@@ -1,6 +1,6 @@
 ---
 title: Using Power Automate to Switch a Workspace Capacity
-description: # TODO: Add description
+description: Learn how to use Power Automate and the Microsoft Fabric REST API to move a workspace between capacities for flexible capacity management and cost control.
 slug: using-power-automate-to-switch-a-workspace-capacity
 date: 2026-10-31 00:00:00+0000
 lastmod: 2026-10-31 00:00:00+0000

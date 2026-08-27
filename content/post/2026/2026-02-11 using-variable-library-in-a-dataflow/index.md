@@ -1,6 +1,6 @@
 ﻿---
 title: Using Variable Library in a Dataflow
-description: One of the popular low-code tools within Microsoft Fabric is the Gen2 Dataflow. Power BI report builders already know some Power Query. So armed with this knowledge is a popular starting point to load data into Microsoft Fabric. Adding values from the Variable Library in a Dataflow is an obvious plan to make it more future proof and to work...
+description: Learn how to use Microsoft Fabric variable libraries in Dataflow Gen2 with Power Query Variable.ValueOrDefault for reusable, deployment-ready dataflows.
 slug: using-variable-library-in-a-dataflow
 date: 2026-02-11 17:21:24+0000
 lastmod: 2026-02-11 17:21:27+0000
