@@ -1,3 +1,4 @@
+---
 title: Use Microsoft Fabric Variable Libraries in Lakehouse Shortcuts
 description: Learn how to use Microsoft Fabric variable library values in Lakehouse shortcuts, update shortcut targets, and support dev, test, and production deployments.
 slug: using-a-variable-library-in-lakehouse-shortcuts

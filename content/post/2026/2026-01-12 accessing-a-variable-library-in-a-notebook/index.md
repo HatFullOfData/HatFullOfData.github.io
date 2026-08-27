@@ -1,4 +1,5 @@
-﻿title: Access Microsoft Fabric Variable Libraries in Notebooks
+﻿---
+title: Access Microsoft Fabric Variable Libraries in Notebooks
 description: Learn how to access Microsoft Fabric variable library values in a notebook using notebookutils, direct references, and reusable naming conventions for deployment.
 slug: accessing-a-variable-library-in-a-notebook
 date: 2026-01-12 09:34:51+0000

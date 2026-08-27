@@ -1,3 +1,4 @@
+---
 title: Extend FUAM Monitoring for Microsoft Fabric Pro Workspaces
 description: Extend the Microsoft Fabric Unified Admin Monitoring tool to include Pro and shared-capacity workspaces alongside dedicated capacity monitoring data.
 slug: making-fuam-include-pro-workspaces

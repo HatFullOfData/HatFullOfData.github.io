@@ -1,3 +1,4 @@
+---
 title: Fix Power Query Summer Time and Daylight Saving Errors
 description: Fix Power Query daylight saving time errors that shift dates back a day by adding an hour to datetime values before converting them to date fields.
 slug: power-query-fixing-summer-time-issues

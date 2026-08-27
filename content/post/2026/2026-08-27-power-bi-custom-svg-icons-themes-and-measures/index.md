@@ -1,3 +1,4 @@
+---
 title: Power BI Custom SVG Icons with Themes and DAX Measures
 description: Learn how to use DAX measures and a custom Power BI theme to apply meaningful SVG icons for conditional formatting in tables and matrices for status indicators.
 slug: power-bi-custom-svg-icons-themes-and-measures

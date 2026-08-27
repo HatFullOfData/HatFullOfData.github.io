@@ -1,3 +1,4 @@
+---
 title: Hat Full of Data: 2025 Blog, Video and Community Review
 description: A personal review of 2025, covering Hat Full of Data blog traffic, YouTube growth, community speaking, and plans for more Microsoft technology content in 2026.
 slug: happy-new-year-and-2025-review

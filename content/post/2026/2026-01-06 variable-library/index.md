@@ -1,3 +1,4 @@
+---
 title: Microsoft Fabric Variable Libraries: Setup and Use
 description: Learn how to create a Microsoft Fabric variable library to centralise configuration values for dataflows, notebooks, and pipelines across deployment stages.
 slug: variable-library
