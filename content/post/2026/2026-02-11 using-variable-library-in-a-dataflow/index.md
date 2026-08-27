@@ -1,5 +1,4 @@
-﻿---
-title: Using Variable Library in a Dataflow
+﻿title: Use Microsoft Fabric Variable Libraries in Dataflows Gen2
 description: Learn how to use Microsoft Fabric variable libraries in Dataflow Gen2 with Power Query Variable.ValueOrDefault for reusable, deployment-ready dataflows.
 slug: using-variable-library-in-a-dataflow
 date: 2026-02-11 17:21:24+0000

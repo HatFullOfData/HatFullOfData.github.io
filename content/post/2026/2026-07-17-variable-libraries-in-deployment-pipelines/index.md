@@ -1,5 +1,4 @@
----
-title: Variable Libraries in Deployment Pipelines
+title: Fabric Variable Libraries in Deployment Pipelines Explained
 description: Learn how Microsoft Fabric variable libraries work with deployment pipelines, active value sets, and environment-specific settings for development, test, and production.
 slug: variable-libraries-in-deployment-pipelines
 date: 2026-07-17 00:00:00+0000

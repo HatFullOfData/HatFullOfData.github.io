@@ -1,5 +1,4 @@
----
-title: Create a Variable Library using a Python Notebook
+title: Create Fabric Variable Libraries with a Python Notebook
 description: Learn how to create Microsoft Fabric variable libraries from a Python notebook with Semantic Link Labs, including variables, value sets, and workspace settings.
 slug: create-a-variable-library-using-a-python-notebook
 date: 2026-07-28 00:00:00+0000

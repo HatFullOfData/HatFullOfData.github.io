@@ -1,5 +1,4 @@
----
-title: Using a Variable Library in a Data Pipeline
+title: Use Microsoft Fabric Variable Libraries in Data Pipelines
 description: Learn how to use Microsoft Fabric variable libraries in data pipelines for dynamic connections, workspace IDs, warehouse IDs, and deployment-ready configuration.
 slug: using-a-variable-library-in-a-data-pipeline
 date: 2026-01-19 10:36:26+0000

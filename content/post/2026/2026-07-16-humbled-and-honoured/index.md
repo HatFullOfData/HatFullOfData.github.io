@@ -1,5 +1,4 @@
----
-title: Humbled and Honoured
+title: Microsoft Data Platform MVP Renewal: Humbled and Honoured
 description: A reflection on Microsoft Data Platform MVP renewal, the technology community, conference speaking, and the people who make another year in tech meaningful.
 slug: humbled-and-honoured
 date: 2026-07-15 00:00:00+0000
