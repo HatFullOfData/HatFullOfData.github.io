@@ -1,0 +1,15 @@
+{{ if .IsPage }}
+{{ $image := partial "helper/image" (dict "Image" .Params.image "Resources" .Resources "Context" .) }}
+{{ $data := dict
+    "@context" "https://schema.org"
+    "@type" "BlogPosting"
+    "headline" .Title
+    "mainEntityOfPage" .Permalink
+    "datePublished" (.Date.Format "2006-01-02T15:04:05-07:00")
+    "dateModified" (.Lastmod.Format "2006-01-02T15:04:05-07:00")
+    "author" (dict "@type" "Person" "name" .Site.Params.author "url" "https://www.linkedin.com/in/lauragb/")
+    "publisher" (dict "@type" "Organization" "name" .Site.Title)
+}}
+{{ if $image }}{{ $data = merge $data (dict "image" (slice (absURL $image.Permalink))) }}{{ end }}
+<script type="application/ld+json">{{ $data | jsonify | safeJS }}</script>
+{{ end }}
