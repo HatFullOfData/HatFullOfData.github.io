@@ -115,7 +115,7 @@ Using SVG patterns and a list of patterns we can add patterns to the present wra
 )
 ```
 
-[Excel File for SVG Patterns](https://hatfullofdata.blog/wp-content/uploads/2020/01/SVG-patterns.xlsx)
+[Excel File for SVG Patterns](https://github.com/HatFullOfData/Demo/raw/refs/heads/main/Blog/SVG-patterns.xlsx)
 
 ### Day 7 – Add a Tag using SVG Text and Rotate
 
@@ -274,7 +274,7 @@ With(
 
 I thoroughly enjoyed building the different components and working out the SVG code to use. I hope you have enjoyed watching. Below is the link to download a zip of the MSApp file for the components.
 
-[https://hatfullofdata.blog/wp-content/uploads/2020/01/12-Days-of-Components.zip](https://hatfullofdata.blog/wp-content/uploads/2020/01/12-Days-of-Components.zip)
+[https://github.com/HatFullOfData/Demo/raw/refs/heads/main/Blog/12-Days-of-Components.zip](https://github.com/HatFullOfData/Demo/raw/refs/heads/main/Blog/12-Days-of-Components.zip)
 
 ## More Power Apps Posts
 

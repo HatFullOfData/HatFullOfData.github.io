@@ -14,7 +14,7 @@ This post is to support my virtual introduction to Power BI session for London R
 
 ### Resources
 
-Tea Production – [https://teahow.com/where-is-tea-grown/](https://teahow.com/where-is-tea-grown/)Favourite Biscuit – [https://hatfullofdata.blog/wp-content/uploads/2020/11/Biscuit-Data.xlsx](https://hatfullofdata.blog/wp-content/uploads/2020/11/Biscuit-Data.xlsx)
+Tea Production – [https://teahow.com/where-is-tea-grown/](https://teahow.com/where-is-tea-grown/)Favourite Biscuit – [https://github.com/HatFullOfData/Demo/raw/refs/heads/main/Blog/Biscuit-Data.xlsx](https://github.com/HatFullOfData/Demo/raw/refs/heads/main/Blog/Biscuit-Data.xlsx)
 
 The biscuit data is fictitious using randomly generated names and random selection of biscuits.
 

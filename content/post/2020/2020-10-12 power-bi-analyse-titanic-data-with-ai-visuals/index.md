@@ -17,9 +17,9 @@ This is a post to support my session at the Reactor on 12th October 2020. The se
 
 The session uses 2 data sources, the passenger list for the Titanic and an Excel file to add some extra information such as port locations.
 
-[https://hatfullofdata.blog/wp-content/uploads/2020/10/TitanicLocations.xlsx](https://hatfullofdata.blog/wp-content/uploads/2020/10/TitanicLocations.xlsx)
+[https://github.com/HatFullOfData/Demo/raw/refs/heads/main/Blog/TitanicLocations.xlsx](https://github.com/HatFullOfData/Demo/raw/refs/heads/main/Blog/TitanicLocations.xlsx)
 
-[https://hatfullofdata.blog/wp-content/uploads/2020/10/titanicdata.csv](https://hatfullofdata.blog/wp-content/uploads/2020/10/titanicdata.csv)
+[https://github.com/HatFullOfData/Demo/raw/refs/heads/main/Blog/titanicdata.csv](https://github.com/HatFullOfData/Demo/raw/refs/heads/main/Blog/titanicdata.csv)
 
 ### Transformations
 
