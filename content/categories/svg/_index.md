@@ -1,6 +1,6 @@
 ---
 title: SVG
-description: SVG visuals, animation, and design techniques.
+description: SVG guides for creating data-driven visuals, icons, animation, and interactive design elements for more expressive Power BI reports and dashboards alike.
 image:
 aliases:
     - /category/svg/

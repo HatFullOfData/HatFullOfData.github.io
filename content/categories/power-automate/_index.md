@@ -1,6 +1,6 @@
 ---
 title: Power Automate
-description: Power Automate workflows and API integrations.
+description: Power Automate guides for building reliable flows, connecting services and APIs, managing approvals, and automating recurring business processes at scale.
 image: PowerAutomate_scalable.svg
 aliases:
     - /category/power-automate/

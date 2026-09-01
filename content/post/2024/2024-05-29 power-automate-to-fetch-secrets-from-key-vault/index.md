@@ -7,6 +7,7 @@ lastmod: 2025-02-14 11:12:03+0000
 image: cover.png
 categories:
     - Azure
+    - Key Vault
     - Power Automate
     - Power BI
 ---

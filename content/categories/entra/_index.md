@@ -1,6 +1,6 @@
 ---
 title: Entra
-description: Microsoft Entra identity and access topics.
+description: Microsoft Entra guides for identity, access, service principals, and securely connecting Microsoft services and automation.
 image:
 aliases:
     - /category/entra/

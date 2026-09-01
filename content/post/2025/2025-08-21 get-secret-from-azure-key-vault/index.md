@@ -7,6 +7,7 @@ lastmod: 2025-08-21 16:33:58+0000
 image: cover.png
 categories:
     - Azure
+    - Key Vault
     - Microsoft Fabric
 ---
 

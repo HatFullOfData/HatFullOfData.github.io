@@ -1,6 +1,6 @@
 ---
 title: Dataverse
-description: Working with Dataverse data and integrations.
+description: Dataverse guides for designing tables, managing business data, and connecting Power Apps, Power Automate, and Power BI solutions.
 image: Dataverse_scalable.svg
 aliases:
     - /category/dataverse/

@@ -1,6 +1,6 @@
 ---
 title: Project
-description: Project notes, planning, and delivery topics.
+description: Microsoft Project guides for planning work, managing tasks and dependencies, tracking delivery, and reporting project progress with clarity for teams.
 image:
 aliases:
     - /category/project/

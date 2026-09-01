@@ -1,6 +1,6 @@
 ---
 title: Notebooks
-description: Notebook workflows, helpers, and patterns.
+description: Microsoft Fabric notebook guides for data engineering, automation, configuration, and working with lakehouse data using code.
 image:
 aliases:
     - /category/notebooks/

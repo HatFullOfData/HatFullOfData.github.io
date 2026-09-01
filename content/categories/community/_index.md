@@ -1,6 +1,6 @@
 ---
 title: Community
-description: Community highlights, events, and collaborations.
+description: Community stories, event highlights, collaborations, and resources that connect people working across data, Power Platform, and Microsoft Fabric.
 image: community.svg
 aliases:
     - /category/community/

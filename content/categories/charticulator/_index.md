@@ -1,6 +1,6 @@
 ---
 title: Charticulator
-description: Charticulator resources and custom chart ideas.
+description: Charticulator guides, resources, and custom visual examples for designing bespoke charts and extending Power BI reports with data-driven visuals.
 image: Charticulator Icon.svg
 aliases:
     - /category/charticulator/

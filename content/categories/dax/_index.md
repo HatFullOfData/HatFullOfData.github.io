@@ -1,6 +1,6 @@
 ---
 title: DAX
-description: DAX formulas, patterns, and techniques.
+description: DAX tutorials, calculation patterns, and practical examples for building clear, reliable measures in Power BI data models.
 image: document_multiple_dax_20_regular.svg
 aliases:
     - /category/dax/

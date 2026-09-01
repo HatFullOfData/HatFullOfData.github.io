@@ -1,6 +1,6 @@
 ---
 title: Dataflow
-description: Dataflow setup patterns and guidance.
+description: Dataflow guides for preparing and transforming data, scheduling refreshes, tracking performance, and building dependable Power BI analytics solutions for teams.
 image: dataflow_gen2_48_item.svg
 aliases:
     - /category/dataflow/

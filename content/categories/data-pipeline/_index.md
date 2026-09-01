@@ -1,6 +1,6 @@
 ---
 title: Data Pipeline
-description: Building and managing data pipeline workflows.
+description: Microsoft Fabric Data Pipeline guides for building automated data workflows, configuring variables, orchestrating activities, and managing reliable data refreshes.
 image: pipeline_48_item.svg
 aliases:
     - /category/data-pipeline/

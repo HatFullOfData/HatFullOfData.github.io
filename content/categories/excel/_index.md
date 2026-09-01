@@ -1,6 +1,6 @@
 ---
 title: Excel
-description: Excel tips, automation, and integrations.
+description: Excel tips, Power Query techniques, VBA examples, and practical ways to improve everyday data and reporting workflows.
 image:
 aliases:
     - /category/excel/

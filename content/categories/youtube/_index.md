@@ -1,6 +1,6 @@
 ---
 title: YouTube
-description: Video tutorials and YouTube-related posts.
+description: YouTube videos and companion posts covering practical data, Power Platform, and Microsoft Fabric topics, demonstrations, and event sessions for learning.
 image:
 aliases:
     - /category/youtube/

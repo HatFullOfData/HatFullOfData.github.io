@@ -1,6 +1,6 @@
 ---
 title: DevOps
-description: Azure DevOps reporting and process automation.
+description: Azure DevOps guides for managing work items, automating processes, and bringing project data into Power BI reporting.
 image: azure-devops-color.svg
 aliases:
     - /category/devops/

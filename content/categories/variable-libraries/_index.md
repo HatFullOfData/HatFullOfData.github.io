@@ -1,6 +1,6 @@
 ---
 title: Variable Libraries
-description: Variable library usage in notebook workflows.
+description: Variable Library guides for storing configuration securely and reusing values across Microsoft Fabric notebooks, dataflows, and pipelines for shared teams.
 image: variable_library_48_item.svg
 aliases:
     - /category/variable-libraries/

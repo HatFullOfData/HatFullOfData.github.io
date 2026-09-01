@@ -1,6 +1,6 @@
 ---
 title: VBA
-description: VBA automation scripts and examples.
+description: VBA guides and code examples for automating Excel tasks, streamlining repetitive work, and connecting spreadsheets to broader data workflows at scale.
 image:
 aliases:
     - /category/vba/
