@@ -22,7 +22,7 @@ The documentation refers to workspaces as groups and can be found at [https://le
 
 You also need to make some changes to Power BI tenant settings as well and I’d recommend creating a security group and using Azure Key Vault to store the credentials. That would make a very long blog post so I’m breaking it down into separate posts.
 
-- [Create a Power BI Service Principal Profile](https://hatfullofdata.blog/create-a-power-bi-service-principle-profile/)
+- [Create a Power BI Service Principal Profile](https://hatfullofdata.blog/create-a-power-bi-service-principal-profile/)
 
 - [Create Key Vault to store Tenant ID, Client ID and Secret](https://hatfullofdata.blog/create-azure-key-vault-to-store-tenant-id-client-id-and-secret/)
 

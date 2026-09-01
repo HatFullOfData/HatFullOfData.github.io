@@ -9,7 +9,7 @@ categories:
     - Azure
 ---
 
-Azure Key Vault is a cloud service that provides a secure store for secrets. And in the previous post on creating [Power BI Service Principal Profile](https://hatfullofdata.blog/create-a-power-bi-service-principle-profile/) we added a secret. The Tenant ID, Client ID and Secret values give access to the Service Principal and whatever permission they have. So for that reason we are going to create an Azure Key Vault.
+Azure Key Vault is a cloud service that provides a secure store for secrets. And in the previous post on creating [Power BI Service Principal Profile](https://hatfullofdata.blog/create-a-power-bi-service-principal-profile/) we added a secret. The Tenant ID, Client ID and Secret values give access to the Service Principal and whatever permission they have. So for that reason we are going to create an Azure Key Vault.
 
 This post is part of the [Power Automate and Power BI Rest API series](https://hatfullofdata.blog/power-automate-and-power-bi-rest-api/)
 

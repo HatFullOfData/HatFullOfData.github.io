@@ -23,7 +23,7 @@ Once you have added a table or matrix visual to your report you can in formattin
 Clicking on Advanced controls link opens options behind the selection of icons. The default rules are for 3 icons at 
 ![icon rules](icons_01.png)
 
-In this post though I’m looking at using SVG to define and select the icon. So I will not be using rules but will be using a measure. The example is going to be based on a measure written in a previous post, [KPI Shapes in Power BI](https://hatfullofdata.blog/svg-in-power-bi-part-2/) The measure decides on an up or down arrow based on another measure called Growth.
+In this post though I’m looking at using SVG to define and select the icon. So I will not be using rules but will be using a measure. The example is going to be based on a measure written in a previous post, [KPI Shapes in Power BI](https://hatfullofdata.blog/svg-in-power-bi-part-2-kpi-shapes/) The measure decides on an up or down arrow based on another measure called Growth.
 
 ```xml
 Arrow = 
