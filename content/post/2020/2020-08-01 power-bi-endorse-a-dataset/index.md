@@ -37,7 +37,7 @@ By default users cannot endorse a dataset as certified. This is more restricted 
 
 If you are a Power BI Admin you will be able to set up who can certify a dataset in the Admin Portal. From any dataset in the Power BI website, click on the three dots in the top right of the window, select Settings and then Admin portal.
 
-![](Endorse_004.png)
+![screenshot of menu to Admin portal](Endorse_004.png)
 
 In the Admin Portal, select Tenant settings and then scroll down to find Certification. Expanding that section reveals a toggle button enable Certification. Once enabled, you can select who it applies to by entering in a security group. Click Apply to save your changes. It can take up to 15 minutes for the changes to take effect.
 

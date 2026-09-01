@@ -8,6 +8,8 @@ image: cover.png
 categories:
     - Power BI
     - DAX
+tags:
+    - 2025-2026
 ---
 
 Recently in a few Power BI projects and training courses we’ve needed to create a measure for counting active records based on start and end dates for a time period. This has varied from active projects, active employees to active contracts. All of them have had the common feature of start and end dates.

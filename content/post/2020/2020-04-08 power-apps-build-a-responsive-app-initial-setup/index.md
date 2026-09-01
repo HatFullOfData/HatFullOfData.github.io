@@ -49,7 +49,7 @@ Features can be turn on from File > Settings > Advanced Settings, scroll down an
 
 By default the screen height of every screen in an app is set to Max(App.Height, App.DesignHeight). This assumes the app is designed small and the screen should expand. I prefer to do the reverse and design the larger size and work out how to scale down. So I set the screen height and width to be App.Height and App.Width.
 
-![](Responsive_004.jpg)
+![Screenshot of the MainScreen advanced properties](Responsive_004.jpg)
 
 ### Conclusion
 

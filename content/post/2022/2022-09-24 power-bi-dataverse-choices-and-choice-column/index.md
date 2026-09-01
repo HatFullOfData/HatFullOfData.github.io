@@ -22,7 +22,7 @@ The difference between a choice and choices column is how many choices can be pi
 
 When the table is loaded into Power BI there are two columns for the choice column. The first column is the number that refers to the choice in the choices list and the second column is the value from the choice list. The limitation of using the name column is only selected values will in your data and it will slow down the refresh of the data.
 
-![](dataversechoice_005.jpg)
+![2 columns as described above](dataversechoice_005.jpg)
 
 ### Choices Column in Power BI
 

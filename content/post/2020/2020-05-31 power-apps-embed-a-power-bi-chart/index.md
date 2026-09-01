@@ -52,9 +52,9 @@ The above fix has worked for every problem I’ve had so far. Please add comment
 
 Power BI is powerful because charts can be sliced easily. When you only have a single chart from a report you don’t have the option to include slicers and filters. If you examine the Power BI control in Power Apps you will see the TileUrl property for the control is a long url.
 
-![](embed_007.png)
+![screenshot of long url](embed_007.png)
 
-![](embed_008.png)
+![screenshot of the fields list](embed_008.png)
 
 An extra parameter can be added to this url to filter the chart. The filter is written as an OData filter. You need to know the table and field names to write the filter. In this example if I look back in the Power BI report in Desktop I can see the Colour field is from the Toys table.
 

@@ -62,7 +62,7 @@ A simple calculation of (End Time – Start Time) will give you the duration in 
 
 If you download the file of a failed refresh you will either get a single line why the whole refresh failed or details of which entity failed. there are occasions when the error is not clear, for example the second one shown.
 
-![](history_006.png)
+![screen shot of the file in Excel](history_006.png)
 
 In the first example the sales entity has failed due to a problem with the “Qty” column. This causes the other entities’ refreshes to be cancelled.
 

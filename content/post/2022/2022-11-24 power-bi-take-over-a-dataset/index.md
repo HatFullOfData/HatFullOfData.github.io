@@ -16,7 +16,7 @@ A published dataset in the Power BI service is owned by one account, often a per
 
 ## Initial Dataset
 
-![](Takeover_001.png)
+![Screen grabs of the menu and Settings for Accounts with Take Over button](Takeover_001.png)
 
 Click the three dots on a dataset and select Settings. At the the top of the Settings window we can see AmyA currently has control of the Account report dataset. So this account, DanJ cannot edit scheduled refreshes, edit parameters etc. If Amy’s account gets deactivated then the refreshes will fail.
 

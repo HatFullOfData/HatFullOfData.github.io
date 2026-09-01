@@ -7,6 +7,8 @@ lastmod: 2026-01-07 10:52:20+0000
 image: cover.png
 categories:
     - Community
+tags:
+    - 2025-2026
 ---
 
 ## Welcome to 2026!

@@ -73,7 +73,7 @@ The final step before me move on to text is to remove the gap between the rectan
 
 ### Adding Text
 
-![](Charticulator_110.png)
+![screenshot of labels properties](Charticulator_110.png)
 
 A good alternative to adding a legend to a chart is to add labels. We are going to add 2 text objects to show the drink name and the people count. Drag a text item, show by A, into the glyph area. Keeping Text1 selected, we can update the attributes. Make the following changes
 

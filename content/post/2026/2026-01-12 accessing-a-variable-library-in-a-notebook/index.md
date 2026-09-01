@@ -9,6 +9,8 @@ categories:
     - Microsoft Fabric
     - Notebooks
     - Variable Libraries
+tags:
+    - 2025-2026
 ---
 
 This post walks through how to access a variable library in a notebook in Microsoft Fabric. I recommend a Microsoft Fabric project starts by creating a variable library to store the common values different artifacts need and could be changed if a deployment pipeline gets involved. So when we create a notebook we need to be able to use these variables. This means we need load the variable library in a notebook and then get the variable values.

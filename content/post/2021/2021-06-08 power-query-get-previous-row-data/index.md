@@ -31,7 +31,7 @@ Now we can merge a table to itself (yes a touch head screwy but its fine it work
 
 This creates a column that contains tables. Press the expand button and only select the Score column. Click OK to give a column of the previous scores ready to rename.
 
-![](PreviousScore_005.png)
+![Screen shot of Score.1 being added](PreviousScore_005.png)
 
 I then rename Score.1 to Previous Score and use Choose Columns to remove Index and Previous Index to end up with a table of name, date, score and previous score.
 

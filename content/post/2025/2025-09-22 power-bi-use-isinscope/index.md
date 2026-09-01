@@ -8,6 +8,8 @@ image: cover.png
 categories:
     - DAX
     - Power BI
+tags:
+    - 2025-2026
 ---
 
 I recently had a request for totals in a Matrix to be shown for some columns and not for other columns. My solution was to use ISINSCOPE in a Matrix to work out which level of the matrix to choose what to return.
@@ -24,11 +26,11 @@ So I’d like the Tickets Sold measure to not show a value on rows combining the
 
 The first step is to determine which rows are the ticket type rows and which rows aren’t. For this we can use the DAX function ISINSCOPE.
 
-![](image-1.png)
+![screen shot of the matrix with Ticket Type in Scope added](image-1.png)
 
 For demo purposes I created a measure that returns a true or false using the function ISINSCOPE. We can see it returns true on the ticket type lines but not the event or total lines. If we want to show all the layers we could look at all the fields in the matrix in a measure. Make sure you start with the lowest level first, so in my case Ticket Type.
 
-![](image-2.png)
+![Matrix with the Scope column added](image-2.png)
 
 ```xml
 Scope =

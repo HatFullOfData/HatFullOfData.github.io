@@ -64,7 +64,7 @@ We now have a query that can fetch web data which we now need to use to build a 
 
 Right click on your query and select Create Function. Type in a name for the query.
 
-![](customfunc_306.png)
+![Create function dialog box](customfunc_306.png)
 
 The query and the parameters are all moved into a group and a function is created. If any changes are required in the function, the changes need to be made to the query. If changes are made to the function it will break the link with the query.
 
@@ -86,7 +86,7 @@ When you click the OK button the function will run for every row of the table. T
 
 After OK is clicked the column of tables is replaced by the three columns from the table.
 
-![](customfunc_310.png)
+![screen of the table](customfunc_310.png)
 
 ### Conclusion
 

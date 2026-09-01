@@ -10,7 +10,7 @@ categories:
     - Microsoft Fabric
     - Variable Libraries
 tags:
-    - "2025-2026"
+    - 2025-2026
 ---
 
 You’ve set up your variable pipeline with WorkspaceIDs and LakehouseIDs etc etc Now you want to use that variable library in a data pipeline so we can use the common values and they will behave in a deployment pipeline.

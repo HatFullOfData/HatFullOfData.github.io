@@ -68,7 +68,7 @@ Getting a user to select a colour or size is a simple introduction idea to modif
 
 First step is to add a button to setup the variables. Then we change the SVG code to use the 2 variables
 
-![](SVG_206-1.png)
+![screen of a blue Setup button with](SVG_206-1.png)
 
 ```xml
 "data:image/svg+xml;utf8, " & EncodeUrl(

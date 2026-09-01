@@ -5,6 +5,8 @@ slug: microsoft-fabric-using-copy-job-with-dataverse
 date: 2025-11-27 15:35:41+0000
 lastmod: 2026-01-06 13:32:34+0000
 image: cover.png
+tags:
+    - 2025-2026
 categories:
     - Dataverse
     - Microsoft Fabric
@@ -28,10 +30,6 @@ Dataverse is the data store behind parts of Dynamics and lots of Power Platform 
 For this post we will look at 2 tables, Accounts and Contacts so all the code will be common to any Dataverse environment. I have 5 Account records and 10 Contact records. I also have the environment path org29d4c6d3.crm11.dynamics.com.
 
 ![Screen shots showing the records in dataverse](image-17.png)
-
-In Microsoft Fabric I have a workspace, Finance Reporting, with a Lakehouse, Finance_Lakehouse.
-
-![](image-18.png)
 
 ## First Copy Job – Dataverse Connector
 

@@ -8,6 +8,8 @@ image: cover.png
 categories:
     - Microsoft Fabric
     - Power BI
+tags:
+    - 2025-2026
 ---
 
 Direct Lake is the best way to build a semantic model on data in a Lakehouse or a Warehouse. We can then use Power BI to build reports and possibly even a make a Workspace App to deliver those reports to the business. So what permissions do the business users need to view those reports? This post will explore using Direct Lake and User Permissions to make sure everyone can see data in the reports.
@@ -36,7 +38,7 @@ I have given one user, Dan, Vistor access to the workspace and I’ve given the 
 
 Both reports work fine for me as the workspace owner. The report is direct lake and user permissions are admin.
 
-![](image-3.png)
+![screen shot of the Lakehouse report and Warehouse report with data in both](image-3.png)
 
 ## Viewing Reports as Dan
 
@@ -58,17 +60,17 @@ Each item in the workspace has permissions. By default permissions are inherited
 
 ## Fix Dan’s Lakehouse Access
 
-![](image-7.png)
+![Screenshot of the three dots menu](image-7.png)
 
 In the workspace, click on the three dots on the lakehouse. Then from the menu select Manage permissions. This shows a list of the people with access and the Role which gave them that access. We can see Dan has Read and ViewOutput
 
-![](image-8.png)
+![screenshot of the permissions](image-8.png)
 
 Read only gives the user permission to connect to the lakehouse, it does not let them see the data. Neither does ViewOutput. I’d love to find documentation as to what ViewOutput allows but I’ve not found it yet. I will update this post when I do.
 
 Click on the three dots at the end of permissions and select Add ReadAll. Now when Dan looks at the reports the Lakehouse one will work. Sometimes it takes 10-15 minutes for the permissions to work..
 
-![](image-9.png)
+![screenshot of the enu and fixed chart](image-9.png)
 
 ## Fix Sam’s Access via the Workspace App
 
@@ -82,7 +84,7 @@ This will give them Read access. Then as we did for Dan, click on the three dots
 
 Warehouse permissions are slightly different. Dan has Read and ReadData permissions which gives enough access for him to view the report. So we can use the same process as on the lakehouse and duplicate those permissions. Note that in the Grant people access dialog no additional permissions were ticked.
 
-![](image-11.png)
+![screenshot of the above steps](image-11.png)
 
 And after a few minutes when Sam refreshes the Workspace App they can see the reports both working.
 
@@ -116,9 +118,5 @@ With new security features now available we can make the permissions fix more co
 
 - [Create a Table using a Notebook and Data Wrangler](https://hatfullofdata.blog/microsoft-fabric-notebook-and-data-wrangler/)
 
-- Exploring the SQL End Point
 
-- Create a Power BI Report
-
-- Create a Paginated Report
 

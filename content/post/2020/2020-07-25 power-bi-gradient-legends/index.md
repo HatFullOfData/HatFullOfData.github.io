@@ -25,7 +25,7 @@ In the July 2020 update to Power BI Microsoft introduced a new feature of Gradie
 
 In this chart we have Turnover plotted for every month as a bar chart. The sales manager now wants to colour each bar based on the profit margin.
 
-![](gradient-legend_002.png)
+![chart as described](gradient-legend_002.png)
 
 They select the chart and select the format section of the visualization pane. Under data colours they click the fx button next to the colour to open the conditional formatting dialog box.
 

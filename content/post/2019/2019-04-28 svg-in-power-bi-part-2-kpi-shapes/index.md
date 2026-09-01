@@ -66,7 +66,7 @@ var svg = "data:image/svg+xml;utf8," &
 RETURN svg
 ```
 
-![](SVG_203.png)
+![KPI Dot measure](SVG_203.png)
 
 ![red and green dots](SVG_204.png)
 
@@ -100,7 +100,7 @@ var svg ="data:image/svg+xml;utf8," &
 RETURN svg
 ```
 
-![](SVG_205.png)
+![Final Arrow measure](SVG_205.png)
 
 ![kpi shapes: up and down arrows](SVG_206.png)
 

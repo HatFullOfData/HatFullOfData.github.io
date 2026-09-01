@@ -8,6 +8,8 @@ image: cover.png
 categories:
     - Microsoft Fabric
     - Variable Libraries
+tags:
+    - 2025-2026
 ---
 
 This post to help you get started creating a variable library. When multiple dataflows, notebooks and pipelines are using the same details to perform tasks it helps if those values are stored in one place. When you move to use deployment pipelines and those values change from your development workspace to your test workspace to your prod, it helps if that is easy. The solution in Microsoft Fabric is a Variable Library to store those common values.
