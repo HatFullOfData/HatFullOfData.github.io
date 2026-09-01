@@ -1,0 +1,23 @@
+{{- $current := printf "%v" (.Get "current" | default "") -}}
+{{- $items := slice
+    (dict "part" "1" "title" "Introducing Power Query in Microsoft Flow" "url" "/power-query-in-microsoft-flow-1/")
+    (dict "part" "2" "title" "Joining tables of data in Flow's Power Query" "url" "/power-query-in-microsoft-flow-joining-tables/")
+    (dict "part" "3" "title" "Summarising Data in Flow's Power Query" "url" "/power-query-in-flow-summarising-the-data/")
+-}}
+
+<p>Here is a list of all the posts in the series so far.</p>
+<ul>
+    {{- range $items }}
+    <li>
+        {{- if eq $current .part -}}
+            <strong>{{ .title }}</strong>
+        {{- else if and .publishDate ((time .publishDate).After now) -}}
+            {{ .title }} <em>(coming soon)</em>
+        {{- else if .url -}}
+            <a href="{{ .url }}">{{ .title }}</a>
+        {{- else -}}
+            {{ .title }}
+        {{- end -}}
+    </li>
+    {{- end }}
+</ul>

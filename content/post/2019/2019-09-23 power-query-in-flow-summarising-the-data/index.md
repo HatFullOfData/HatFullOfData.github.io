@@ -11,11 +11,7 @@ categories:
 
 This is the third post in my series regarding Power Query in Flow. In this post I will look at the different options we have for summarising the data using grouping and pivoting with Power Query.
 
-Here is a list of all the posts in the series so far.
-
-- [Introducing Power Query in Microsoft Flow](https://hatfullofdata.blog/power-query-in-microsoft-flow-1/)
-- [Joining tables of data in Flow’s Power Query](https://hatfullofdata.blog/power-query-in-microsoft-flow-2/)
-- [Summarising Data in Flow’s Power Query](https://hatfullofdata.blog/power-query-in-flow-3/)
+{{< powerqueryflow-series current="3" >}}
 
 ### Introduction
 

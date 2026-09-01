@@ -5,7 +5,7 @@ slug: power-query-in-microsoft-flow-1
 date: 2019-08-26 21:34:42+0000
 lastmod: 2025-02-13 12:42:58+0000
 categories:
-    - POwer Automate
+    - Power Automate
     - Power Query
 ---
 
@@ -13,11 +13,7 @@ This is the first post in a new series regarding Power Query in Microsoft Flow. 
 
 This series assumes that you are not a user of Power Query desktop from Excel or Power BI.
 
-Here is a list of all the posts in the series so far.
-
-- [Introducing Power Query in Microsoft Flow](https://hatfullofdata.blog/power-query-in-microsoft-flow-1/)
-- [Joining tables of data in Flow’s Power Query](https://hatfullofdata.blog/power-query-in-microsoft-flow-2/)
-- [Summarising Data in Flow’s Power Query](https://hatfullofdata.blog/power-query-in-flow-3/)
+{{< powerqueryflow-series current="1" >}}
 
 ### Introduction to Power Query in Microsoft Flow
 
