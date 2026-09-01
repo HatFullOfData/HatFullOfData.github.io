@@ -6,7 +6,14 @@
 {{ with .Params.Keywords }}<meta name="keywords" content="{{ delimit . ", " }}">{{ end }}
 
 {{- $title := partial "data/title" . -}}
-<title>{{ $title }}</title>
+{{- $pagetype := .Data.Plural -}}
+{{- if eq $title "Categories" -}}
+    <title>List of categories used on blog posts at Hat Full of Data</title>
+{{- else if eq $pagetype "categories" -}}
+    <title>Posts with category {{ $title }} on Hat Full of Data</title>
+{{- else -}}
+    <title>{{ $title }}</title>
+{{- end -}}
 
 {{ with .Params.canonicalUrl }}
 <link rel="canonical" href="{{ . }}">
