@@ -12,23 +12,7 @@ categories:
 
 In November 2020 a new diagram view was introduced to the online Power Query editor. The new feature produces a brilliant diagram of how the queries and parameters relate within the dataflow.
 
-### Dataflow Series
-
-This post is part of a series on dataflows.
-
-- [Create a Dataflow](https://hatfullofdata.blog/power-bi-create-a-dataflow/)
-
-- [Set up Dataflow Refresh](https://hatfullofdata.blog/power-bi-scheduled-refresh-dataflow/)
-
-- [Endorsement](https://hatfullofdata.blog/power-bi-dataflows-endorsement-as-promoted-and-certified/)
-
-- [Diagram View](https://hatfullofdata.blog/power-bi-dataflow-new-diagram-view/)
-
-- [Refresh History](https://hatfullofdata.blog/power-bi-dataflow-refresh-history/)
-
-- [Create Dataflow from Export JSON File](https://hatfullofdata.blog/power-bi-create-dataflow-from-export/)
-
-- Incremental Refresh
+{{< dataflow-series current="4" >}}
 
 ### YouTube Version
 

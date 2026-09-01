@@ -1,0 +1,27 @@
+{{- $current := printf "%v" (.Get "current" | default "") -}}
+{{- $items := slice
+    (dict "part" "1" "title" "Create a Dataflow" "url" "/power-bi-create-a-dataflow/")
+    (dict "part" "2" "title" "Set up Dataflow Refresh" "url" "/power-bi-scheduled-refresh-dataflow/")
+    (dict "part" "3" "title" "Endorsement" "url" "/power-bi-dataflows-endorsement/")
+    (dict "part" "4" "title" "Diagram View" "url" "/power-bi-dataflow-new-diagram-view/")
+    (dict "part" "5" "title" "Refresh History" "url" "/power-bi-dataflow-refresh-history/")
+    (dict "part" "6" "title" "Create Dataflow from Export JSON File" "url" "/power-bi-create-dataflow-from-export/")
+-}}
+
+<h3>Dataflow Series</h3>
+<p>This post is part of a series on dataflows.</p>
+<ul>
+    {{- range $items }}
+    <li>
+        {{- if eq $current .part -}}
+            <strong>{{ .title }}</strong>
+        {{- else if and .publishDate ((time .publishDate).After now) -}}
+            {{ .title }} <em>(coming soon)</em>
+        {{- else if .url -}}
+            <a href="{{ .url }}">{{ .title }}</a>
+        {{- else -}}
+            {{ .title }}
+        {{- end -}}
+    </li>
+    {{- end }}
+</ul>

@@ -12,23 +12,7 @@ categories:
 
 There are times when you need to copy a dataflow from one workspace to another workspace. Power BI service provides a simple way to export the definition as a json file and then import.
 
-### Dataflow Series
-
-This post is part of a series on dataflows.
-
-- [Create a Dataflow](https://hatfullofdata.blog/power-bi-create-a-dataflow/)
-
-- [Set up Dataflow Refresh](https://hatfullofdata.blog/power-bi-scheduled-refresh-dataflow/)
-
-- [Endorsement](https://hatfullofdata.blog/power-bi-dataflows-endorsement-as-promoted-and-certified/)
-
-- [Diagram View](https://hatfullofdata.blog/power-bi-dataflow-new-diagram-view/)
-
-- [Refresh History](https://hatfullofdata.blog/power-bi-dataflow-refresh-history/)
-
-- [Create Dataflow from Export JSON File](https://hatfullofdata.blog/power-bi-create-dataflow-from-export/)
-
-- Incremental Refresh
+{{< dataflow-series current="6" >}}
 
 ### YouTube Version
 

@@ -12,23 +12,7 @@ categories:
 
 You can find out which entity took the longest to refresh or which entity caused the error in a failed refresh by looking at the refresh history of your dataflow in the Power BI workspace.
 
-### Dataflow Series
-
-This post is part of a series on dataflows.
-
-- [Create a Dataflow](https://hatfullofdata.blog/power-bi-create-a-dataflow/)
-
-- [Set up Dataflow Refresh](https://hatfullofdata.blog/power-bi-scheduled-refresh-dataflow/)
-
-- [Endorsement](https://hatfullofdata.blog/power-bi-dataflows-endorsement-as-promoted-and-certified/)
-
-- [Diagram View](https://hatfullofdata.blog/power-bi-dataflow-new-diagram-view/)
-
-- [Refresh History](https://hatfullofdata.blog/power-bi-dataflow-refresh-history/)
-
-- [Create Dataflow from Export JSON File](https://hatfullofdata.blog/power-bi-create-dataflow-from-export/)
-
-- Incremental Refresh
+{{< dataflow-series current="5" >}}
 
 ### YouTube Version
 

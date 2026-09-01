@@ -12,23 +12,7 @@ categories:
 
 Most dataflows needs to have scheduled refresh setup so that the data will be up to date ready for the reports connecting to it. This post walks through the basic steps to set up the refresh.
 
-### Dataflow Series
-
-This post is part of a series on dataflows.
-
-- [Create a Dataflow](https://hatfullofdata.blog/power-bi-create-a-dataflow/)
-
-- [Set up Dataflow Refresh](https://hatfullofdata.blog/power-bi-scheduled-refresh-dataflow/)
-
-- [Endorsement](https://hatfullofdata.blog/power-bi-dataflows-endorsement-as-promoted-and-certified/)
-
-- [Diagram View](https://hatfullofdata.blog/power-bi-dataflow-new-diagram-view/)
-
-- [Refresh History](https://hatfullofdata.blog/power-bi-dataflow-refresh-history/)
-
-- [Create Dataflow from Export JSON File](https://hatfullofdata.blog/power-bi-create-dataflow-from-export/)
-
-- Incremental Refresh
+{{< dataflow-series current="2" >}}
 
 ### YouTube Version
 

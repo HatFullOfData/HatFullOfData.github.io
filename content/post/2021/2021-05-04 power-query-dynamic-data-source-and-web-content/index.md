@@ -18,7 +18,7 @@ Starting on May 4th a series using Star Wars data had to be done. Its based off 
 
 The data comes from [https://swapi.dev/api/](https://swapi.dev/api/)
 
-- [Handling Dynamic Data sources](https://hatfullofdata.blog/power-query-dynamic-data-source-and-web-contents/)
+- [Handling Dynamic Data sources](https://hatfullofdata.blog/power-query-dynamic-data-source-and-web-content/)
 - Fetching number of pages
 - Using next page url
 
