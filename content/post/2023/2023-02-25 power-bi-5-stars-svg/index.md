@@ -12,21 +12,7 @@ categories:
 
 In the Feb 2023 Power BI Update they introduced image width in a table formatting. This means SVG images now don’t have to be square, so we can now do rectangle images. So I ported Stars SVG code I had in my Power Apps series and added this post to my Power BI SVG series
 
-- [Introduction to SVG Basics](https://hatfullofdata.blog/svg-in-power-bi-part-1/)
-
-- [KPI Shapes in Power BI](https://hatfullofdata.blog/svg-in-power-bi-part-2/)
-
-- [Filling up with colour using SVG in Power BI](https://hatfullofdata.blog/svg-in-power-bi-part-3/)
-
-- [Using Text in SVG](https://hatfullofdata.blog/svg-in-power-bi-part-4/)
-
-- [Using SVG Rotate to create a dial in Power BI](https://hatfullofdata.blog/svg-in-power-bi-part-5/)
-
-- [SVG Icons in Conditional Formatting](https://hatfullofdata.blog/svg-in-power-bi-part-6-new-icon-conditional-formatting/)
-
-- [Using a Theme to add SVG Icons](https://hatfullofdata.blog/svg-in-power-bi-part-7-using-theme-svg-icons/)
-
-- [Feb 2023 Update – 5 SVG Stars](https://hatfullofdata.blog/power-bi-5-stars-svg/)
+{{< svg-series current="8" >}}
 
 For this post we are using a table of events that have a rating score. I want to add a visual version of the rating to the table visual.
 

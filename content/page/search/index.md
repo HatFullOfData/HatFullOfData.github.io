@@ -11,3 +11,5 @@ menu:
         params: 
             icon: search
 ---
+
+Hope you find what you are after.

@@ -13,7 +13,7 @@ categories:
 > [!WARNING]
 > The code in this post stopped working at some point. But its okay, a video at [https://www.youtube.com/watch?v=lfqPpUdtTss](https://www.youtube.com/watch?v=lfqPpUdtTss) explains that you need to swap # with %23 when you specify colours in the SVG.
 
-{{< svg-series current="6" >}}
+{{< svg-series current="7" >}}
 
 As part of the July 2019 update there were changes to conditional formatting and I covered the use of SVG based measures to add icons in part 6 of this series. In this post I am going to cover adding to or swapping the built in icons using a theme file and some SVG.
 
