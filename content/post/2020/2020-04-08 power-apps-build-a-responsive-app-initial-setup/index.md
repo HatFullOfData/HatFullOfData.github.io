@@ -18,10 +18,7 @@ This series is to support my YouTube video.
 
 The posts for this series are
 
-- [Planning a Responsive App](https://hatfullofdata.blog/power-apps-build-a-responsive-app-planning/)
-- [Initial setup of the App](https://hatfullofdata.blog/power-apps-build-a-responsive-app-initial-setup/)
-- [Adding Dynamic Containers](https://hatfullofdata.blog/power-apps-build-a-responsive-app-adding-dynamic-containers/)
-- Dynamic Content
+{{< responsiveapp-series current="2" >}}
 
 ### Create the Responsive App
 
