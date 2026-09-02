@@ -10,23 +10,7 @@ categories:
 
 In a previous post we uploaded a csv file into the Lakehouse. In this post we take the next step to create table from csv file loaded into the Lakehouse. This is the simplest method to create a table and requires no coding. The simplicity means that there are limitations.
 
-## Microsoft Fabric Quick Guides
-
-- [Create a Lakehouse](https://hatfullofdata.blog/fabric-create-a-lakehouse/)
-
-- [Load CSV file and folder](https://hatfullofdata.blog/fabric-upload-a-file-and-folder/)
-
-- [Create a table from a CSV file](https://hatfullofdata.blog/fabric-create-table-from-csv-file/)
-
-- [Create a Table with a Dataflow](https://hatfullofdata.blog/microsoft-fabric-create-tables-with-dataflows/)
-
-- [Create a Table using a Notebook and Data Wrangler](https://hatfullofdata.blog/microsoft-fabric-notebook-and-data-wrangler/)
-
-- Exploring the SQL End Point
-
-- Create a Power BI Report
-
-- Create a Paginated Report
+{{< fabricquickguides-series current="3" >}}
 
 ## YouTube Version
 

@@ -1,6 +1,6 @@
 ---
 title: Power BI – Clear all Slicers Button
-description: The March 2023 Power BI update included a new button, Clear All Slicers. This allows you very quickly add a reset on a report for the slicers. It partly replaces the previous method explained in https://hatfullofdata.blog/power-bi-resetting-slicers-with-a-bookmark-button/ YouTube Version Adding the Button Head to the Insert ribbon and under Buttons select “Clear all slicers”. Nothing else needs to be done, although...
+description: The March 2023 Power BI update included a new button, Clear All Slicers. This allows you very quickly add a reset on a report for the slicers. It partly replaces the previous method explained in https://hatfullofdata.blog/power-bi-reset-slicers-with-a-bookmark-button/ YouTube Version Adding the Button Head to the Insert ribbon and under Buttons select “Clear all slicers”. Nothing else needs to be done, although...
 slug: power-bi-clear-all-slicers-button
 date: 2023-03-25 16:34:22+0000
 lastmod: 2025-02-14 11:26:30+0000
@@ -8,7 +8,7 @@ categories:
     - Power BI
 ---
 
-The March 2023 Power BI update included a new button, Clear All Slicers. This allows you very quickly add a reset on a report for the slicers. It partly replaces the previous method explained in [https://hatfullofdata.blog/power-bi-resetting-slicers-with-a-bookmark-button/](https://hatfullofdata.blog/power-bi-resetting-slicers-with-a-bookmark-button/)
+The March 2023 Power BI update included a new button, Clear All Slicers. This allows you very quickly add a reset on a report for the slicers. It partly replaces the previous method explained in [https://hatfullofdata.blog/power-bi-reset-slicers-with-a-bookmark-button/](https://hatfullofdata.blog/power-bi-reset-slicers-with-a-bookmark-button/)
 
 ## YouTube Version
 

@@ -106,17 +106,7 @@ With new security features now available we can make the permissions fix more co
 
 ## Other Posts that might Interest
 
-## Microsoft Fabric Quick Guides
-
-- [Create a Lakehouse](https://hatfullofdata.blog/fabric-create-a-lakehouse/)
-
-- [Load CSV file and folder](https://hatfullofdata.blog/fabric-upload-a-file-and-folder/)
-
-- [Create a table from a CSV file](https://hatfullofdata.blog/fabric-create-table-from-csv-file/)
-
-- [Create a Table with a Dataflow](https://hatfullofdata.blog/microsoft-fabric-create-tables-with-dataflows/)
-
-- [Create a Table using a Notebook and Data Wrangler](https://hatfullofdata.blog/microsoft-fabric-notebook-and-data-wrangler/)
+{{< fabricquickguides-series >}}
 
 
 

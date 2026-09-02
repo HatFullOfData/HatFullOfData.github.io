@@ -1,0 +1,25 @@
+{{- $current := printf "%v" (.Get "current" | default "") -}}
+{{- $items := slice
+    (dict "part" "1" "title" "Create a Lakehouse" "url" "/fabric-create-a-lakehouse/")
+    (dict "part" "2" "title" "Load CSV file and folder" "url" "/fabric-upload-a-csv-file-and-folder/")
+    (dict "part" "3" "title" "Create a table from a CSV file" "url" "/fabric-create-table-from-csv-file/")
+    (dict "part" "4" "title" "Create a Table with a Dataflow" "url" "/microsoft-fabric-create-tables-with-dataflows/")
+    (dict "part" "5" "title" "Create a Table using a Notebook and Data Wrangler" "url" "/microsoft-fabric-notebook-and-data-wrangler/")
+-}}
+
+<h2>Microsoft Fabric Quick Guides</h2>
+<ul>
+    {{- range $items }}
+    <li>
+        {{- if eq $current .part -}}
+            <strong>{{ .title }}</strong>
+        {{- else if and .publishDate ((time .publishDate).After now) -}}
+            {{ .title }} <em>(coming soon)</em>
+        {{- else if .url -}}
+            <a href="{{ .url }}">{{ .title }}</a>
+        {{- else -}}
+            {{ .title }}
+        {{- end -}}
+    </li>
+    {{- end }}
+</ul>

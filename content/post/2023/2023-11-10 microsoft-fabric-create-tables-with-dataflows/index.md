@@ -10,23 +10,7 @@ categories:
 
 As part of Microsoft Fabric, we have new Gen2 Dataflows and they have a new ability. A Gen2 Dataflow entity can have a destination. This means using a dataflow we can create a table in Fabric from another source, such as a folder of files.
 
-## Microsoft Fabric Quick Guides
-
-- [Create a Lakehouse](https://hatfullofdata.blog/fabric-create-a-lakehouse/)
-
-- [Load CSV file and folder](https://hatfullofdata.blog/fabric-upload-a-file-and-folder/)
-
-- [Create a table from a CSV file](https://hatfullofdata.blog/fabric-create-table-from-csv-file/)
-
-- [Create a Table with a Dataflow](https://hatfullofdata.blog/microsoft-fabric-create-tables-with-dataflows/)
-
-- [Create a Table using a Notebook and Data Wrangler](https://hatfullofdata.blog/microsoft-fabric-notebook-and-data-wrangler/)
-
-- Exploring the SQL End Point
-
-- Create a Power BI Report
-
-- Create a Paginated Report
+{{< fabricquickguides-series current="4" >}}
 
 ## YouTube Version
 

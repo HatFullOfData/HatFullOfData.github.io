@@ -10,23 +10,7 @@ categories:
 
 Lakehouses are one of the main building blocks in Microsoft Fabric. A lakehouse allows you to store structured and unstructured data in a single location. In this post we are going to create an empty one. Future posts will populate it.
 
-## Microsoft Fabric Quick Guides
-
-- [Create a Lakehouse](https://hatfullofdata.blog/fabric-create-a-lakehouse/)
-
-- [Load CSV file and folder](https://hatfullofdata.blog/fabric-upload-a-file-and-folder/)
-
-- [Create a table from a CSV file](https://hatfullofdata.blog/fabric-create-table-from-csv-file/)
-
-- [Create a Table with a Dataflow](https://hatfullofdata.blog/microsoft-fabric-create-tables-with-dataflows/)
-
-- [Create a Table using a Notebook and Data Wrangler](https://hatfullofdata.blog/microsoft-fabric-notebook-and-data-wrangler/)
-
-- Exploring the SQL End Point
-
-- Create a Power BI Report
-
-- Create a Paginated Report
+{{< fabricquickguides-series current="1" >}}
 
 ## YouTube Version
 

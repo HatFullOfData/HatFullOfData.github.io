@@ -10,23 +10,7 @@ categories:
 
 Before I started with Microsoft Fabric I had never created a spark notebook. This doesn’t stop me though. By using a combination of Notebook and Data Wrangler means I can transform data and write to table writing very little code by hand.
 
-## Microsoft Fabric Quick Guides
-
-- [Create a Lakehouse](https://hatfullofdata.blog/fabric-create-a-lakehouse/)
-
-- [Load CSV file and folder](https://hatfullofdata.blog/fabric-upload-a-file-and-folder/)
-
-- [Create a table from a CSV file](https://hatfullofdata.blog/fabric-create-table-from-csv-file/)
-
-- [Create a Table with a Dataflow](https://hatfullofdata.blog/microsoft-fabric-create-tables-with-dataflows/)
-
-- [Create a Table using a Notebook and Data Wrangler](https://hatfullofdata.blog/microsoft-fabric-notebook-and-data-wrangler/)
-
-- Exploring the SQL End Point
-
-- Create a Power BI Report
-
-- Create a Paginated Report
+{{< fabricquickguides-series current="5" >}}
 
 ## YouTube Version
 
