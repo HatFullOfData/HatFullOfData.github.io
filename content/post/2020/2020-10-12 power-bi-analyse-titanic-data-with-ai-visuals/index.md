@@ -37,23 +37,13 @@ In order to make page layout easy I use page backgrounds created in PowerPoint. 
 
 In this demo I use 3 AI visuals Key Influencers, Decomposition Tree and Smart Narrative. Here are videos to help you get started with those visuals.
 
-[![](Oct2020_003.png)](https://www.youtube.com/watch?v=hF8dHUEmtnY)
+[![Key Influencers Visual video thumbnail](Oct2020_003.png)](https://www.youtube.com/watch?v=hF8dHUEmtnY)
 
-[![](Oct2020_004.png)](https://www.youtube.com/watch?v=WES4CLKSaj0)
+[![Decomposition Tree video thumbnail](Oct2020_004.png)](https://www.youtube.com/watch?v=WES4CLKSaj0)
 
-[![](Oct2020_005.png)](https://www.youtube.com/watch?v=7d2qMoTPCIM)
+[![Summarize you data video thumbnail](Oct2020_005.png)](https://www.youtube.com/watch?v=7d2qMoTPCIM)
 
 ## London Reactor Posts
 
-- [Power BI Introduction](https://hatfullofdata.blog/reactor-power-bi-introduction-resources/)
-
-- [Weather Report Resources](https://hatfullofdata.blog/power-bi-introduction-weather-report-resources/)
-
-- [Use AI Visuals to Analyse Titanic Data](https://hatfullofdata.blog/power-bi-analyse-titanic-data-with-ai-visuals/)
-
-- [Christmas Carol Text Analysis](https://hatfullofdata.blog/reactor-christmas-carol-text-analysis/)
-
-- [Last Year’s Sales](https://hatfullofdata.blog/power-bi-reactor-last-years-sales/)
-
-- [Tea & Biscuits](https://hatfullofdata.blog/power-bi-tea-biscuits-session-reactor/)
+{{< londonreactor-series current="3" >}}
 

@@ -37,15 +37,7 @@ The next session will be 22nd Feb 2021, when we will look at UK population data.
 
 ## London Reactor Posts
 
-- [Power BI Introduction](https://hatfullofdata.blog/reactor-power-bi-introduction-resources/)
-
-- [Weather Report Resources](https://hatfullofdata.blog/power-bi-introduction-weather-report-resources/)
-
-- [Use AI Visuals to Analyse Titanic Data](https://hatfullofdata.blog/power-bi-analyse-titanic-data-with-ai-visuals/)
-
-- [Christmas Carol Text Analysis](https://hatfullofdata.blog/reactor-christmas-carol-text-analysis/)
-
-- [Last Year’s Sales](https://hatfullofdata.blog/power-bi-reactor-last-years-sales/)
+{{< londonreactor-series current="5" >}}
 
 - [Tea & Biscuits](https://hatfullofdata.blog/power-bi-tea-biscuits-session-reactor/)
 

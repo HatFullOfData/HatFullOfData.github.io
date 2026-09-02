@@ -50,15 +50,5 @@ As soon as the Reactor posts the video the link will be added here.
 
 ## London Reactor Posts
 
-- [Power BI Introduction](https://hatfullofdata.blog/reactor-power-bi-introduction-resources/)
-
-- [Weather Report Resources](https://hatfullofdata.blog/power-bi-introduction-weather-report-resources/)
-
-- [Use AI Visuals to Analyse Titanic Data](https://hatfullofdata.blog/power-bi-analyse-titanic-data-with-ai-visuals/)
-
-- [Christmas Carol Text Analysis](https://hatfullofdata.blog/reactor-christmas-carol-text-analysis/)
-
-- [Last Year’s Sales](https://hatfullofdata.blog/power-bi-reactor-last-years-sales/)
-
-- [Tea & Biscuits](https://hatfullofdata.blog/power-bi-tea-biscuits-session-reactor/)
+{{< londonreactor-series current="2" >}}
 

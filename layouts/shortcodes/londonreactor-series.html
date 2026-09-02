@@ -1,0 +1,26 @@
+{{- $current := printf "%v" (.Get "current" | default "") -}}
+{{- $items := slice
+    (dict "part" "1" "title" "Power BI Introduction" "url" "/reactor-power-bi-introduction-resources/")
+    (dict "part" "2" "title" "Weather Report Resources" "url" "/power-bi-reactor-weather-report-resources/")
+    (dict "part" "3" "title" "Use AI Visuals to Analyse Titanic Data" "url" "/power-bi-analyse-titanic-data-with-ai-visuals/")
+    (dict "part" "4" "title" "Christmas Carol Text Analysis" "url" "/reactor-christmas-carol-text-analysis/")
+    (dict "part" "5" "title" "Last Year's Sales" "url" "/power-bi-reactor-last-years-sales/")
+    (dict "part" "6" "title" "Tea & Biscuits" "url" "/power-bi-tea-biscuits-session-reactor/")
+-}}
+
+<h2>London Reactor Posts</h2>
+<ul>
+    {{- range $items }}
+    <li>
+        {{- if eq $current .part -}}
+            <strong>{{ .title }}</strong>
+        {{- else if and .publishDate ((time .publishDate).After now) -}}
+            {{ .title }} <em>(coming soon)</em>
+        {{- else if .url -}}
+            <a href="{{ .url }}">{{ .title }}</a>
+        {{- else -}}
+            {{ .title }}
+        {{- end -}}
+    </li>
+    {{- end }}
+</ul>
