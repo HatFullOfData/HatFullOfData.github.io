@@ -12,19 +12,7 @@ categories:
 
 I had a need to use automation to do DevOps updates on behalf of another person so when the DevOps adoption metrics were done we the stats were slightly more accurate. This can only be done using REST API and will need permissions. This post is part of the DevOps and Power Automate series.
 
-## DevOps with Power Automate posts
-
-- [Connecting Power Automate to Azure DevOps](https://hatfullofdata.blog/connecting-power-automate-to-devops/)
-
-- [Updating Start and Due dates and other fields](https://hatfullofdata.blog/power-automate-update-fields-in-azure-devops/)
-
-- [Using DevOps Rest API](https://hatfullofdata.blog/using-devops-rest-api-in-power-automate/)
-
-- [Running a WIQL query](https://hatfullofdata.blog/running-a-wiql-devops-query-in-power-automate/)
-
-- [Updating items without Notifications](https://hatfullofdata.blog/update-devops-without-notifications-with-power-automate/)
-
-- [Updating a task on behalf of another person](https://hatfullofdata.blog/devops-updates-on-behalf-of-another-with-power-automate/)
+{{< devops-powerautomate-series current="6" >}}
 
 ## YouTube Version
 

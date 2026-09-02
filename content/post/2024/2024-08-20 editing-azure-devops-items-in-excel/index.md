@@ -64,17 +64,5 @@ I needed to create a project plan in DevOps from a list of tasks I had in a text
 
 Other related series include:
 
-## DevOps with Power Automate posts
-
-- [Connecting Power Automate to Azure DevOps](https://hatfullofdata.blog/connecting-power-automate-to-devops/)
-
-- [Updating Start and Due dates and other fields](https://hatfullofdata.blog/power-automate-update-fields-in-azure-devops/)
-
-- [Using DevOps Rest API](https://hatfullofdata.blog/using-devops-rest-api-in-power-automate/)
-
-- [Running a WIQL query](https://hatfullofdata.blog/running-a-wiql-devops-query-in-power-automate/)
-
-- [Updating items without Notifications](https://hatfullofdata.blog/update-devops-without-notifications-with-power-automate/)
-
-- [Updating a task on behalf of another person](https://hatfullofdata.blog/devops-updates-on-behalf-of-another-with-power-automate/)
+{{< devops-powerautomate-series >}}
 

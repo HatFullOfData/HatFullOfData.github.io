@@ -14,19 +14,7 @@ When a work item is assigned to you, by default you are sent a notification. Not
 
 ![Email telling you a work item has been assigned to you](2024-08-14_13-49-44.png)
 
-## DevOps with Power Automate posts
-
-- [Connecting Power Automate to Azure DevOps](https://hatfullofdata.blog/connecting-power-automate-to-devops/)
-
-- [Updating Start and Due dates and other fields](https://hatfullofdata.blog/power-automate-update-fields-in-azure-devops/)
-
-- [Using DevOps Rest API](https://hatfullofdata.blog/using-devops-rest-api-in-power-automate/)
-
-- [Running a WIQL query](https://hatfullofdata.blog/running-a-wiql-devops-query-in-power-automate/)
-
-- [Updating items without Notifications](https://hatfullofdata.blog/update-devops-without-notifications-with-power-automate/)
-
-- [Updating a task on behalf of another person](https://hatfullofdata.blog/devops-updates-on-behalf-of-another-with-power-automate/)
+{{< devops-powerautomate-series current="5" >}}
 
 ## YouTube Version
 

@@ -12,19 +12,7 @@ categories:
 
 Wiql stands for Work Item Query Language and is the language used to define the queries in Azure DevOps. Its has a very similar syntax to SQL. Power Automate can use a REST API send a query to DevOps to execute the query. This post post is part of the Power Automate and DevOps series.
 
-## DevOps with Power Automate posts
-
-- [Connecting Power Automate to Azure DevOps](https://hatfullofdata.blog/connecting-power-automate-to-devops/)
-
-- [Updating Start and Due dates and other fields](https://hatfullofdata.blog/power-automate-update-fields-in-azure-devops/)
-
-- [Using DevOps Rest API](https://hatfullofdata.blog/using-devops-rest-api-in-power-automate/)
-
-- [Running a WIQL query](https://hatfullofdata.blog/running-a-wiql-devops-query-in-power-automate/)
-
-- [Updating items without Notifications](https://hatfullofdata.blog/update-devops-without-notifications-with-power-automate/)
-
-- [Updating a task on behalf of another person](https://hatfullofdata.blog/devops-updates-on-behalf-of-another-with-power-automate/)
+{{< devops-powerautomate-series current="4" >}}
 
 The full reference can be found at [https://learn.microsoft.com/en-us/azure/devops/boards/queries/wiql-syntax?view=azure-devops](https://learn.microsoft.com/en-us/azure/devops/boards/queries/wiql-syntax?view=azure-devops&wt.mc_id=DX-MVP-5003563)
 

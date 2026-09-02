@@ -16,19 +16,7 @@ DevOps REST API is a well documented API that we can easily use in Power Automat
 
 In this post we will take some simple examples to get you started. This is the third post in the DevOps and Power Automate series.
 
-## DevOps with Power Automate posts
-
-- [Connecting Power Automate to Azure DevOps](https://hatfullofdata.blog/connecting-power-automate-to-devops/)
-
-- [Updating Start and Due dates and other fields](https://hatfullofdata.blog/power-automate-update-fields-in-azure-devops/)
-
-- [Using DevOps Rest API](https://hatfullofdata.blog/using-devops-rest-api-in-power-automate/)
-
-- [Running a WIQL query](https://hatfullofdata.blog/running-a-wiql-devops-query-in-power-automate/)
-
-- [Updating items without Notifications](https://hatfullofdata.blog/update-devops-without-notifications-with-power-automate/)
-
-- [Updating a task on behalf of another person](https://hatfullofdata.blog/devops-updates-on-behalf-of-another-with-power-automate/)
+{{< devops-powerautomate-series current="3" >}}
 
 ## YouTube Version
 
