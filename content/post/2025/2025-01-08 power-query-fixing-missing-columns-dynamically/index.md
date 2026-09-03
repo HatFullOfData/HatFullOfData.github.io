@@ -69,7 +69,7 @@ Now we need to add a step that converts this into a table. Right click on the So
 = #table( Source , {} )
 ```
 
-![](2025-01-08_11-07-21.png)
+![Screenshot of the #table step](2025-01-08_11-07-21.png)
 
 Reference for #table can be found at [https://learn.microsoft.com/en-us/powerquery-m/sharptable](https://learn.microsoft.com/en-us/powerquery-m/sharptable?wt.mc_id=DX-MVP-5003563)
 

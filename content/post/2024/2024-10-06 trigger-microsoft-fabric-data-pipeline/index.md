@@ -18,7 +18,7 @@ This post has incorrect details for the connector. These have now been fixed.
 
 ## YouTube Version
 
-[![](Power-Automate-Trigger-Microsoft-Fabric-Data-Pipeline-Time-0_00_0000.png)](https://youtu.be/9-aNXqDQaZE)
+[![Youtube thumbnail](Power-Automate-Trigger-Microsoft-Fabric-Data-Pipeline-Time-0_00_0000.png)](https://youtu.be/9-aNXqDQaZE)
 
 ## Workspace and Pipeline GUIDs
 

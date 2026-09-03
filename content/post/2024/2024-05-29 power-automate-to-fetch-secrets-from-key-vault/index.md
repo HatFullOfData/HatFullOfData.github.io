@@ -28,7 +28,7 @@ Because we are using child flows we need to create our flows inside a solution. 
 
 For a child flow we use a instant flow. Type in a descriptive name and select the trigger Manually trigger a flow. When you are in the flow editor, expand the trigger and add an input for the prefix. Adding hint text will help you and other users remember what the input is about.
 
-![](flow-trigger.png)
+![Trigger showing the input added](flow-trigger.png)
 
 ## Adding Actions to Fetch Secrets
 
@@ -62,7 +62,7 @@ When an instant flow runs the connections are usually based on who clicked the s
 
 The changes need to be made from the flow details page, save and click the blue arrow in the top left to get there. Click on Edit in the Run only users box. When the pane appears, under connections used select a connection under Azure Key Vault. A message will appear to state users only get access in this flow, click OK to close it and then click Save to save the changes.
 
-![](2024-04-14_22-39-14.png)
+![screenshot of the run only users and changing it as described](2024-04-14_22-39-14.png)
 
 ## Testing the flow
 

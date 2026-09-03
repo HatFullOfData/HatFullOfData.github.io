@@ -14,7 +14,7 @@ SQL (Structured Query Language) has been used to get data in and out of database
 
 ## YouTube Version
 
-[![](SQL-on-Dataverse-in-Power-BI107d4459.autosave-Time-0_00_0000.png)](https://youtu.be/SbWxzBlwN0k)
+[![Youtube thumbnail](SQL-on-Dataverse-in-Power-BI107d4459.autosave-Time-0_00_0000.png)](https://youtu.be/SbWxzBlwN0k)
 
 ## Microsoft SQL Server Management Studio
 
@@ -38,7 +38,7 @@ When connection has completed, the Object Explorer pane will show the hierarchy 
 
 This post is not to teach you SQL. There are plenty of sites to do that. Here are some very simple queries to get you started. For our first query, we will write a query to fetch a list of accounts. Click on New Query and a blank page appears. In here we can type a simple query to list all accounts. Click Execute to run the query and see the results.
 
-![](2023-04-24_13-13-25-2.png)
+![screenshot of SSMS with New Query and Execute buttons highlighted](2023-04-24_13-13-25-2.png)
 
 #### SQL Code
 
@@ -72,7 +72,7 @@ where
 
 Now we have an SQL statement we can use it in Power BI. Start POwer BI and then click Transform data to open Power Query. Then we create a parameter by clicking Manage Parameters and then click New and fillin in the details. The current value should be the environment path you used earlier.
 
-![](2023-04-24_14-37-37.png)
+![Manage parameters dialog](2023-04-24_14-37-37.png)
 
 Now you have the parameter we can create the query. Start by creating a blank query by clicking New Source and then Blank Query. Then on the Home ribbon click Advanced Editor and paste in this code. I have adapted a pattern created by Scott Sewell.
 

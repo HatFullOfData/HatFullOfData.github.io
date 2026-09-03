@@ -28,7 +28,7 @@ The smart narrative is a text box with some generated text added. The clever par
 
 Start by adding a text box to your report. Position it and start to add some text.
 
-![](2023-07-07_11-14-21.png)
+![Add text box button and a text box](2023-07-07_11-14-21.png)
 
 When you want to add a dynamic result to the text click on the Value button on the Text box ribbon. Describe what you would like to calculate. If the dialog offers suggestions as to what you mean click on the correct one. When you click Save, the value will be entered into the text box.
 

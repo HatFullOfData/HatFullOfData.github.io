@@ -30,7 +30,7 @@ In my Power Platform solution, the Accounts table has one form included. When I 
 
 In the left hand side menu, select components and expand Power BI. Drag and drop Power BI report into the blank section. An pane appears asking lots of questions regarding showing various parts. For now leave all of them as default and click Done. The unfiltered report should appear.
 
-![](2023-05-15_20-29-25.png)
+![screenshot of form](2023-05-15_20-29-25.png)
 
 ## Filtering the embedded report.
 

@@ -16,7 +16,7 @@ I know Azure DevOps from being on projects. Mostly for tracking tasks, sprints e
 
 ## YouTube Version
 
-[![](Power-Automate-Create-DevOps-Items-Time-0_00_0000.png)](https://youtu.be/snZdRzfuNIo)
+[![Youtube thumbnail](Power-Automate-Create-DevOps-Items-Time-0_00_0000.png)](https://youtu.be/snZdRzfuNIo)
 
 ## DevOps Connector
 

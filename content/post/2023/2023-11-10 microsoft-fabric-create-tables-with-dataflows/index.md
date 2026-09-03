@@ -28,7 +28,7 @@ For this blog post we are going to load the csv files in Sales folder, loaded in
 
 When the Choose data appears navigate to find the Sales folder. Then click Create. After a few moments a query will appear showing a row for every file in the folder.
 
-![](2023-11-06_21-54-48.png)
+![Choose data dialog with Sales folder highlighted and the result Sales tables](2023-11-06_21-54-48.png)
 
 Power Query includes a feature to combine files, it requires the Content column to be binary. On the Content column, click on the datatype ABC/123 in the top left of the column and select binary. This will give you a column of binary
 

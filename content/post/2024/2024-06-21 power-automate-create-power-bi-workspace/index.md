@@ -72,7 +72,7 @@ Then return to editing the flow and add a Parse JSON action. For the content use
 
 The flow might not be run by the requester of the workspace, so it makes sense to ask for the admin’s email. Add this as an extra input in the trigger.
 
-![](2024-06-18_13-14-33.png)
+![Manual trigger showing the extra input](2024-06-18_13-14-33.png)
 
 ### New HTTP Request to add User
 

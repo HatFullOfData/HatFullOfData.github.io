@@ -24,7 +24,7 @@ They are on the backlog!
 
 Updating DevOps without notifications is not something that everyone should be able to do. Or at least the admins will want to be able to control who can do it.
 
-![](2024-08-14_14-06-11.png)
+![Project settings and permissions](2024-08-14_14-06-11.png)
 
 In the Project settings, click on Permissions. Then click on Users to list your users. When you click on a person you get to see all their permissions. They can be Allow, Deny or Not Set for all the different actions. (inherited) means it is set by being a member of a group. If you hover your cursor over the (i) you will get a description telling you which membership the permission as inherited from. A Deny overrides an allow, so you might need to manually override the inherited permission.
 

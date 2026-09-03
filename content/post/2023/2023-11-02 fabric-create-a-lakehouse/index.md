@@ -14,7 +14,7 @@ Lakehouses are one of the main building blocks in Microsoft Fabric. A lakehouse 
 
 ## YouTube Version
 
-[![](Fabric-Create-a-Lakehouse-Time-0_00_0000.png)](https://youtu.be/Rafh8RRBrj8)
+[![Youtube thumbnail](Fabric-Create-a-Lakehouse-Time-0_00_0000.png)](https://youtu.be/Rafh8RRBrj8)
 
 ## Empty Workspace with a Fabric Capacity
 

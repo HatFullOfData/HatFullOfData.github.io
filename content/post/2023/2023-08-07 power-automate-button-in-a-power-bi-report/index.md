@@ -14,7 +14,7 @@ You can add an action to a Power BI report by adding a Power Automate button. Th
 
 ## YouTube Version
 
-[![](Power-Automate-button-in-a-Power-BI-report-Time-0_00_0000.png)](https://www.youtube.com/watch?v=B59qRKCzV4g)
+[![Youtube thumbnail](Power-Automate-button-in-a-Power-BI-report-Time-0_00_0000.png)](https://www.youtube.com/watch?v=B59qRKCzV4g)
 
 ## Problem Definition
 
@@ -34,11 +34,11 @@ After you add the data, the next step creates the flow. Click on the … link on
 
 In the top left, select New and select Instant cloud flow. Then the window moves to give you Power Automate flow editor inside Power BI desktop. Be aware it will be using the credentials you logged into Power BI with.
 
-![](image-3.png)
+![Edit button, selecting instant cloud flow and then the trigger in the editor](image-3.png)
 
 Then you can click New step and add your actions. In this example I am using SQL Server connection Action to insert a row to a table. I populate the Server name, Database name and Table name. Then the table fields appear. When I click in ActivityID, the first field the Dynamic content shows me the fields available including values I added to the Power Automate button.
 
-![](image-4.png)
+![Adding the ActivityID from dynamic content](image-4.png)
 
 When I click on Power BI data Selected Activity ID, measure from my report, it populates the box and it also puts the action into a Apply to each. This is because the values are sent to the flow in a table. When writing the flow it knows its a table so assumes it could be multiple values so therefore adds the apply to each.
 
@@ -52,7 +52,7 @@ When you have completed your flow. You need to add a name in the top left. Then 
 
 After you click Save and Apply you should get a success message in a green bar. Then you can click Back to Report in the top left.
 
-![](image-6.png)
+![Save and apply button and the success message](image-6.png)
 
 The visual in your report will now have changed to be a blue button. And you can test it out. In Power BI desktop you need to Ctrl + click, when you publish you can just click the button.
 
@@ -60,7 +60,7 @@ The visual in your report will now have changed to be a blue button. And you can
 
 Similar to other Power BI visuals formatting can be applied. The blue isn’t a theme colour so I recommend selecting a theme colour so it will change with themes. You also can tweak padding, shadows and the text to make it look part of the report. I could not find a way to change the arrow icon.
 
-![](image-7.png)
+![flow button default colours and one formatted](image-7.png)
 
 ## Flow Environments
 

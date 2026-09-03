@@ -26,7 +26,7 @@ This post is part of a series:
 
 ## YouTube Version
 
-[![](Power-BI-and-Devops-Data-Time-0_00_0000.png)](https://youtu.be/DAHEv2YoTP8)
+[![Youtube thumbnail](Power-BI-and-Devops-Data-Time-0_00_0000.png)](https://youtu.be/DAHEv2YoTP8)
 
 ## Microsoft References for DevOps Data into Power BI
 

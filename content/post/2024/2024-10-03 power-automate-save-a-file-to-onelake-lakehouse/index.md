@@ -62,7 +62,7 @@ The first stage is to save a file to OneLake Lakehouse that is empty. This is a 
 
 Finally the last action is to append the file content from SharePoint onto the file. Change the Method to PATCH. The Url of the request is the output from the compose followed by three parameters (copy from below). Expand the Advanced parameters and into the body of the request select File Content from the dynamic content.
 
-![](image-7.png)
+![Invoke HTTP request dialog with a PATCH method as described](image-7.png)
 
 ```xml
 ?action=append&position=0&flush=true

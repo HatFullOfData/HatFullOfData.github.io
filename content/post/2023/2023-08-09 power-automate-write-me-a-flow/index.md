@@ -25,29 +25,29 @@ On Power Automate site click on Create and then click on the Describe it to desi
 
 Once Step 1 appears I enter in my request using a “When X then Y” pattern. It will show you a list of suggestions as you type. Click the arrow to submit the description. If it works you get a suggested flow and you can click Next to move onto Step 2
 
-![](image-10.png)
+![screenshot of entering in the description and the suggested flow](image-10.png)
 
 When it cannot translate your description into a flow, it shows a message of No flow suggestions. This feature is in preview currently so its not yet working 100%. There are links to provide feedback, they can’t fix what you don’t tell them.
 
-![](image-11.png)
+![example of no flow suggestions](image-11.png)
 
 ## Step 2 – Connections
 
 When you click next it takes you to step 2 of 3. Here you are asked to review the connections the flow will use.
 
-![](image-12.png)
+![list of connections](image-12.png)
 
 ## Step 3 – Settings
 
 The final step is to add some settings to the flow steps. The drop downs are populated just like in the full flow editor. In some of my explorations it didn’t give me everything I needed but it works mostly. The you click Create flow.
 
-![](image-13.png)
+![updating the settings such as Site Address](image-13.png)
 
 ## Power Automate did write me a flow!
 
 Very quickly you get presented with a flow. I recommend editing the name in the top left and of course pressing save in the top right. Then test your flow out.
 
-![](image-14.png)
+![Final flow created](image-14.png)
 
 ## Conclusion
 

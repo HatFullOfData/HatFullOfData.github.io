@@ -32,9 +32,9 @@ This is the first method and I think the simplest method. Start by creating an i
 
 ![DevOps Epic work item with fields populated](2024-07-26_11-35-06.png)
 
-Then in a Power Automate instant flow I add an action to get the work item details of that item, notice it is number 21. In the Get work item details I populate Org[1](#a040a142-03b1-4e20-a10b-8fe2427f8d11), Project, Type=”Epic” and Id=21. Then I run that flow and look at the outputs from that step.
+Then in a Power Automate instant flow I add an action to get the work item details of that item, notice it is number 21. In the Get work item details I populate Org[^env], Project, Type=”Epic” and Id=21. Then I run that flow and look at the outputs from that step.
 
-![](2024-07-26_11-44-44.png)
+![Get workitems step and the final output](2024-07-26_11-44-44.png)
 
 If you scroll through the fields you will eventually find Business Value etc with their full field names. You need to replace the _ with . as I assume JSON objects to dots in field names. Note down the ones you need.
 
@@ -42,23 +42,23 @@ If you scroll through the fields you will eventually find Business Value etc wit
 
 Now we have the field names we can create a work item and populate those fields. Note the date formats are YYYY-MM-DDThh:mm:ssZ.
 
-![](2024-07-26_13-11-22.png)
+![Create work item step](2024-07-26_13-11-22.png)
 
 When this flow is run, it creates an item and will successfully update fields in Azure DevOps.
 
-![](2024-07-26_13-22-58.png)
+![the created Epic task](2024-07-26_13-22-58.png)
 
 The Update a work item action has exactly the same Other fields option so you can use the same technique.
 
 ## Find Field Names v2
 
-Azure DevOps can be accessed via a Rest API[2](#6ef2c091-087e-46c5-8e21-2bba1d5c5562) and this includes the list of fields available in a project. There is quite good documentation for this which can be found at [https://learn.microsoft.com/en-us/rest/api/azure/devops/wit/fields/list](https://learn.microsoft.com/en-us/rest/api/azure/devops/wit/fields/list) . From the first code block on that post remove the GET and populate your org and project names. Then in a browser navigate to that url and it will return lots of JSON showing the definition of all the fields.
+Azure DevOps can be accessed via a Rest API[^api] and this includes the list of fields available in a project. There is quite good documentation for this which can be found at [https://learn.microsoft.com/en-us/rest/api/azure/devops/wit/fields/list](https://learn.microsoft.com/en-us/rest/api/azure/devops/wit/fields/list) . From the first code block on that post remove the GET and populate your org and project names. Then in a browser navigate to that url and it will return lots of JSON showing the definition of all the fields.
 
 ```xml
 https://dev.azure.com/{organization}/{project}/_apis/wit/fields
 ```
 
-![](2024-07-26_13-35-35.png)
+![screenshot of the JSON](2024-07-26_13-35-35.png)
 
 Then search for the fields you want and look for the referenceName and use that. As my project got complex I saved this data and then used Power Query to make a simple list of fields (perhaps a resource I should make public).
 
@@ -90,6 +90,6 @@ The Other Fields section in Create and Update work item actions gives us the opt
 
 #### Footnotes
 
-- I’ve used environment variables to populate these as my flow is in a solution and I want to be able to move the solution to other environments or tenancies!  [↩︎](#a040a142-03b1-4e20-a10b-8fe2427f8d11-link)
-- Another blog post is coming to cover using Azure DevOps Rest api in Power Automate, I promise! [↩︎](#6ef2c091-087e-46c5-8e21-2bba1d5c5562-link)
+[^env]: I’ve used environment variables to populate these as my flow is in a solution and I want to be able to move the solution to other environments or tenancies! 
+[^api] Another blog post is coming to cover using Azure DevOps Rest api in Power Automate, I promise! 
 

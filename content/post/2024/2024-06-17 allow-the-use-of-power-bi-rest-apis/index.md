@@ -26,7 +26,7 @@ Tenant settings can be found at [https://app.powerbi.com/admin-portal/tenantSett
 
 To create a security group you will need the right level of security in Entra, in many organisations you will not.  Go to [https://entra.microsoft.com/](https://entra.microsoft.com/) and click Groups on the left hand menu. Make sure you are looking at All Groups and then click New group.
 
-![](2024-06-17_17-16-33.png)
+![Groups in Entra with All groups and New Group highlighted](2024-06-17_17-16-33.png)
 
 The group type should be Security. Enter in a Group name, please follow any naming conventions you should be following. I highly recommend putting in a group description, future you will thank you. Click on No members selected to open the Add members pane. Search for the name of the service principal and tick next the name. Then click Select to close the pane.
 

@@ -84,7 +84,7 @@ item()?['target']?['id']
 
 I would then test to make sure you get the number of items you expect and that the compose does return the ids you expect
 
-![](2024-08-14_12-32-25.png)
+![screen of the compose step and the output after a run](2024-08-14_12-32-25.png)
 
 Finally we can add a step to assign each task to the email given in the parameter. I use a Send HTTP method rather than the Update a Work Item so I can as explained in a future post turn off notifications.
 
@@ -92,7 +92,7 @@ Finally we can add a step to assign each task to the email given in the paramete
 
 We can then run the flow and check the results in DevOps and see the tasks have been assigned.
 
-![](2024-08-14_12-45-23.png)
+![Final hierarchy ](2024-08-14_12-45-23.png)
 
 ## Conclusion
 

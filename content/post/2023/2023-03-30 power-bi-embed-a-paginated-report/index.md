@@ -20,7 +20,7 @@ Within a Power BI report you can embed a paginated report. Values can be passed 
 
 For this post we are going to use a paginated report connected to restaurant sales data. The report shows daily total dishes sold and takings. It uses 2 parameters, StartDate and EndDate to filter the report.
 
-![](2023-03-26_18-05-11.jpg)
+![screenshot of the report described](2023-03-26_18-05-11.jpg)
 
 ## Prepare Measures for Parameter Values
 
@@ -54,7 +54,7 @@ Click See report to see the report. In this report there is also a chart showing
 
 When a filter is applied that changes the measures used as parameters, a Apply changes button appears. Clicking this will filter the report.
 
-![](2023-03-26_20-19-54.jpg)
+![screenshot with apply changes button highlighted](2023-03-26_20-19-54.jpg)
 
 We can remove  Click on the report and click the format button. Then tick the Auto-apply. Now when the measures change the report will refresh immedeatly.
 
