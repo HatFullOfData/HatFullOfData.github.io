@@ -76,7 +76,7 @@ From the read a resource step all we want to know is the status of the capacity.
 > 1. In the inputs, select dynamic content.
 > 1. Read a resource step will only show 6 values, click see more(25) to see the rest.
 > 1. Select Properties
-> 1. Rename your flow <sup>1</sup>
+> 1. Rename your flow [^nag]
 > 1. Run the flow
 
 ![snapshot of the above steps](<compose step.png>)
@@ -90,7 +90,7 @@ Running the compose step will give us the JSON we need to create the schema in t
 > 1. In the Content add the same Properties you added to the compose
 > 1. Below the schema box, click on Use sample payload to generate schema
 > 1. Into the dialog paste the output from the run and click Done. This will have populated the schema box
-> 1. Do that rename magic<sup>1</sup>
+> 1. Do that rename magic
 > 1. Run the flow.
 > 1. If the run was successful you can delete the compose step. It is no longer required.
 
@@ -147,4 +147,4 @@ If this was to be a enterprise production flow I would expect there to be a try 
 
 ### Footnotes
 
-<sup>1</sup> Yes I nag you to rename steps, future you will thank you. I promise
+[^nag]: Yes I nag you to rename steps, future you will thank you. I promise

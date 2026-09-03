@@ -5,6 +5,9 @@
 [goldmark.parser.attribute]
     block = true
 
+[goldmark.extensions]
+    footnote = true
+
 [goldmark.extensions.passthrough]
     enable = true
 

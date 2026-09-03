@@ -24,8 +24,12 @@
         {{ end }}
         
         <div class="site-meta">
-            {{/* Not an h1: each article page already has its own h1 (the post title). Site name is a link, not a heading. */}}
-            <p class="site-name"><a href="{{ .Site.Home.RelPermalink }}">{{ .Site.Title }}</a></p>
+            {{/* Only a h1 on the home page */}}
+            {{ if .IsHome }}
+                <h1 class="site-name"><a href="{{ .Site.Home.RelPermalink }}">{{ .Site.Title }}</a></h1>
+            {{ else }}
+                <p class="site-name"><a href="{{ .Site.Home.RelPermalink }}">{{ .Site.Title }}</a></p>
+            {{ end }}
             <h2 class="site-description">{{ .Site.Params.sidebar.subtitle }}</h2>
         </div>
     </header>

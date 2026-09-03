@@ -14,11 +14,11 @@ tags:
 
 ## Introduction
 
-Conditional formatting with meaningful icons is one of my favourite ways to make a table or matrix mean something to anyone in the business. Red cross or diamond usually means something is wrong, green tick or circle means everything is okay.<sup>1</sup>  People understand that as a concept. So to make this easy I use measures and add my own custom icons
+Conditional formatting with meaningful icons is one of my favourite ways to make a table or matrix mean something to anyone in the business. Red cross or diamond usually means something is wrong, green tick or circle means everything is okay.[^access]  People understand that as a concept. So to make this easy I use measures and add my own custom icons
 
 ## Out of Box Conditional Formatting
 
-Power BI has a great way to write rules to add conditional formatting to a column in a table. Sadly I hate the form, way too many clicks, way too fiddly for me. In the example shown I'm adding icons to the column showing the number of admins a workspace has. The rules match the logic of 0 admins is bad, 1-4 is good more than 4 has a warning<sup>2</sup>
+Power BI has a great way to write rules to add conditional formatting to a column in a table. Sadly I hate the form, way too many clicks, way too fiddly for me. In the example shown I'm adding icons to the column showing the number of admins a workspace has. The rules match the logic of 0 admins is bad, 1-4 is good more than 4 has a warning.[^admin]
 
 ![Snapshot of the conditional formatting icon rule box and the final result](<out of the box.png>)
 
@@ -111,6 +111,6 @@ Of course icons need a key. So a table of Column, Icon, Description would be a g
 
 <hr>
 
-<sup>1</sup> Yes I'm aware of colour blindness, hence I include a shape and yes I'm aware of cultural meanings of colours vary around the world.
+[^access]: Yes I'm aware of colour blindness, hence I include a shape and yes I'm aware of cultural meanings of colours vary around the world.
 
-<sup>2</sup> Lets not argue if 1 admin is okay, thats not the point here. 
+[^admin] Lets not argue if 1 admin is okay, thats not the point here. 

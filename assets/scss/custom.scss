@@ -5,6 +5,7 @@
 /* Make site name bigger */
 .sidebar header .site-name {
     font-size: 3rem;
+    font-weight: 600;
 }
 
 
@@ -28,7 +29,8 @@
 [data-scheme="light"] .article-content h5,
 [data-scheme="light"] .article-content h6,
 [data-scheme="light"] .article-title,
-[data-scheme="light"] .article-title a
+[data-scheme="light"] .article-title a,
+[data-scheme="light"] .sidebar header .site-name a
 {
     color: #074c56; /* Darker teal for light mode */
 }
@@ -40,7 +42,8 @@
 [data-scheme="dark"] .article-content h5,
 [data-scheme="dark"] .article-content h6,
 [data-scheme="dark"] .article-title,
-[data-scheme="dark"] .article-title a
+[data-scheme="dark"] .article-title a,
+[data-scheme="dark"] .sidebar header .site-name a
 {
     color: #a1c4ca; /* Lighter teal for dark mode */
 }
