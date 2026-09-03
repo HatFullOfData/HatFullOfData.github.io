@@ -26,7 +26,7 @@ You also need to make some changes to Power BI tenant settings as well and I’d
 
 - [Create Key Vault to store Tenant ID, Client ID and Secret](https://hatfullofdata.blog/create-azure-key-vault-to-store-tenant-id-client-id-and-secret/)
 
-- [Write a flow to fetch the Key Vault Values](https://hatfullofdata.blog/use-power-automate-to-fetch-secrets-from-key-vault/)
+- [Write a flow to fetch the Key Vault Values](https://hatfullofdata.blog/power-automate-to-fetch-secrets-from-key-vault/)
 
 - [Update Power BI Settings and Create a Security Group](https://hatfullofdata.blog/allow-the-use-of-power-bi-rest-apis/)
 

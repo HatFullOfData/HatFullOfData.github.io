@@ -11,12 +11,7 @@ categories:
 
 This is the second post in my Writing Functions in M series. This post describes how to build a multi-step function in M to allow for a more complex function. We will create a parameter to base the calculations on and then build a function.
 
-This series is to support my sessions at Data Relay 2019 and will cover the topics in the session.
-
-- [Handwritten Functions](https://hatfullofdata.blog/power-query-handwritten-function/)
-- [Multi-step Functions and Parameters](https://hatfullofdata.blog/power-query-multi-step-function/)
-- [Using functions to fetch web data](https://hatfullofdata.blog/power-query-fetch-web-data/)
-- [Executing SQL procedures from functions](https://hatfullofdata.blog/power-query-function-to-execute-a-procedure/)
+{{< powerqueryfunction-series current="2" >}}
 
 ### Introduction
 

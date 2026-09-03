@@ -11,12 +11,7 @@ categories:
 
 This is the third post in my Custom functions in Power Query series. Often web based data is split across multiple pages using the url to select the data. This post describes how to build a function that populates the parts of the url so multiple pages can be used to fetch web data can be combined.
 
-This series is to support my sessions at Data Relay 2019 and will cover the topics in the session.
-
-- [Handwritten Functions](https://hatfullofdata.blog/power-query-handwritten-function/)
-- [Multi-step Functions and Parameters](https://hatfullofdata.blog/power-query-multi-step-function/)
-- [Using functions to fetch web data](https://hatfullofdata.blog/power-query-fetch-web-data/)
-- [Executing SQL procedures from functions](https://hatfullofdata.blog/power-query-function-to-execute-a-procedure/)
+{{< powerqueryfunction-series current="3" >}}
 
 ### Initial Query to Fetch Web Data
 

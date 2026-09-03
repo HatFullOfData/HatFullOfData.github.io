@@ -15,12 +15,7 @@ In this post I will write a simple custom handwritten function to perform a calc
 
 For those who are new to programming  a function is a piece of code that returns some data, which could be a single value, record or table of data. If you ever need to duplicate a calculation more that twice then it is worth considering writing a function.
 
-This series is to support my sessions at Data Relay 2019 and will cover the topics in the session.
-
-- [Handwritten Functions](https://hatfullofdata.blog/power-query-handwritten-function/)
-- [Multi-step Functions and Parameters](https://hatfullofdata.blog/power-query-multi-step-function/)
-- [Using functions to fetch web data](https://hatfullofdata.blog/power-query-fetch-web-data/)
-- [Executing SQL procedures from functions](https://hatfullofdata.blog/power-query-function-to-execute-a-procedure/)
+{{< powerqueryfunction-series current="1" >}}
 
 ### The Hello World function
 

@@ -11,12 +11,7 @@ categories:
 
 This is the fourth post in my series regarding writing custom functions in Power Query. This post describes how to create a function that will execute an SQL procedure, passing in a parameter.
 
-This series is to support my sessions at Data Relay 2019 and will cover the topics in the session.
-
-- [Handwritten Functions](https://hatfullofdata.blog/power-query-handwritten-function/)
-- [Multi-step Functions and Parameters](https://hatfullofdata.blog/power-query-multi-step-function/)
-- [Using functions to fetch web data](https://hatfullofdata.blog/power-query-fetch-web-data/)
-- [Executing SQL procedures from functions](https://hatfullofdata.blog/power-query-function-to-execute-a-procedure/)
+{{< powerqueryfunction-series current="4" >}}
 
 ### Stored Procedure
 

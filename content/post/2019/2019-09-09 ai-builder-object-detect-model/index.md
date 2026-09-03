@@ -12,7 +12,7 @@ categories:
 
 This series of posts is to introduce using an AI Builder Object detect model with Power Automate to get and save predictions and then display these predictions over the images in a Power App.
 
-- [Build the Model](https://hatfullofdata.blog/ai-builder-with-flow-and-power-apps-building-the-model/)
+- [Build the Model](https://hatfullofdata.blog/ai-builder-object-detect-model/)
 
 - Save Predictions
 
