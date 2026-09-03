@@ -25,9 +25,9 @@ The session uses 2 data sources, the passenger list for the Titanic and an Excel
 
 The passenger list data requires some transformations to make it easier to work with. The two main skills demo’d are Column by Example and Selecting columns. These are covered in these 2 videos.
 
-[![](Oct2020_002.png)](https://www.youtube.com/watch?v=6UoKsUypYQw)
+[![Youtube thumbnail](Oct2020_002.png)](https://www.youtube.com/watch?v=6UoKsUypYQw)
 
-[![](Oct2020_001.png)](https://www.youtube.com/watch?v=Jg1tmbE-abM)
+[![Youtube thumbnail](Oct2020_001.png)](https://www.youtube.com/watch?v=Jg1tmbE-abM)
 
 ### Page Background
 

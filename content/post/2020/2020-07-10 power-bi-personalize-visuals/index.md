@@ -13,7 +13,7 @@ In the May 2020 Power BI Desktop update they introduced the idea of allowing a r
 
 ### YouTube Version
 
-[![](personalise_vis_000.png)](https://www.youtube.com/watch?v=HEiGYqKls-Y)
+[![Youtube thumbnail](personalise_vis_000.png)](https://www.youtube.com/watch?v=HEiGYqKls-Y)
 
 ### Turning On Personalize Visuals
 
@@ -39,7 +39,7 @@ To personalize a visual in a published report, click on the personalize button i
 
 The then Personalize pane will open up next to the visual and the chart type and fields used can be changed.  A reader will not be able to change the formatting of the visual.
 
-![](personalise_vis_005.png)
+![personalize pane](personalise_vis_005.png)
 
 ### Saving Personalisations as a Bookmark
 

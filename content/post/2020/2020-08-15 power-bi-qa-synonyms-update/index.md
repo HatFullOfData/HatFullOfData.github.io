@@ -31,7 +31,7 @@ The July 2020 update introduced a new method to add a synonym to the report. Whe
 
 With the suggested synonym term created the natural language interpretation will now understand Toy means Product Name. When the question is asked using Toy the question using Product Name will be suggested.
 
-![](Synonyms_004-1.png)
+![screen shot of toys being interpreted as Product names](Synonyms_004-1.png)
 
 After a few moments it will quickly show you a slight alternative with what question the current result is. It will also underline the word Toys in a orange dotted line.
 
@@ -41,7 +41,7 @@ After a few moments it will quickly show you a slight alternative with what ques
 
 The Q&A setup button is on the Modelling ribbon tab. When the dialog opens, click on Field Synonyms to see the synonyms. Expand the relevant table and you will see the synonyms applies to each column.
 
-![](Synonyms_007.png)
+![Field synonyms button](Synonyms_007.png)
 The Q&A setup button is on the Modelling ribbon tab. When the dialog opens, click on Field Synonyms to see the synonyms. Expand the relevant table and you will see the synonyms applies to each column.
 
 In my example you can see Toy has been added to the Product Name column in the suggested terms. This means alternative questions will be offered if Toy is used in a question.

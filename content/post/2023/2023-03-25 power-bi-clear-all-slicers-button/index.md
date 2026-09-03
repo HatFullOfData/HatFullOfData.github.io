@@ -12,7 +12,7 @@ The March 2023 Power BI update included a new button, Clear All Slicers. This al
 
 ## YouTube Version
 
-[![](POwer-BI-Clear-All-Slicers-Button-Time-0_00_0000.png)](https://www.youtube.com/watch?v=Y4BwaOclwc0)
+[![Youtube thumbnail](POwer-BI-Clear-All-Slicers-Button-Time-0_00_0000.png)](https://www.youtube.com/watch?v=Y4BwaOclwc0)
 
 ## Adding the Button
 
@@ -38,7 +38,7 @@ In the format pane on the right of the screen look for Button Style. In that sec
 
 The button to reset slicers back to no filter. You need to be clear what that excludes. It will not remove filters applied by clicking on a visual and will not change a slicer that has a single select. You will need to use the previous method linked above to achieve that.
 
-![](Picture1.png)
+![screenshot showing a chart filtered and single select slicer](Picture1.png)
 
 ## Conclusion
 

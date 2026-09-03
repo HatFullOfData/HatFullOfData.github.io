@@ -44,7 +44,7 @@ The above example was using the parameter straight. For the file name in the des
 
 If you know the function name that you want to use there is intellisense and typing in “@conc” will give you a list of matching functions to use.
 
-![](image-8.png)
+![adding a function by typing](image-8.png)
 
 Clicking OK will add the expression to the filename box.
 
@@ -54,7 +54,7 @@ Clicking OK will add the expression to the filename box.
 
 When the pipeline is run manually a panel appears prompting for the parameter values. Enter in the values and click OK. When the pipeline completes the run successfully we can see in the lakehouse the new file has been created.
 
-![](image-10.png)
+![Pipeline run dialog and the file created](image-10.png)
 
 ## Conclusion
 

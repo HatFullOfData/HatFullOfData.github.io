@@ -31,13 +31,13 @@ At the point of publishing this post (Jun 2025) TMDL view is still in preview so
 
 This view allows you to define tables, columns, relationships and measures. You can drag a Power BI item into the view from the data pane to see the definition. Bu this post is not to teach TMDL but to show one use of it. More information can be found at [https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-tmdl-view](https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-tmdl-view?wt.mc_id=DX-MVP-5003563)
 
-![](image-13.png)
+![Options window with the preview feature highlighted](image-13.png)
 
 ## Adding the Calendar
 
 Another use is to use code to create a calendar table. I created the original code by creating  calendar in a report and making all the adjustments I would usually do and then dragged the calendar table onto the TMDL window. So now the code includes the adjustments mentioned at the start of this post. Then I go to  a report without a calendar and paste in the code below in the TMDL view. Then click Apply. The table will appear in the Data pane but possibly with red exclamation mark. There also might be a message stating a calculated table needs refreshing. If that appears click the Refresh now button that appears.
 
-![](image-14.png)
+![TMDL window with the Apply button highlighted](image-14.png)
 
 ```xml
 createOrReplace

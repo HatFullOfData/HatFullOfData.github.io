@@ -40,11 +40,11 @@ Opening the model in Tabular Editor 2 we can see that the column has two names. 
 
 I created a Power BI model in an earlier version of Power that used the old Dataverse connector. It contains the Account table with columns renamed in Power Query and a measure to count the Account table records.
 
-![](Dataverse-Update-004.jpg)Report before refresh
+![Screenshot of the Accounts table with column names renamed](Dataverse-Update-004.jpg)Report before refresh
 
 When I opened the file in the July 2022 version of Power BI with the new Dataverse Connector, it looked unchanged. When the report is refreshed in Power BI desktop the connector is updated. The column names change and measures update and still work.
 
-![](Dataverse-Update-005-1.jpg)Report after refresh with updated column names
+![Screenshot of the Accounts table with column names renamed differently](Dataverse-Update-005-1.jpg)Report after refresh with updated column names
 
 ### Exceptions
 

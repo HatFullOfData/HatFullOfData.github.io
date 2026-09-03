@@ -46,7 +46,7 @@ When the Power Query window opens you can add steps as per normal such as choosi
 
 When the data loads into the report it comes in 2 parts. Under data sources is Power Query and in datasets are the individual queries. Unlike other data sources such as a database each dataset will be a brand new query.
 
-![](image-3.png)
+![Success message and the explorer showing PowerQuery under Data sources](image-3.png)
 
 ## Editing the Query
 

@@ -87,7 +87,7 @@ In this post for simplicity I’m using a Lookup activity to just get all the ro
 
 Once the connection has been populated you can select the connection type, in my case Warehouse. Then the text boxes appear to take the Workspace ID, Warehouse ID and SQL Connection string. They all have a link to Add dynamic content.
 
-![](Variable-Library-007.png)
+![Screenshots of the preview data](Variable-Library-007.png)
 
 The table drop down can be populated by entering manually or by clicking Refresh. This will open a pane showing the values that are going to be used in the connection. Click OK to start it fetching the list of tables. Once a table is selected if you click Preview data the same pane appears confirming values. Its a great way to test the connection works.
 

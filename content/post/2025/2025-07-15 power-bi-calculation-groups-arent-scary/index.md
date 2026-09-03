@@ -12,7 +12,7 @@ Let’s start by being honest, calculation groups scared me. I had read the bril
 
 ## YouTube Version
 
-[![](Power-BI-Calculation-Groups-arent-scary-Time-0_00_0000.png)](https://youtu.be/wdXWaGDiWpw)
+[![Youtube thumbnail](Power-BI-Calculation-Groups-arent-scary-Time-0_00_0000.png)](https://youtu.be/wdXWaGDiWpw)
 
 ## Scenario
 
@@ -64,7 +64,7 @@ Now we have created a calculation group we can start to create the matrix. Add a
 
 After you have added the measures and switched the values to rows you can add the calculation group to the Columns area in the visual. All the calculation items appear as columns.
 
-![](image-14.png)
+![Matrix showing the items as columns](image-14.png)
 
 ## Formatting the calculations items
 
@@ -78,7 +78,7 @@ Select the calculation item that needs different formatting. In the properties p
 
 The Calculation items are sorted alphabetically by default. If you change the order of one calculation item it will fix the order of all the items. So I move the % Change to the end
 
-![](image-16.png)
+![table showing the calculation group columns](image-16.png)
 
 Also by default all columns are shown. The columns can be selected using the filters panel. In the filters panel, expand Calculation group column to show all the calculation item names. Un-select the columns you don’t want.
 

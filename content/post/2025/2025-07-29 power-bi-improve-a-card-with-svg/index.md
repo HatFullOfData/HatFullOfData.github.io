@@ -104,11 +104,11 @@ Return Result
 
 ## Even More Tricks
 
-[![](image-21.png)](https://www.youtube.com/watch?v=aPrh4sK8CX4)
+[![Youtube thumbnail](image-21.png)](https://www.youtube.com/watch?v=aPrh4sK8CX4)
 
 Guy in a Cube have a video that does a few more tricks to make it even prettier. Its a high speed video so expect to stop, rewind and understand all the tricks Adam uses. His shadow suggestions are great. Adding his tricks and my svg I changed the card to look like this.
 
-![](image-22.png)
+![The final cards](image-22.png)
 
 ## References
 

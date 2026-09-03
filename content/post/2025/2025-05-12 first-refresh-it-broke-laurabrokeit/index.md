@@ -25,7 +25,7 @@ SharePoint is no database but we keep putting data there so here are my findings
 
 In the previous post we ingested a SharePoint folder into a table in a Lakehouse. That is a well known process and nothing new except for one thing. I split the process into two stages, firstly the FullFileList which contained the list of files and the binary content of the files and then a separate query to combine data from those files. Power Query created Helper queries to perform the combining. Then it broke.
 
-![](image-14.png)
+![screenshot of the previously built Power Query](image-14.png)
 
 ## It Broke
 

@@ -59,7 +59,7 @@ SVG Code
 
 ### Day 4 – Use SVG Transform
 
-![](day4.jpg)
+![Youtube thumbnail](day4.jpg)
 
 This video does a simple transform in SVG to make the star on the top of the tree rotate.
 
@@ -95,7 +95,7 @@ SVG Code
 
 ### Day 6 – Patterned Presents
 
-![](Day6.jpg)
+![Youtube thumbnail](Day6.jpg)
 
 Using SVG patterns and a list of patterns we can add patterns to the present wrappings.
 
@@ -119,7 +119,7 @@ Using SVG patterns and a list of patterns we can add patterns to the present wra
 
 ### Day 7 – Add a Tag using SVG Text and Rotate
 
-[![](Day07.jpg)](https://youtu.be/RjdVo6OF11g)
+[![Youtube thumbnail](Day07.jpg)](https://youtu.be/RjdVo6OF11g)
 
 Using SVG Text and rotate we can create another component to draw a tag that uses an input of the name to label each present.
 
@@ -133,7 +133,7 @@ Using SVG Text and rotate we can create another component to draw a tag that use
 
 ## Day 8 – Star Rating
 
-[![](Day08.jpg)](https://youtu.be/ZK0Y-Jvk-_k)
+[![Youtube thumbnail](Day08.jpg)](https://youtu.be/ZK0Y-Jvk-_k)
 
 Rate your New Year Resolution progress with a star rating drawn with a little SVG and a gallery.
 
@@ -148,7 +148,7 @@ With(
 
 ### Day 9 – Fill a shape using SVG Clip
 
-[![](Day09.jpg)](https://youtu.be/zEWa0oBc9oQ)
+[![Youtube thumbnail](Day09.jpg)](https://youtu.be/zEWa0oBc9oQ)
 
 Fill up a heart in colour to visualise a percentage value using a component containing SVG using a clip path.
 
@@ -223,7 +223,7 @@ With(
 
 ### Day 11 – Draw a Gauge
 
-[![](Day11.jpg)](https://youtu.be/OAJ_dGFld7w)
+[![Youtube thumbnail](Day11.jpg)](https://youtu.be/OAJ_dGFld7w)
 
  Draw a simple gauge to show a percentage value using an arch and rotating a line with a simple transform.
 
@@ -245,7 +245,7 @@ With(
 
 ### Day 12 – Add Colours to that Gauge
 
-[![](Day12.jpg)](https://youtu.be/xb2--2xhvOI)
+[![Youtube thumbnail](Day12.jpg)](https://youtu.be/xb2--2xhvOI)
 
  Lets add some colour to the gauge from day 11 of this series. We look at rotate again and how moving items partly outside the view box hides that part. 
 
