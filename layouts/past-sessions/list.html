@@ -7,7 +7,7 @@
     {{ .Content }}
 
     <h2>Calendar</h2>
-    {{ $calendar := index .Site.Data "sessions-calendar" }}
+    {{ $calendar := index hugo.Data "sessions-calendar" }}
     <div class="session-list--compact">
         <table class="session-calendar">
             <thead>
@@ -30,7 +30,7 @@
                             <ul>
                                 {{ range .sessions }}
                                     {{ $sessionEntry := . }}
-                                    {{ $session := $.Site.GetPage (printf "/sessions/%s" $sessionEntry.session) }}
+                                    {{ $session := $.Site.GetPage (printf "/past-sessions/%s" $sessionEntry.session) }}
                                     {{ with $session }}
                                         <li>
                                             <a href="{{ .RelPermalink }}">{{ .Title }}</a>

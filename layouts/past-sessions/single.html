@@ -2,7 +2,7 @@
 {{ define "main"}}
 
     {{ $sessionSlug := path.Base .File.Dir }}
-    {{ $calendar := index .Site.Data "sessions-calendar" }}
+    {{ $calendar := index hugo.Data "sessions-calendar" }}
     {{ $events := slice }}
 
     {{ range $calendar }}
