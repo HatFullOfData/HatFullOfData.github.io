@@ -1,0 +1,58 @@
+{{ define "body-class" }}template-session{{ end }}
+{{ define "main"}}
+
+    {{ $sessionSlug := path.Base .File.Dir }}
+    {{ $calendar := index .Site.Data "sessions-calendar" }}
+    {{ $events := slice }}
+
+    {{ range $calendar }}
+        {{ $calendarEntry := . }}
+        {{ range .sessions }}
+            {{ if eq .session $sessionSlug }}
+                {{ $events = $events | append (dict
+                    "date" $calendarEntry.date
+                    "event" $calendarEntry.event
+                    "slides" .slides
+                ) }}
+            {{ end }}
+        {{ end }}
+    {{ end }}
+
+    <div class="article-content">
+        <h1 class="article-title">{{ .Title }}</h1>
+        {{ .Content }}
+
+        <h2>Calendar </h2>
+        <table class="session-calendar">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Event</th>
+                    <th>Slides</th>
+                </tr>
+            </thead>
+            <tbody>
+            {{ range sort $events "date" "desc" }}
+                <tr>
+                    <td>
+                        <time datetime="{{ .date }}">
+                            {{ dateFormat "2 January 2006" .date }}
+                        </time>
+                    </td>
+                    <td>
+                        {{ .event }}
+                    </td>
+                    <td>
+                        {{ with .slides }}
+                            <a href="{{ . }}">Slides</a>
+                        {{ else }}
+                            No slides!
+                        {{ end }}
+                    </td>
+                </tr>
+            {{ end }}
+            </tbody>
+        </table>
+
+    </div>
+{{ end }}

@@ -1,0 +1,100 @@
+- date: "2026-09-02"
+  event: Virtual Data Conference
+  sessions:
+    - session: stop-waiting-for-the-data-team
+      slides: Stop Waiting for the Data Team.pdf
+
+- date: "2026-07-07"
+  event: South Coast User Group
+  sessions:
+    - session: lets-build-a-data-agent
+
+- date: "2026-06-11"
+  event: Experts Live
+  sessions:
+    - session: fabric-workshop-data-verse-power-bi-and-fabric
+
+- date: "2026-05-29"
+  event: Sheffield Data Analytics User Group
+  sessions:
+    - session: translytical-flows-vs-embedded-power-app
+
+- date: "2026-05-05"
+  event: European Biz Apps Summit
+  sessions:
+    - session: copilot-architecture-workshop
+      slides: ECS26- Copilot architecture Workshop.pdf
+    - session: microsoft-fabric-activator-and-power-automate-a-great-combination
+    - session: 2-power-bi-storage-modes
+      slides: 2 Power BI Storage Modes, 1 Dataverse - ECS 2026.pdf
+
+- date: "2026-04-22"
+  event: SQLBits
+  sessions:
+    - session: microsoft-fabric-and-the-mess-of-sharepoint
+    - session: copilots-chaos-and-control-getting-real-about-ai-productivity
+
+- date: "2026-03-03"
+  event: Devon and Cornwall Power BI User Group
+  sessions:
+    - session: get-copilot-to-build-your-demo-data
+
+- date: "2026-01-29"
+  event: Cloud Tech Tallinn
+  sessions:
+    - session: 2-power-bi-storage-modes
+      slides: 2 Power BI Storage Modes - JG and LGB.pdf
+
+- date: "2026-01-20"
+  event: M365 Con
+  sessions:
+    - session: translytical-flows-vs-embedded-power-app
+
+- date: "2025-10-08"
+  event: DataMinds
+  sessions:
+    - session: paginated-reports-have-had-some-love
+
+- date: "2025-10-02"
+  event: FabFest
+  sessions:
+    - session: translytical-flows-vs-embedded-power-app
+
+- date: "2025-09-11"
+  event: D365 PPUG Bristol
+  sessions:
+    - session: cheat-at-power-bi
+      slides: 2025-09-11 D365PPUG How to cheat at Power BI.pdf
+
+- date: "2025-09-10"
+  event: D365 PPUG UK Manchester
+  sessions:
+    - session: cheat-at-power-bi
+      slides: 2025-09-10 D365PPUG How to cheat at Power BI.pdf
+
+- date: "2025-07-03"
+  event: D365 & PP UG Virtual Event!
+  sessions:
+    - session: microsoft-fabric-introduction
+
+- date: "2025-07-01"
+  event: South Coast User Group
+  sessions:
+    - session: data-and-power-automate-the-right-way
+
+- date: "2025-06-24"
+  event: Devon and Cornwall Power BI group
+  sessions:
+    - session: paginated-reports-have-had-some-love
+
+- date: "2025-06-18"
+  event: SQLBits 2025
+  sessions:
+    - session: dynamic-power-query
+    - session: enhancing-microsoft-fabric-with-power-automate
+
+- date: "2025-05-26"
+  event: Collab Summit
+  sessions:
+    - session: paginated-reports-have-had-some-love
+    - session: enhancing-microsoft-fabric-with-power-automate

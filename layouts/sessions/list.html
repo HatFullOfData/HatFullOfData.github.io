@@ -1,0 +1,52 @@
+{{ define "body-class" }}template-list{{ end }}
+{{ define "main" }}
+    <header>
+        <h1 class="article-title">{{ .Title }}</h1>
+    </header>
+    <div class="article-content">
+    {{ .Content }}
+
+    <h2>Calendar</h2>
+    {{ $calendar := index .Site.Data "sessions-calendar" }}
+    <div class="session-list--compact">
+        <table class="session-calendar">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Event</th>
+                    <th>Session Links</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{ range sort $calendar "date" "desc" }}
+                    <tr>
+                        <td>
+                            <time datetime="{{ .date }}">{{ dateFormat "2 January 2006" .date }}</time>
+                        </td>
+                        <td>
+                            {{ .event }}
+                        </td>
+                        <td>
+                            <ul>
+                                {{ range .sessions }}
+                                    {{ $sessionEntry := . }}
+                                    {{ $session := $.Site.GetPage (printf "/sessions/%s" $sessionEntry.session) }}
+                                    {{ with $session }}
+                                        <li>
+                                            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                                        </li>
+                                    {{ else }}
+                                        <li>{{ $sessionEntry.session }}{{ with $sessionEntry.slides }} <a href="{{ . }}">Slides</a>{{ end }}</li>
+                                    {{ end }}
+                                {{ end }}
+                            </ul>
+                        </td>
+                    </tr>
+                {{ end }}
+            </tbody>
+        </table>
+    </div>
+    </div>
+
+    {{ partialCached "footer/footer" . }}
+{{ end }}

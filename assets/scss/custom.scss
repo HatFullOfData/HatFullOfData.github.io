@@ -28,6 +28,7 @@
 [data-scheme="light"] .article-content h4,
 [data-scheme="light"] .article-content h5,
 [data-scheme="light"] .article-content h6,
+[data-scheme="light"] .article-content table,
 [data-scheme="light"] .article-title,
 [data-scheme="light"] .article-title a,
 [data-scheme="light"] .sidebar header .site-name a
@@ -41,6 +42,7 @@
 [data-scheme="dark"] .article-content h4,
 [data-scheme="dark"] .article-content h5,
 [data-scheme="dark"] .article-content h6,
+[data-scheme="dark"] .article-content table,
 [data-scheme="dark"] .article-title,
 [data-scheme="dark"] .article-title a,
 [data-scheme="dark"] .sidebar header .site-name a
@@ -167,7 +169,12 @@
 }
 
 /* Links page - fix article content text in dark mode */
-[data-scheme="dark"] .main-article .article-content p {
+[data-scheme="dark"] .main-article .article-content p,
+[data-scheme="dark"] .article-content p,
+[data-scheme="dark"] .article-content td,
+[data-scheme="dark"] .article-content a,
+[data-scheme="dark"] .article-content li
+{
     color: var(--body-text-color);
 }
 
@@ -230,4 +237,41 @@
 
 aside .article-list--tile article .article-image img{
     height: 80px !important;
+}
+
+.session-calendar {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    background: var(--card-background);
+
+    th,
+    td {
+        padding: 0.9rem 1rem;
+        text-align: left;
+        vertical-align: top;
+        border-bottom: 1px solid var(--border-color);
+    }
+
+    th {
+        font-weight: 700;
+        background: var(--card-background);
+    }
+
+    tbody tr:nth-child(even) {
+        background: rgba(127, 127, 127, 0.06);
+    }
+
+    ul {
+        margin: 0;
+        padding-left: 1.25rem;
+    }
+
+    li + li {
+        margin-top: 0.4rem;
+    }
+
+    a {
+        color: var(--accent-color);
+    }
 }
