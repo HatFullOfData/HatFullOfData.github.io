@@ -1,12 +1,78 @@
+- date: "2026-11-30"
+  endDate: "2026-12-03"
+  event: ESPC 2026
+  location: Amsterdam
+  title: ESPC 2026 - 30 Nov - 3 Dec - Amsterdam
+  description: When Users Leave - The Ripple Effect Across Microsoft 365 and Power Platform
+  website: https://espc.tech/conference/espc-2026/
+  image: ESPC.svg
+
+- date: "2026-10-22"
+  endDate: "2026-10-23"
+  event: South Coast User Group
+  location: Southampton
+  title: South Coast User Group - 22-23rd October 2026 - Southampton
+  description: 2 day event at Hilton Ageas Bowl, Southampton
+  website: https://www.meetup.com/mcscug/events/312953958/
+  image: southcoast.png
+
+- date: "2026-10-03"
+  event: Women in Fabric 2026
+  location: Barcelona
+  title: Women in Fabric 2026 - 03 October - Barcelona
+  description: Fabric and the mess of SharePoint
+  website: https://www.womeninfabric.com/
+  image: women-in-fabric.png
+  sessions:
+    - session: microsoft-fabric-and-the-mess-of-sharepoint
+
+- date: "2026-09-28"
+  endDate: "2026-10-01"
+  event: European Microsoft Fabric + SQL Community Conference
+  location: Barcelona
+  title: European Microsoft Fabric + SQL Community Conference - 28 Sep - 01 Oct 2026 - Barcelona
+  description: Come find me volunteering in the community lounge
+  website: https://espc.tech/conference/fabcon-europe-2026/
+  image: fabcon-barcelona.png
+
+- date: "2026-09-23"
+  event: Collab Days Bletchley
+  location: Bletchley
+  title: Collab Days Bletchley - 23 September 2026 - Bletchley
+  description: Best location to have a conference!
+  website: https://www.collabdays.org/2026-bletchleypark/
+  image: collabdays.png
+  sessions:
+    - session: microsoft-fabric-activator-and-power-automate-a-great-combination
+
+- date: "2026-09-21"
+  endDate: "2026-09-22"
+  event: Nordic Summit
+  location: Billund
+  title: Nordic Summit - 21st-22nd Sept 2026 - Billund
+  description: When Users Leave - The Ripple Effect Across Microsoft 365 and Power Platform
+  website: https://nordicsummit.info/
+  image: nordic.png
+
 - date: "2026-09-09"
   event: D365 PPUG Manchester All Day
+  location: Manchester
+  title: Manchester D365PPUG All Day - 09 September 2026
+  description: Microsoft Fabric Activator and Power Automate - a great combination
+  website: https://www.meetup.com/d365ppug/events/310987087/
+  image: D365PPUG.png
   sessions:
     - session: microsoft-fabric-activator-and-power-automate-a-great-combination
       slides: D365 PPUG 2026-09-09 Activator and Power Automate.pdf
 
 
 - date: "2026-09-02"
-  event: Virtual Data Conference
+  event: Data Community Conference
+  location: Virtual
+  title: Data Community Conference 1-3 September 2026 - Virtual
+  description: Session on business users building data solutions
+  website: https://www.data-community.org/conference-2026
+  image: datacommunityconf.png
   sessions:
     - session: stop-waiting-for-the-data-team
       slides: Stop Waiting for the Data Team.pdf

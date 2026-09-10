@@ -8,6 +8,8 @@
 
     <h2>Calendar</h2>
     {{ $calendar := index hugo.Data "sessions-calendar" }}
+    {{ $today := now.Format "2006-01-02" }}
+    {{ $pastEvents := where $calendar "date" "le" $today }}
     <div class="session-list--compact">
         <table class="session-calendar">
             <thead>
@@ -18,7 +20,7 @@
                 </tr>
             </thead>
             <tbody>
-                {{ range sort $calendar "date" "desc" }}
+                {{ range sort $pastEvents "date" "desc" }}
                     <tr>
                         <td>
                             <time datetime="{{ .date }}">{{ dateFormat "2 January 2006" .date }}</time>

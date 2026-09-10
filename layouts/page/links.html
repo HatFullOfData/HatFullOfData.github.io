@@ -1,0 +1,48 @@
+{{ define "body-class" }}template-links{{ end }}
+{{ define "main" }}
+    <article class="main-article">
+        {{ partial "article/article.html" . }}
+
+        {{ $calendar := index hugo.Data "sessions-calendar" }}
+        {{ $today := now.Format "2006-01-02" }}
+        {{ $upcomingEvents := where $calendar "date" "ge" $today }}
+
+        <div class="article-list--compact links">
+            {{ range sort $upcomingEvents "date" "asc" }}
+                {{ $event := . }}
+                {{ $eventTitle := printf "%s - %s" $event.event (dateFormat "2 January 2006" $event.date) }}
+                {{ with $event.location }}
+                    {{ $eventTitle = printf "%s - %s" $eventTitle . }}
+                {{ end }}
+                {{ with $event.website }}
+                    <article>
+                        <a href="{{ . }}" target="_blank" rel="noopener">
+                            <div class="article-details">
+                                <h2 class="article-title">
+                                    {{ $eventTitle }}
+                                </h2>
+                                <footer class="article-meta">
+                                    {{ with $event.description }}
+                                        {{ . }}
+                                    {{ end }}
+                                </footer>
+                            </div>
+
+                            {{ with $event.image }}
+                                <div class="article-image">
+                                    {{ if or (strings.HasPrefix . "http://") (strings.HasPrefix . "https://") }}
+                                        <img alt="{{ default $event.event $event.title }}" loading="lazy" src="{{ . }}">
+                                    {{ else }}
+                                        {{ with $.Page.Resources.GetMatch . }}
+                                            <img alt="{{ default $event.event $event.title }}" loading="lazy" src="{{ .RelPermalink }}">
+                                        {{ end }}
+                                    {{ end }}
+                                </div>
+                            {{ end }}
+                        </a>
+                    </article>
+                {{ end }}
+            {{ end }}
+        </div>
+    </article>
+{{ end }}
