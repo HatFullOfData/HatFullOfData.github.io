@@ -1,3 +1,10 @@
+- date: "2026-09-09"
+  event: D365 PPUG Manchester All Day
+  sessions:
+    - session: microsoft-fabric-activator-and-power-automate-a-great-combination
+      slides: D365 PPUG 2026-09-09 Activator and Power Automate.pdf
+
+
 - date: "2026-09-02"
   event: Virtual Data Conference
   sessions:
@@ -25,6 +32,7 @@
     - session: copilot-architecture-workshop
       slides: ECS26- Copilot architecture Workshop.pdf
     - session: microsoft-fabric-activator-and-power-automate-a-great-combination
+      slides: ECS 2026 Activator and Power Automate.pdf
     - session: 2-power-bi-storage-modes
       slides: 2 Power BI Storage Modes, 1 Dataverse - ECS 2026.pdf
 
