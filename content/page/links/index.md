@@ -3,6 +3,7 @@ title: Upcoming Events
 image: cover.jpg
 aliases:
   - /upcoming-events/
+  - /my-speaking-sessions/
 layout: links
 
 menu:
