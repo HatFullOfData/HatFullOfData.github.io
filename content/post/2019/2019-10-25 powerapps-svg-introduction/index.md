@@ -24,7 +24,7 @@ This series is to introduce ideas for using SVG within PowerApps to add graphics
 
 SVG stands for Scalable Vector Graphics and is a language to define a drawing. The drawings are defined by co-ordinates and dimensions which means they can be stretched without loosing definition.
 
-I am not going to give a full introduction to SVG here in this post. I recommend you look at my intro SVG post at  [https://hatfullofdata.blog/svg-in-power-bi-part-1/](https://hatfullofdata.blog/svg-in-power-bi-part-1/) for resources and a brief overview.
+I am not going to give a full introduction to SVG here in this post. I recommend you look at my intro SVG post at  [https://hatfullofdata.blog/svg-in-power-bi-part-1-svg-basics/](https://hatfullofdata.blog/svg-in-power-bi-part-1-svg-basics/) for resources and a brief overview.
 
 ### Using SVG in a PowerApp
 

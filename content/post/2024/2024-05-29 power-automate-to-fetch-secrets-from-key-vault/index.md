@@ -12,7 +12,7 @@ categories:
     - Power BI
 ---
 
-Once you have stored security details in Azure Key Vault as described in the previous post in this series ([Create Azure Key Vault to store Tenant ID, Client ID and Secret](https://hatfullofdata.blog/create-azure-key-vault-to-store-tenant-id-client-id-and-secret/)) you need a way to fetch secrets when you need them. Power Automate connector for Azure Key Vault includes the Get Secret action. This post shows you how to build a reusable child flow to fetch secrets.
+Once you have stored security details in Azure Key Vault as described in the previous post in this series ([Create Azure Key Vault to store Tenant ID, Client ID and Secret](https://hatfullofdata.blog/create-azure-key-vault-to-store-id-and-secret/)) you need a way to fetch secrets when you need them. Power Automate connector for Azure Key Vault includes the Get Secret action. This post shows you how to build a reusable child flow to fetch secrets.
 
 This post is part of [Power Automate and Power BI Rest API series](https://hatfullofdata.blog/power-automate-and-power-bi-rest-api/).
 

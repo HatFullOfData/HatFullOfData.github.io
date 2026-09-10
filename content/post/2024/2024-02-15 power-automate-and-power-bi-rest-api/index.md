@@ -24,7 +24,7 @@ You also need to make some changes to Power BI tenant settings as well and I’d
 
 - [Create a Power BI Service Principal Profile](https://hatfullofdata.blog/create-a-power-bi-service-principal-profile/)
 
-- [Create Key Vault to store Tenant ID, Client ID and Secret](https://hatfullofdata.blog/create-azure-key-vault-to-store-tenant-id-client-id-and-secret/)
+- [Create Key Vault to store Tenant ID, Client ID and Secret](https://hatfullofdata.blog/create-azure-key-vault-to-store-id-and-secret/)
 
 - [Write a flow to fetch the Key Vault Values](https://hatfullofdata.blog/power-automate-to-fetch-secrets-from-key-vault/)
 

@@ -11,13 +11,13 @@ menu:
         params: 
             icon: smile
 ---
-# Hello! 
-I'm Laura.
+## Hello! 
+I'm Laura GB.
 
 I work in data, spend far too much time talking about Power BI, Microsoft Fabric, technology adoption, and low-code, and somehow occasionally convince conference organisers that other people might want to hear about them too.
 
 I'm also a Microsoft Data Platform MVP, which sounds much more impressive than 'professional enthusiast'.
 
-This blog contains things I've learned, things I've broken, things I've fixed, and hopefully things that might help you too.
+This blog contains things I've learned, things I've broken, things I've fixed, and hopefully things that might help you too. But mostly its my notebook to remind me how things work. Welcome to my ADHD journey through tech.
 
 Thanks for stopping by. Tea is available, but you'll need to provide your own biscuits.
