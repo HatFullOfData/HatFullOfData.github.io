@@ -18,7 +18,7 @@ SortBy              = "default"
     lastUpdated = ":date_full"
 
 [sidebar]
-    subtitle = "Laura GB writes notes on how she broke things and then fixed them again on the Microsoft stack."
+    subtitle = "Laura Graham-Brown is a Microsoft MVP, consultant and trainer specialising in Microsoft Fabric, Power BI and Power Platform. This blog shares practical solutions, lessons learned and real-world implementations."
 
 
 [article]

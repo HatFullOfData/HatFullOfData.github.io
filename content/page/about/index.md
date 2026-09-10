@@ -1,6 +1,6 @@
 ---
 title: About Me
-description: Track migration progress from WordPress to Hugo.
+description: A welcome message to introduce Laura GB and to vaguely justify the random nature of this blog and as per usual blame ADHD for the chaos.
 slug: about-me
 date: 2026-06-21 00:00:00+0000
 aliases:
