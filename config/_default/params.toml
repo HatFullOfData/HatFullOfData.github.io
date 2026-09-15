@@ -19,7 +19,7 @@ SortBy              = "default"
 
 [sidebar]
     subtitle = "Laura Graham-Brown is a Microsoft MVP, consultant and trainer specialising in Microsoft Fabric, Power BI and Power Platform. This blog shares practical solutions, lessons learned and real-world implementations."
-
+    avatar = "img/logo.png"
 
 [article]
     headingAnchor = false

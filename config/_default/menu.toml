@@ -37,3 +37,12 @@
         icon = "brand-youtube"
         newtab = true
 
+[[social]]
+    identifier = "MVP"
+    name       = "MVP"
+    url        = "https://mvp.microsoft.com/en-US/mvp/profile/a897e9c7-2510-ea11-a811-000d3a8ccaf5"
+
+    [social.params]
+        icon = "MVP"
+        newtab = true
+

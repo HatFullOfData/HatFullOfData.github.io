@@ -275,3 +275,23 @@ aside .article-list--tile article .article-image img{
         color: var(--accent-color);
     }
 }
+
+.sidebar header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.sidebar .site-avatar {
+    display: block;
+    margin: 0 auto 1rem;
+    width: 120px;
+    height: 120px;
+}
+
+.sidebar .site-avatar img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
