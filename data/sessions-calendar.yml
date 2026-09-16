@@ -106,7 +106,9 @@
   event: SQLBits
   sessions:
     - session: microsoft-fabric-and-the-mess-of-sharepoint
+      slides: SQLBits 2026 Fabric and the Mess of SharePoint.pdf
     - session: copilots-chaos-and-control-getting-real-about-ai-productivity
+      slides: 2026 SQLBits Copilot Chaos.pdf
 
 - date: "2026-03-03"
   event: Devon and Cornwall Power BI User Group
