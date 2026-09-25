@@ -2,8 +2,8 @@
 title: Activator and Power Automate - Turning Fabric Signals into Action
 description: Learn how to add a custom action to a Data Activator reflex so it triggers a Power Automate flow in Microsoft Fabric. Practical setup and patterns included.
 slug: data-activator-and-power-automate-turning-fabric-signals-into-action
-date: 2026-09-21 09:00:00+0000
-lastmod: 2026-09-21 09:00:00+0000
+date: 2026-09-27 09:00:00+0000
+lastmod: 2026-09-27 09:00:00+0000
 categories:
     - Microsoft Fabric
     - Power Automate
