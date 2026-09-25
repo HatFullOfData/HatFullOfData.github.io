@@ -53,6 +53,9 @@
   description: When Users Leave - The Ripple Effect Across Microsoft 365 and Power Platform
   website: https://nordicsummit.info/
   image: nordic.png
+  sessions:
+    - session: when-users-leave
+      slides: 2026 Nordic WhenUsersLeave.pdf
 
 - date: "2026-09-09"
   event: D365 PPUG Manchester All Day
