@@ -1,8 +1,8 @@
 ---
 title: When Users Leave
+subtitle: The Ripple Effect Across Microsoft 365 and Power Platform
+image: cover.png
 ---
-
-**The Ripple Effect Across Microsoft 365 and Power Platform**
 
 ## Description
 

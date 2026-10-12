@@ -1,5 +1,7 @@
 ---
-title: Microsoft Fabric Activator and Power Automate - A Great Combination
+title: Microsoft Fabric Activator and Power Automate
+subtitle: A Great Combination
+image: cover.png
 ---
 
 ## Description

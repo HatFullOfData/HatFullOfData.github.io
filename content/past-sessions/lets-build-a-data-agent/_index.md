@@ -1,6 +1,7 @@
 ---
 title: Let's build a data agent
 layout: single
+image: cover.png
 ---
 
 ## Description

@@ -295,3 +295,18 @@ aside .article-list--tile article .article-image img{
     margin: 0 auto;
     border-radius: 50%;
 }
+
+.session-image {
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem 0;
+}
+
+.session-image img {
+    display: block;
+    width: auto;
+    height: auto;
+
+    max-height: 300px;
+    object-fit: contain;
+}

@@ -20,6 +20,21 @@
 
     <div class="article-content">
         <h1>{{ .Title }}</h1>
+        {{ with .Params.subtitle }}
+            <h3><i>{{ . }}</i></h3>
+        {{ end }}
+        {{ with .Params.image }}
+            {{ with $.Resources.GetMatch . }}
+                <div class="session-image">
+                    <img
+                        src="{{ .RelPermalink }}"
+                        alt="{{ $.Title }}"
+                        loading="lazy"
+                        width="{{ .Width }}"
+                        height="{{ .Height }}">
+                </div>
+            {{ end }}
+        {{ end }}
         {{ .Content }}
 
         <h2>Calendar </h2>
