@@ -9,7 +9,7 @@
     <h2>Calendar</h2>
     {{ $calendar := index hugo.Data "sessions-calendar" }}
     {{ $today := now.Format "2006-01-02" }}
-    {{ $pastEvents := where $calendar "date" "le" $today }}
+    {{ $pastEvents := where (where $calendar "date" "le" $today) "sessions" "ne" nil }}
     <div class="session-list--compact">
         <table class="session-calendar">
             <thead>

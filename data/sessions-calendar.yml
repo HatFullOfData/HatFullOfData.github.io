@@ -1,3 +1,14 @@
+- date: "2027-02-04"
+  endDate: "2027-02-05"
+  event: Cloud Tech Tallinn 2027
+  location: Tallinn
+  title: Cloud Tech Tallinn 2027 - 4-5 February 2027 - Tallinn
+  description: When Users Leave - The Ripple Effect Across Microsoft 365 and Power Platform
+  website: https://cloudtechtallinn.com/
+  image: cttt.png
+  sessions:
+    - session: when-users-leave
+
 - date: "2026-11-30"
   endDate: "2026-12-03"
   event: ESPC 2026
@@ -12,9 +23,12 @@
   event: South Coast User Group
   location: Southampton
   title: South Coast User Group - 22-23rd October 2026 - Southampton
-  description: 2 day event at Hilton Ageas Bowl, Southampton
-  website: https://www.meetup.com/mcscug/events/312953958/
+  description: Fabric Workshop and a session on nurturing Fabric users
+  website: https://justattend.app/48cc53be-8ffe-440f-aa32-2d0dee917ab1
   image: southcoast.png
+  sessions:
+    - session: come-play-with-fabric
+    - session: power-automate-nurture-fabric-users
 
 - date: "2026-10-03"
   event: Women in Fabric 2026
