@@ -28,6 +28,7 @@
   image: southcoast.png
   sessions:
     - session: come-play-with-fabric
+      slides: South Coast User Group Lets play with Fabric.pdf
     - session: power-automate-nurture-fabric-users
       slides: South Coast User Group Power Automate Nuture Fabric Users.pdf
 
