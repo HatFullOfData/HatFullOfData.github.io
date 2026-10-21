@@ -11,3 +11,7 @@ Throughout the day, you’ll explore the core building blocks of Fabric, includi
 You’ll spend the majority of the workshop learning by doing—ingesting data, transforming it, creating semantic models, and building reports using Fabric and Power BI.
 
 The sessions are designed to be approachable, exploratory, and demo‑rich, giving you the confidence to experiment and continue learning after the workshop. Come along, have a go, and get inspired by what Microsoft Fabric makes possible.
+
+## Resources
+
+- [Workshop Notes](https://hatfullofdata.blog/Fabric-Intro/)
