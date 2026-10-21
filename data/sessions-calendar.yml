@@ -18,7 +18,7 @@
   website: https://espc.tech/conference/espc-2026/
   image: ESPC.svg
 
-- date: "2026-10-22"
+- date: "2026-10-21"
   endDate: "2026-10-23"
   event: South Coast User Group
   location: Southampton
@@ -29,6 +29,7 @@
   sessions:
     - session: come-play-with-fabric
     - session: power-automate-nurture-fabric-users
+      slides: South Coast User Group Power Automate Nuture Fabric Users.pdf
 
 - date: "2026-10-03"
   event: Women in Fabric 2026
