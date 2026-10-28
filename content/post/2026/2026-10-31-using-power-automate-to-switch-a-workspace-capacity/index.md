@@ -55,7 +55,7 @@ We are going to use a HTTP with Microsoft Entra ID that is preauthorised.
 > 1. For Base Resource URL and Resource URI enter in ```https://api.fabric.microsoft.com/```
 > 1. Click Sign and do the stuff to complete the connection and the action appears
 > 1. Select POST for the method and the compose output for the Url
-> 1. For the body you need to enter in a short JSON statement, see code block below. Text_1 is refering to the second trigger input, it will show as CapacityID once entered.
+> 1. For the body you need to enter in a short JSON statement, see code block below. Text_1 is referring to the second trigger input, it will show as CapacityID once entered.
 
 ```
 {
