@@ -70,6 +70,7 @@ jobs:
       - name: Configure Git
         run: |
           git config core.quotepath false
+          git config --global url."https://x-access-token:${{ secrets.HUGO_MODULE_TOKEN }}@github.com/".insteadOf "https://github.com/"
       - name: Cache restore
         id: cache-restore
         uses: actions/cache/restore@v5
