@@ -18,6 +18,16 @@
   website: https://espc.tech/conference/espc-2026/
   image: ESPC.svg
 
+- date: "2026-12-07"
+  event: D365PPUG London All day
+  location: London
+  title: D365PPUG London All day - 7 December 2026 - London
+  description: Friends Don't Let Friends Manipulate Data in Power Automate
+  website: https://www.d365ppug.com/etn/national-london-in-person-meeting-7th-december-2026-all-day/
+  image: D365PPUG.png
+  sessions:
+    - session: friends-dont-let-friends-manipulate-data-in-power-automate
+
 - date: "2026-10-21"
   endDate: "2026-10-23"
   event: South Coast User Group
