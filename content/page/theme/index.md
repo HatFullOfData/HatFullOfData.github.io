@@ -28,3 +28,11 @@ sitemap:
 
 > [!CAUTION]
 > Caution text
+
+## Adaptive Card Images
+
+![fabric](fabric.png)
+
+![powerautomate](powerautomate.png)
+
+![pipeline](pipeline.png)
